@@ -1,0 +1,727 @@
+[
+  {
+    "path": "reference_results/AI2D_TEST/predictions.jsonl",
+    "original_sha256": "1c97e75959b4d5e64ec2fee12eb354605833ba9af2a1ad4a7474a7de5da0715c",
+    "portable_sha256": "3b8f4745f30e46cf1430366aa1659dbe404408f821ad4295e21ec9b563192530",
+    "image_paths_relocated": 3088,
+    "change": "Only input_message image paths were made snapshot-relative; prediction/reference/budget/scoring unchanged",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "reference_results/BabyVision/predictions.jsonl",
+    "original_sha256": "3894dbb7df8d137477471c3f60328f5ada644433fda8e2dbdd0abd71a4dd7e0f",
+    "portable_sha256": "665c20afc39d42a6c9af2922e3d5f3355fe951ae016cd027567815a256934d82",
+    "image_paths_relocated": 388,
+    "change": "Only input_message image paths were made snapshot-relative; prediction/reference/budget/scoring unchanged",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "reference_results/ChartQA_TEST/predictions.jsonl",
+    "original_sha256": "e16fe48d161825ae4740debf49c6d90fa0b1b05fb537b33e739f05036e2931b0",
+    "portable_sha256": "f158a4336cffdb53bb9b2200ac14c37c24f93dbe2b7dedc9b271e1da11c232d8",
+    "image_paths_relocated": 2500,
+    "change": "Only input_message image paths were made snapshot-relative; prediction/reference/budget/scoring unchanged",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "reference_results/HallusionBench/predictions.jsonl",
+    "original_sha256": "4d0fa2d83e7f223e92ffa4a29a644f71171a65d8bfd416291c0aa1ee13a3634c",
+    "portable_sha256": "f8d5717c8cd70659b15afdbfa71b74733ca7b9a388d22fd3f3b26b185898ea3c",
+    "image_paths_relocated": 951,
+    "change": "Only input_message image paths were made snapshot-relative; prediction/reference/budget/scoring unchanged",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "reference_results/LogicVista/predictions.jsonl",
+    "original_sha256": "0596271d9ede4e6a375c440f7ae89ef59629537ec2a748eb6d607d86c596ddb9",
+    "portable_sha256": "5cb91bdeabd0868338282cddcf3ccae13ff258ab36c62cd35ccf00a93be759e4",
+    "image_paths_relocated": 447,
+    "change": "Only input_message image paths were made snapshot-relative; prediction/reference/budget/scoring unchanged",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "reference_results/MathVision/predictions.jsonl",
+    "original_sha256": "b038c308d84a61aeec2d63ec5639192f0082564bbb38b826c3a822be27d94d7d",
+    "portable_sha256": "5260edbf38c64081c592a21e83246fba83188dadf920252e4e461995c64de394",
+    "image_paths_relocated": 3040,
+    "change": "Only input_message image paths were made snapshot-relative; prediction/reference/budget/scoring unchanged",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "reference_results/MathVision-WildPhoto/predictions.jsonl",
+    "original_sha256": "efcc4b41d15631559d10f9436df8ba00668fc5811c17ed9b97f7169eeba97084",
+    "portable_sha256": "a106b9318613ff4ffbe7074a56a5b879034b948ed67f8c6ccd22c7745c5e30c7",
+    "image_paths_relocated": 304,
+    "change": "Only input_message image paths were made snapshot-relative; prediction/reference/budget/scoring unchanged",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "reference_results/MMEval-Pro/predictions.jsonl",
+    "original_sha256": "c28cf8826ef2740deeed3a9001d8f8aa541a06c0f774680c4c22300241679997",
+    "portable_sha256": "42e1d2d57bb8ae29836edfb0d1593cd5f578383dbb9636de7e7dffc7ad2e1600",
+    "image_paths_relocated": 6414,
+    "change": "Only input_message image paths were made snapshot-relative; prediction/reference/budget/scoring unchanged",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "reference_results/MMK12/predictions.jsonl",
+    "original_sha256": "f5954674286d646e24bf55b484d778bd7b1743bb8f224bbf39bcde136bbcc128",
+    "portable_sha256": "ee040168464d9e7c9a8eac91665a4bc79b295617e90d794fec75dbaf786797d6",
+    "image_paths_relocated": 2000,
+    "change": "Only input_message image paths were made snapshot-relative; prediction/reference/budget/scoring unchanged",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "reference_results/MMMU-Pro/predictions.jsonl",
+    "original_sha256": "98b557a496cc68270b9896dbd24dbf7d5aa47eba0e99811c04fd95d295ffd543",
+    "portable_sha256": "c868ac7e4c2a7e391f37948bae0ddecc521a08f4fd123eaf152849e148b3fda8",
+    "image_paths_relocated": 2048,
+    "change": "Only input_message image paths were made snapshot-relative; prediction/reference/budget/scoring unchanged",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "reference_results/MMStar/predictions.jsonl",
+    "original_sha256": "0cf8d11fb8093622f1f0b092fb1d401820ec2565f2c80fd3e7baa216ca737f96",
+    "portable_sha256": "0cca9e6230b696963142b2e44d567836ecae425361d1fac9cbeb03df0a336fe1",
+    "image_paths_relocated": 1500,
+    "change": "Only input_message image paths were made snapshot-relative; prediction/reference/budget/scoring unchanged",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "reference_results/POPE/predictions.jsonl",
+    "original_sha256": "2f9a2a02fa7cbfd25b3d68cfc806536d71cc14c9589e14eb7cb77d140e588863",
+    "portable_sha256": "1abf0815a093102262bd8567a67081b9a97e15dc36fd104f31bdacb4b797ed09",
+    "image_paths_relocated": 5127,
+    "change": "Only input_message image paths were made snapshot-relative; prediction/reference/budget/scoring unchanged",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "reference_results/RealWorldQA/predictions.jsonl",
+    "original_sha256": "a5668f5f44db25cc59e67327a8af82d8ccc26ce7abfd181a16d4f14e63a6e061",
+    "portable_sha256": "a5668f5f44db25cc59e67327a8af82d8ccc26ce7abfd181a16d4f14e63a6e061",
+    "image_paths_relocated": 0,
+    "change": "Only input_message image paths were made snapshot-relative; prediction/reference/budget/scoring unchanged",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "reference_results/VisualPuzzles/predictions.jsonl",
+    "original_sha256": "d3ae8a9ddd4137b474b18b370104e67262d602108db74e52c057402742c9aa63",
+    "portable_sha256": "56cb98a79c2886d7d0e98766733aa9fa501330b9be575d0041589f5d2409eb67",
+    "image_paths_relocated": 1168,
+    "change": "Only input_message image paths were made snapshot-relative; prediction/reference/budget/scoring unchanged",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "reference_results/VisuLogic/predictions.jsonl",
+    "original_sha256": "22ab4ad4dfd7c27e10d57bc55676c07c27bc69f88472026ce363eba7e18097cf",
+    "portable_sha256": "691701eb3577e62af579895243cc208c2a20dd81c3099ec1d9303f7d8af7785b",
+    "image_paths_relocated": 1000,
+    "change": "Only input_message image paths were made snapshot-relative; prediction/reference/budget/scoring unchanged",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "reference_results/VMCBench_DEV/predictions.jsonl",
+    "original_sha256": "0c7980a0f0716643fbc6122923212e91a47e30d093f38557aa6ed40763890027",
+    "portable_sha256": "b38f3d22918fd1f5a8a7cf20e74df4b66db03937978b211e4205704fbe336574",
+    "image_paths_relocated": 1000,
+    "change": "Only input_message image paths were made snapshot-relative; prediction/reference/budget/scoring unchanged",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "rerun_results/AI2D_TEST/predictions.jsonl",
+    "original_sha256": "5de69b261512341d2a5bd06ed91c46368ba02580ca38f3edbd39bd5de97ba1a1",
+    "portable_sha256": "f65e6e84912252453b723d7b2b8e1d0899033a9f8512a757e5dceb71b2742c31",
+    "image_paths_relocated": 3091,
+    "change": "Only input_message image paths were made snapshot-relative; prediction/reference/budget/scoring unchanged",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "rerun_results/BabyVision/predictions.jsonl",
+    "original_sha256": "a097eb3b8ac06c4cf024a8fd937e0016cc2bc45421b68eae115d170d4f931930",
+    "portable_sha256": "be8631350599206e2d4114cd26a4d0c720becb3091fdb5dd7d83687655a535f1",
+    "image_paths_relocated": 388,
+    "change": "Only input_message image paths were made snapshot-relative; prediction/reference/budget/scoring unchanged",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "rerun_results/ChartQA_TEST/predictions.jsonl",
+    "original_sha256": "4a2de73cab7417bb540a5d946324e5343526f24b9dfdbd4d3a0952b1c71ed56f",
+    "portable_sha256": "a66dd4a6700ca1e7d7eaf59fbc3bc5fe6b0c5b2875e5c35e77405a3eab2abb4c",
+    "image_paths_relocated": 2503,
+    "change": "Only input_message image paths were made snapshot-relative; prediction/reference/budget/scoring unchanged",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "rerun_results/HallusionBench/predictions.jsonl",
+    "original_sha256": "08860bccfe01d69a7e014d88b42c047e28b76f79b1852f2b210893e37b7d76f4",
+    "portable_sha256": "7665f32eb66f1294998f36c1b244fef490567fdeaee2771e3ad7a22981fa0c65",
+    "image_paths_relocated": 951,
+    "change": "Only input_message image paths were made snapshot-relative; prediction/reference/budget/scoring unchanged",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "rerun_results/LogicVista/predictions.jsonl",
+    "original_sha256": "96df687645889768ea17c890f70344c06cc57ce600047228bc792ccd9e00d041",
+    "portable_sha256": "03d328504e7d6887fbbae53c8c021b457a76f9129d5a3c0709b359569c28f760",
+    "image_paths_relocated": 447,
+    "change": "Only input_message image paths were made snapshot-relative; prediction/reference/budget/scoring unchanged",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "rerun_results/MathVision/predictions.jsonl",
+    "original_sha256": "5be342580349e00b0fca3881e953bd4de3ef0bb35bd217712a56ea173cce9123",
+    "portable_sha256": "2cd48723342eceb10c1ee0cb8b01b4a533735308dee9edfe0f8950180fc01532",
+    "image_paths_relocated": 3043,
+    "change": "Only input_message image paths were made snapshot-relative; prediction/reference/budget/scoring unchanged",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "rerun_results/MathVision-WildPhoto/predictions.jsonl",
+    "original_sha256": "6efce7df5a39a97440a16772d3288e1c762c0c1daacb24dbb69b069c6a2be2a2",
+    "portable_sha256": "a6ae07059d54bcf168fdb7f3f0d3a7af0a1fdb5a6d167f6931e2e8bf61473a81",
+    "image_paths_relocated": 304,
+    "change": "Only input_message image paths were made snapshot-relative; prediction/reference/budget/scoring unchanged",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "rerun_results/MMEval-Pro/predictions.jsonl",
+    "original_sha256": "a0408e15bcad9696af18e0e9c3c6ab780b71a21e6ecba9670ceadeb7218b8271",
+    "portable_sha256": "6154d0142eac2966bb0558fc78d45574b75ba9a6294fc2f34868557ed0861ec4",
+    "image_paths_relocated": 6417,
+    "change": "Only input_message image paths were made snapshot-relative; prediction/reference/budget/scoring unchanged",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "rerun_results/MMK12/predictions.jsonl",
+    "original_sha256": "8d52ea52752a4e4bb126bbd629a6c9680416eb5124bc36d650a433e0f9c79954",
+    "portable_sha256": "d4560d2ea18abc8fb4232b1bbba568ac2844089927e28e51310e62d83359ad35",
+    "image_paths_relocated": 2000,
+    "change": "Only input_message image paths were made snapshot-relative; prediction/reference/budget/scoring unchanged",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "rerun_results/MMMU-Pro/predictions.jsonl",
+    "original_sha256": "6d46cc06bbd3eebaa5e58f6590d5b507fa870625f1ae601963854b938057de51",
+    "portable_sha256": "8fed32a10fec547b85e6e26de2b11009a85c9b4bc719f67ae420a5c6ee77322c",
+    "image_paths_relocated": 2051,
+    "change": "Only input_message image paths were made snapshot-relative; prediction/reference/budget/scoring unchanged",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "rerun_results/MMStar/predictions.jsonl",
+    "original_sha256": "2f8ab40421852235f16b0e99d0c0ca01aaf2b35d06fa17ba5b21bad9106227af",
+    "portable_sha256": "b9f678a5b3fca49b750eb4615243aada8fb90aa8676be269a841f423ddbc7187",
+    "image_paths_relocated": 1500,
+    "change": "Only input_message image paths were made snapshot-relative; prediction/reference/budget/scoring unchanged",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "rerun_results/POPE/predictions.jsonl",
+    "original_sha256": "433cefb56103cb6be59347132a7341954cbcceb8486675f08713a64b4402eb90",
+    "portable_sha256": "873fa1cf42d0f4150efb03fe0f987cd197973450e43aad53f7224d83450593bd",
+    "image_paths_relocated": 5130,
+    "change": "Only input_message image paths were made snapshot-relative; prediction/reference/budget/scoring unchanged",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "rerun_results/RealWorldQA/predictions.jsonl",
+    "original_sha256": "145aa7a21e6a1b63b1165ffe1e97c0480ec6af9f5542b7620bb0539eca3d5897",
+    "portable_sha256": "145aa7a21e6a1b63b1165ffe1e97c0480ec6af9f5542b7620bb0539eca3d5897",
+    "image_paths_relocated": 0,
+    "change": "Only input_message image paths were made snapshot-relative; prediction/reference/budget/scoring unchanged",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "rerun_results/VisualPuzzles/predictions.jsonl",
+    "original_sha256": "bb0312333f31d8fbbd33abad87d9d895103972433390facc80a6652e4a1a7033",
+    "portable_sha256": "f75a678f5d1a2bffa936c3d5bf893c046fbf829e360829dc7d79b3eb940cff79",
+    "image_paths_relocated": 1168,
+    "change": "Only input_message image paths were made snapshot-relative; prediction/reference/budget/scoring unchanged",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "rerun_results/VisuLogic/predictions.jsonl",
+    "original_sha256": "4912418ac0a9791e1a84712778c576ec4b0e9763510094d6356d7b2dca0a0cb4",
+    "portable_sha256": "57fb5e79a971a7edb82b504d93177b9e1688d2ebd9d5ae0dd66c38ee0ff08af7",
+    "image_paths_relocated": 1000,
+    "change": "Only input_message image paths were made snapshot-relative; prediction/reference/budget/scoring unchanged",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "rerun_results/VMCBench_DEV/predictions.jsonl",
+    "original_sha256": "72fd2d9659456b364ee0a78e63154c1412fcc2b5f213469b1047115315d00eb2",
+    "portable_sha256": "57123e59f4ad1d0876bc925947bcbcb6f03e446acbba64a771c2e10893427e42",
+    "image_paths_relocated": 1000,
+    "change": "Only input_message image paths were made snapshot-relative; prediction/reference/budget/scoring unchanged",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "provenance/asset_manifest.json",
+    "original_sha256": "026558576a9f6bd02ba6e86301694d436eba95c434ea389566ef38c705795207",
+    "portable_sha256": "2b7c83edf21293ed156171fbba3a03f3a8d17e525b19a01d92b7c36747a49d79",
+    "change": "Removed model download entries; benchmark source paths, revisions and hashes unchanged",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "reference_results/AI2D_TEST/summary.json",
+    "original_sha256": "f7d7c7689f92f80c498dfe3eacb2294e2c333431e613ffa31d583766dfbfe2ee",
+    "portable_sha256": "fbf5b86f32bdd01a0f0bfa4b894a7b3f04597662918d1dfa176bfc8fc03999ba",
+    "change": "Archived filesystem metadata only was made relative; this file is not the original bytes. Original contract digests remain provenance references, not portable resume contracts.",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "reference_results/BabyVision/summary.json",
+    "original_sha256": "fec82cad63c22fe3425ba1e26bd47ce6b61ae7384a06fd26ec01cecfff635647",
+    "portable_sha256": "9c8bb839181fbd6f0d4dab34ce47392339c1ddb934dec15371622c74f60c3452",
+    "change": "Archived filesystem metadata only was made relative; this file is not the original bytes. Original contract digests remain provenance references, not portable resume contracts.",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "reference_results/ChartQA_TEST/summary.json",
+    "original_sha256": "8b5076e46b2e4ec5321d6312e199105f7af31f3073efd58bf9147274efc08012",
+    "portable_sha256": "e94d566a854e3983408d2efeba417c7386c98536c5dd178771c2d054b3caba17",
+    "change": "Archived filesystem metadata only was made relative; this file is not the original bytes. Original contract digests remain provenance references, not portable resume contracts.",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "reference_results/HallusionBench/summary.json",
+    "original_sha256": "923a29fb401d462ed10da11a24184678d84438f86c465fe12920c40f79a1f686",
+    "portable_sha256": "17cc155aad730a630d064880a2cd467eeb8ac4e2ad7aa4ded631b5f247c96322",
+    "change": "Archived filesystem metadata only was made relative; this file is not the original bytes. Original contract digests remain provenance references, not portable resume contracts.",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "reference_results/LogicVista/summary.json",
+    "original_sha256": "a9211297325e2f14611755ae858f00649995f5d83004aaee564860dfced075cd",
+    "portable_sha256": "91cf106877d440a9762aad422e866a0222a5905d64320feaa7acbe101d8d6100",
+    "change": "Archived filesystem metadata only was made relative; this file is not the original bytes. Original contract digests remain provenance references, not portable resume contracts.",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "reference_results/MathVision/summary.json",
+    "original_sha256": "f7ef9dc574b1a37bede645c264ca8a05f086f2afb4277c96406a5dca49b594cd",
+    "portable_sha256": "ec154f0c7ddc322635e41f0a417423ea072bae202764f755d3d30bc893289d20",
+    "change": "Archived filesystem metadata only was made relative; this file is not the original bytes. Original contract digests remain provenance references, not portable resume contracts.",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "reference_results/MathVision-WildPhoto/summary.json",
+    "original_sha256": "1774efc690c67c1e5cae7f28f4bc915bc1bdb4c0c336b7176124575e2e63cd4a",
+    "portable_sha256": "bef92eb34a94888bd0e706b83e81f9f212d9f73a8c387ac882ab8150b44ce9cf",
+    "change": "Archived filesystem metadata only was made relative; this file is not the original bytes. Original contract digests remain provenance references, not portable resume contracts.",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "reference_results/MMEval-Pro/summary.json",
+    "original_sha256": "b8fdfd86cab8e62d248f17b8bd7a3c182d0b325f0d0432da48deac08c8c5785d",
+    "portable_sha256": "feedb232cf8955b90faaf602614d9e561ebe0c2b53fe551b8bc775f2d298e29a",
+    "change": "Archived filesystem metadata only was made relative; this file is not the original bytes. Original contract digests remain provenance references, not portable resume contracts.",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "reference_results/MMK12/summary.json",
+    "original_sha256": "a5e44b08e0b233c619d94233723c8cf61d6b93f556e640f8f1ad8f2efc45abfb",
+    "portable_sha256": "7cd4889c79898d71eddf5d5c42470dd6f7534b391361a1eaa58d6fcc66dcd496",
+    "change": "Archived filesystem metadata only was made relative; this file is not the original bytes. Original contract digests remain provenance references, not portable resume contracts.",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "reference_results/MMMU-Pro/summary.json",
+    "original_sha256": "3b9a22db9bad155166cda7b135979caf9b7b04a880f377045893694951df2ed6",
+    "portable_sha256": "a0ab567900ae91796ddca9e93b0571556759a7e66835157aaf89fa1a51260d2f",
+    "change": "Archived filesystem metadata only was made relative; this file is not the original bytes. Original contract digests remain provenance references, not portable resume contracts.",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "reference_results/MMStar/summary.json",
+    "original_sha256": "aa3db893460468f45994fc4d44fbeba7caac4c2baeba262b4f33873c41f24642",
+    "portable_sha256": "1d134a42ab71b157c3c7d9e9b1c0ce1eb55e1acadc17f99e4efd9923964966c6",
+    "change": "Archived filesystem metadata only was made relative; this file is not the original bytes. Original contract digests remain provenance references, not portable resume contracts.",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "reference_results/POPE/summary.json",
+    "original_sha256": "176cddf313df2ca1211f49c057082968b52b83b579f7345783e946858c3319ec",
+    "portable_sha256": "0b2f14135d49a5443e25ebca5603f1482e96633d4716eb91d76a7e82ed86818a",
+    "change": "Archived filesystem metadata only was made relative; this file is not the original bytes. Original contract digests remain provenance references, not portable resume contracts.",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "reference_results/RealWorldQA/summary.json",
+    "original_sha256": "3d5668c6bd135779f8a6132f9e184f3e78464cbc29f7abbbda0aa3894ad42ad3",
+    "portable_sha256": "89e9cfa7ac29cec5e062e36b570f3a633b270a459588f74e437d1d8dc2f28f75",
+    "change": "Archived filesystem metadata only was made relative; this file is not the original bytes. Original contract digests remain provenance references, not portable resume contracts.",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "reference_results/VisualPuzzles/summary.json",
+    "original_sha256": "345464721387ce2e2a0e3974282e95366fd72a2d997b62127c0984b2808da7af",
+    "portable_sha256": "5230af37f58f8db1240a66b8007dbe1df40ae266da701782c7fd3506e79c9f59",
+    "change": "Archived filesystem metadata only was made relative; this file is not the original bytes. Original contract digests remain provenance references, not portable resume contracts.",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "reference_results/VisuLogic/summary.json",
+    "original_sha256": "cd38e073e34643349f330b6f686b56d7f92df8efb97f9454779e8da030d2e251",
+    "portable_sha256": "3dfb2da2dd570f01456f039f9ec88a4da9f7a589c88c6cb098199bb7c0c33cfb",
+    "change": "Archived filesystem metadata only was made relative; this file is not the original bytes. Original contract digests remain provenance references, not portable resume contracts.",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "reference_results/VMCBench_DEV/summary.json",
+    "original_sha256": "5bed1e611221750b109bbbbd0a1f15b9be65bf64a20d50e2071384ef5f8e09c8",
+    "portable_sha256": "1f89b9b7a1768658aad4af5edd01586efce02674476f55b50a062003fd5b257c",
+    "change": "Archived filesystem metadata only was made relative; this file is not the original bytes. Original contract digests remain provenance references, not portable resume contracts.",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "rerun_results/AI2D_TEST/run_contract.json",
+    "original_sha256": "fd5167f253a95a08fbef65969d5b37bf49b5e4181036983c9c387bf5cdefe317",
+    "portable_sha256": "7365898481eadc47ab5dde6465c2ee35ec60cdc29a0750609160b6393ff9a8b0",
+    "change": "Archived filesystem metadata only was made relative; this file is not the original bytes. Original contract digests remain provenance references, not portable resume contracts.",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "rerun_results/AI2D_TEST/summary.json",
+    "original_sha256": "f68a1352ae3151c0385862fb39c54cad4d9aa4d2935e06bf8de08ff494bd3c44",
+    "portable_sha256": "d0ca440b1d9b68001cb450e5d7bc8f40e9634c85558016bd830f7f16b9480f73",
+    "change": "Archived filesystem metadata only was made relative; this file is not the original bytes. Original contract digests remain provenance references, not portable resume contracts.",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "rerun_results/BabyVision/run_contract.json",
+    "original_sha256": "25411fc4929eb0806eea20437efcbb38b0d5ae4792fac9cef205d36d8dcc772a",
+    "portable_sha256": "71b5efed66428c906920e24b2885f8425e4402fbf49df2883827b13f7947b22c",
+    "change": "Archived filesystem metadata only was made relative; this file is not the original bytes. Original contract digests remain provenance references, not portable resume contracts.",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "rerun_results/BabyVision/summary.json",
+    "original_sha256": "fbe5ba7d0083e3d1d62035cdfe12cab60b07932fc76da9ed4ef6ff842607ae24",
+    "portable_sha256": "c6bd1388d941debaa3be66f364692db938ee6ef89d7cc24ff9a9d434ba8cbe03",
+    "change": "Archived filesystem metadata only was made relative; this file is not the original bytes. Original contract digests remain provenance references, not portable resume contracts.",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "rerun_results/ChartQA_TEST/run_contract.json",
+    "original_sha256": "f9f30a095335fe0fe8d2dcf80f4907139d2cbea06d61e18ac892ce48cee63974",
+    "portable_sha256": "d46e57382c4b728ae135f47c09cfbaa78c299c15a5334421f4784f9d703f5c23",
+    "change": "Archived filesystem metadata only was made relative; this file is not the original bytes. Original contract digests remain provenance references, not portable resume contracts.",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "rerun_results/ChartQA_TEST/summary.json",
+    "original_sha256": "7ce62dd84332fa69b9158ba6a9ae0b7442cba669ffb8a21b63d36e7217065cda",
+    "portable_sha256": "072a1bde10b84f24339d04ba7014b016770b96a1a97410ba233954f1e34b79a9",
+    "change": "Archived filesystem metadata only was made relative; this file is not the original bytes. Original contract digests remain provenance references, not portable resume contracts.",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "rerun_results/HallusionBench/run_contract.json",
+    "original_sha256": "ff05346deff9b1f837813500a202be4d12e3a99d2fb9309b1b521d6fcf4cb315",
+    "portable_sha256": "752aff40516984cb6edcdef2d73fd313958be6f928ae6a67bd5df96de0bede32",
+    "change": "Archived filesystem metadata only was made relative; this file is not the original bytes. Original contract digests remain provenance references, not portable resume contracts.",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "rerun_results/HallusionBench/summary.json",
+    "original_sha256": "6317361fbaeafc5e03ee80f2d0535af19617b9e601091f2c96eae47c98d50446",
+    "portable_sha256": "ac292a9e9c16eab5234dade6252825581969c80e781e4950020b576aedbfa51a",
+    "change": "Archived filesystem metadata only was made relative; this file is not the original bytes. Original contract digests remain provenance references, not portable resume contracts.",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "rerun_results/LogicVista/run_contract.json",
+    "original_sha256": "265ff4fca0f0d4108161d86e5e0d3bc752a32b5a0bcf4e934512ef6b288355c6",
+    "portable_sha256": "f57b484fe1623bfc7b953e7e3850bca8298da2b718b590bdea97bd5329ae6c67",
+    "change": "Archived filesystem metadata only was made relative; this file is not the original bytes. Original contract digests remain provenance references, not portable resume contracts.",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "rerun_results/LogicVista/summary.json",
+    "original_sha256": "7caa07a4f652cbe2508193d186e443ac3f77452f0bc219b7e77e3c1827bc5de2",
+    "portable_sha256": "39188847396cd9ab97e8b4381a2123d58340a7972be7e26f9e263996a204ae8a",
+    "change": "Archived filesystem metadata only was made relative; this file is not the original bytes. Original contract digests remain provenance references, not portable resume contracts.",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "rerun_results/MathVision/run_contract.json",
+    "original_sha256": "1abce4130214598c2f31cde4e2d5c7fa6f6af47458fb2f08dc89657deb0f8dcc",
+    "portable_sha256": "67e737bc7b918887ffcc292cb390d2c4acadffc1de0dfb61b1db4bbd65d99171",
+    "change": "Archived filesystem metadata only was made relative; this file is not the original bytes. Original contract digests remain provenance references, not portable resume contracts.",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "rerun_results/MathVision/summary.json",
+    "original_sha256": "f04ce1341820bcdd8d8a5d592949830fea477a4508d14b99aabc13c8608d026f",
+    "portable_sha256": "992706a3e630c6c46f72298c50f8641f553eb1a8882e42a005a33a975c702c57",
+    "change": "Archived filesystem metadata only was made relative; this file is not the original bytes. Original contract digests remain provenance references, not portable resume contracts.",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "rerun_results/MathVision-WildPhoto/run_contract.json",
+    "original_sha256": "bc01f0783b53ebc8b6bc3153e885cbc77ead00b772ceba900078658dd436cbea",
+    "portable_sha256": "ac157c39e1e7b43f6fc1f02d2c8c8663c9bcab3c5cc06d56aec1db0e5c825cce",
+    "change": "Archived filesystem metadata only was made relative; this file is not the original bytes. Original contract digests remain provenance references, not portable resume contracts.",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "rerun_results/MathVision-WildPhoto/summary.json",
+    "original_sha256": "95cb5e694726a60031aca1d94a17a855cb188034b2638ebed9a766e7ce1873cd",
+    "portable_sha256": "37f93ed08282e2fdbd4239cfed424c3ad0b413c911c84c12b31f0acbb09e0254",
+    "change": "Archived filesystem metadata only was made relative; this file is not the original bytes. Original contract digests remain provenance references, not portable resume contracts.",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "rerun_results/MMEval-Pro/run_contract.json",
+    "original_sha256": "ca3b4d058fa397484b9273f3f4d146326b6055b0d6f5318f497c4bed1197cfc8",
+    "portable_sha256": "abd1bdf76f8fe938d0f2cf106221b9a79822a79aaffec08964fd65a1084bd668",
+    "change": "Archived filesystem metadata only was made relative; this file is not the original bytes. Original contract digests remain provenance references, not portable resume contracts.",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "rerun_results/MMEval-Pro/summary.json",
+    "original_sha256": "31a061b78eb1949800bea3f603bbcf4ac87b1a5b021a9fc0e3f85b3dc261b489",
+    "portable_sha256": "26649cc9c62074954b96279d8820d64bb82339292aafca2d693ac30363133bda",
+    "change": "Archived filesystem metadata only was made relative; this file is not the original bytes. Original contract digests remain provenance references, not portable resume contracts.",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "rerun_results/MMK12/run_contract.json",
+    "original_sha256": "3e7a01fb26d4bf340d8399f4e00653fa788b0cf5552a32657e6eb6b36938175c",
+    "portable_sha256": "bd70842651392820a11421edb3d0c2bb1b759486c88a5908895eb19233704a8a",
+    "change": "Archived filesystem metadata only was made relative; this file is not the original bytes. Original contract digests remain provenance references, not portable resume contracts.",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "rerun_results/MMK12/summary.json",
+    "original_sha256": "1284cb72c9137aef6bd66a4585f08f77bdcdef4bdb587ae4889998a9d706bafe",
+    "portable_sha256": "ef274e96459e6bbb8ff8b9fa64e90452dcb017aa4100f01f001657fbd7c20164",
+    "change": "Archived filesystem metadata only was made relative; this file is not the original bytes. Original contract digests remain provenance references, not portable resume contracts.",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "rerun_results/MMMU-Pro/run_contract.json",
+    "original_sha256": "0bf7dd0411b44cc2858bb4b188a27fa612c5ad9a73bbe2855a2d97270c6aebbf",
+    "portable_sha256": "5b101e67cd9f0deaccd7609894a1f9d35f6b38322a608d04f97f9b7b91b4309a",
+    "change": "Archived filesystem metadata only was made relative; this file is not the original bytes. Original contract digests remain provenance references, not portable resume contracts.",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "rerun_results/MMMU-Pro/summary.json",
+    "original_sha256": "72923fa35c2705802ee3892d25c23e38477ee1519738990abe1797bf1f4d08b7",
+    "portable_sha256": "f2aab002a5bae15bd327d3609198c9cfc71d3414dcf11b1fdb83b8e46041dcf3",
+    "change": "Archived filesystem metadata only was made relative; this file is not the original bytes. Original contract digests remain provenance references, not portable resume contracts.",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "rerun_results/MMStar/run_contract.json",
+    "original_sha256": "ac321378f752e4010dd0e99800b69e78c594d44a5638394f8e7d18c31dd9602a",
+    "portable_sha256": "fe4b089dd7cd1d9f984d41918039c4e91705087fbabd38a73ebc824a7fafc0c3",
+    "change": "Archived filesystem metadata only was made relative; this file is not the original bytes. Original contract digests remain provenance references, not portable resume contracts.",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "rerun_results/MMStar/summary.json",
+    "original_sha256": "9713127877930dd5f7f60e16d7e9dddce9a9dd356fcac0cec8ddf87087fec470",
+    "portable_sha256": "9390f5b35cf1e0c9bf9fee74af8e0fcee5e705334b9790bf987bc70184da86bf",
+    "change": "Archived filesystem metadata only was made relative; this file is not the original bytes. Original contract digests remain provenance references, not portable resume contracts.",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "rerun_results/POPE/run_contract.json",
+    "original_sha256": "70997f4cea813dde671bcfbe546721ca1600551a01db559e3f4fc4f46b612b64",
+    "portable_sha256": "0da64b75083325e4389d9f1922add82e42460f0052cf68c55daf056944231c6a",
+    "change": "Archived filesystem metadata only was made relative; this file is not the original bytes. Original contract digests remain provenance references, not portable resume contracts.",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "rerun_results/POPE/summary.json",
+    "original_sha256": "be3bc24cd06262ef8372489b02761c556cafe1b3312ec04cd6de54f309e6c19a",
+    "portable_sha256": "4554bac0580e4e71e9d43a7749bf328621c16e6cee634e255396311d86d199a4",
+    "change": "Archived filesystem metadata only was made relative; this file is not the original bytes. Original contract digests remain provenance references, not portable resume contracts.",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "rerun_results/RealWorldQA/run_contract.json",
+    "original_sha256": "dc8f065a9131ab099dbe03d064bbb9602f715a153622323c546a7e01ba6e3c38",
+    "portable_sha256": "9c80548bbf316a61e62d0c0835c0fc6e19e76d83076609a3106f0919a09671c0",
+    "change": "Archived filesystem metadata only was made relative; this file is not the original bytes. Original contract digests remain provenance references, not portable resume contracts.",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "rerun_results/RealWorldQA/summary.json",
+    "original_sha256": "a78686815d7fb0443b520d3574fee16b479433fbbcec26cae729497450de8b8e",
+    "portable_sha256": "1e9f03539cf535ede74e2cfe59d475c9f5673904d71ff85c9c0cd8b8b2ad0b55",
+    "change": "Archived filesystem metadata only was made relative; this file is not the original bytes. Original contract digests remain provenance references, not portable resume contracts.",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "rerun_results/VisualPuzzles/run_contract.json",
+    "original_sha256": "c10ba81ee766ad94e1730a6442b4d8dddc5888597401856e83f557b7f3b2e1d7",
+    "portable_sha256": "dc3ecad6db0e295d9726cacf9c00360f0ddc1a6e7f63b03edd26e5328bb5cc7d",
+    "change": "Archived filesystem metadata only was made relative; this file is not the original bytes. Original contract digests remain provenance references, not portable resume contracts.",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "rerun_results/VisualPuzzles/summary.json",
+    "original_sha256": "7c9d10ec3520baacd3b3653a6dc82227b9d550dc57cbf07ad00e04becea90140",
+    "portable_sha256": "617573be72ce8cab484a71bf2d8a3a992f2aadfb4f51c5fea52f157f6b36585a",
+    "change": "Archived filesystem metadata only was made relative; this file is not the original bytes. Original contract digests remain provenance references, not portable resume contracts.",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "rerun_results/VisuLogic/run_contract.json",
+    "original_sha256": "24445fe40783f3feffeb3544bbd637569326d2780927294c1f3eba8cd643e315",
+    "portable_sha256": "0f628e77df6fb24daf982cae606019a2fab044792d0c652ded15c8000f729205",
+    "change": "Archived filesystem metadata only was made relative; this file is not the original bytes. Original contract digests remain provenance references, not portable resume contracts.",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "rerun_results/VisuLogic/summary.json",
+    "original_sha256": "9243b0adc01c2181dc93a596749f7a1cc48b991dd33b4a600148865b0b63cc7c",
+    "portable_sha256": "d3bc5f35e1fd5435ededd0987e172402dc102b42d79c69bcf8446e64076e05f1",
+    "change": "Archived filesystem metadata only was made relative; this file is not the original bytes. Original contract digests remain provenance references, not portable resume contracts.",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "rerun_results/VMCBench_DEV/run_contract.json",
+    "original_sha256": "8e2f415a3e4dc918d5f80e3f7c47ee2eb8ce90a979fb1c27c6d8fc1445e83743",
+    "portable_sha256": "6dd6b823605ca6fd65e2f0838567615a48a3ef232986d050ec6a8f5a8f3eef8d",
+    "change": "Archived filesystem metadata only was made relative; this file is not the original bytes. Original contract digests remain provenance references, not portable resume contracts.",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "rerun_results/VMCBench_DEV/summary.json",
+    "original_sha256": "a83a344d549b5be862b7f59577f9edab1b07a5f9fc86d7a15dd8c753e0b0c524",
+    "portable_sha256": "beb93c5c84fdb2cb35ed024ed1660056e28c151412b6f6fe0cc41d271544e0b6",
+    "change": "Archived filesystem metadata only was made relative; this file is not the original bytes. Original contract digests remain provenance references, not portable resume contracts.",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "verification/fresh_rerun/comparison.json",
+    "original_sha256": "47383f31684a058b679b159ab5551c79676cfe949223991803a029ad80fd4ca6",
+    "portable_sha256": "020abde41959c56828fb7792d285f7ef960d969a00567d3ea1292aa01dff3296",
+    "change": "Archived filesystem metadata only was made relative; this file is not the original bytes. Original contract digests remain provenance references, not portable resume contracts.",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "verification/fresh_rerun/FINAL_STATUS.json",
+    "original_sha256": "4318e926db73d9d70d19a0ee0cff194c9c2ba5814ba4596a259543fa06c26dc7",
+    "portable_sha256": "0abd8e88817f6e6cffde3779242a43a2e55421d0d0a2b477726a73e60c7a552e",
+    "change": "Archived filesystem metadata only was made relative; this file is not the original bytes. Original contract digests remain provenance references, not portable resume contracts.",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "verification/fresh_rerun/full_scoring_audit.json",
+    "original_sha256": "c39044da1fe72adc7d5fb52adfe20b11220a50e9688394500d2ca8455e86f19b",
+    "portable_sha256": "a38dba7a0b30bbd38e2e17866ea0a4ed8d9941dabb44cba5a3183fe75db50ba6",
+    "change": "Archived filesystem metadata only was made relative; this file is not the original bytes. Original contract digests remain provenance references, not portable resume contracts.",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "verification/gpu_smoke/AI2D_TEST/summary.json",
+    "original_sha256": "7c554d9c151d5003d3bd99fe91e8f14639ccacafdab8c0e26e98d301cf70760d",
+    "portable_sha256": "d051952ee9813cb4e41a26ef01698e8c798493312601a4e1f77353c6460f60bd",
+    "change": "Archived filesystem metadata only was made relative; this file is not the original bytes. Original contract digests remain provenance references, not portable resume contracts.",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "verification/gpu_smoke/BabyVision/summary.json",
+    "original_sha256": "614aa472b0873fb553539f3ff03855efd82c685d74ccb8d75b563a092bbb6831",
+    "portable_sha256": "5b7c3f87e453aa978f6528ef243ba48832a596fde4d0def7615885d0084a96f4",
+    "change": "Archived filesystem metadata only was made relative; this file is not the original bytes. Original contract digests remain provenance references, not portable resume contracts.",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "verification/gpu_smoke/POPE/summary.json",
+    "original_sha256": "d2796694caaf2fdb9ff5e16e88e16bd8087eac9e6b1945936b29e2cd2973effb",
+    "portable_sha256": "8dd74283f14c79cd15615f74034b6eeabfbf79e5788d09c14bfcfd0da08ffd5c",
+    "change": "Archived filesystem metadata only was made relative; this file is not the original bytes. Original contract digests remain provenance references, not portable resume contracts.",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "verification/gpu_smoke/RealWorldQA/predictions.summary.json",
+    "original_sha256": "4512442cea908f7710b00fa4315c9fcb2ee45e215d95fdfa0386b28c7eea5a75",
+    "portable_sha256": "9c4f513a95a7fbb66056e46707416e84ab8e0d9bd9989178c4d667955bb038e7",
+    "change": "Archived filesystem metadata only was made relative; this file is not the original bytes. Original contract digests remain provenance references, not portable resume contracts.",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "verification/gpu_smoke/RealWorldQA/summary.json",
+    "original_sha256": "a94069a817e0c12f65c2d88a22c9081c484ee8f5d2d7bea1bfc3d30943ab2da8",
+    "portable_sha256": "ae1db1773e9610f624f95069d6c0e8e646b40083038f9e681155ff56891eec33",
+    "change": "Archived filesystem metadata only was made relative; this file is not the original bytes. Original contract digests remain provenance references, not portable resume contracts.",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "verification/gpu_validation_v1/AI2D_TEST/run_contract.json",
+    "original_sha256": "84cc56ad80aa5bc4fe2a375d4500e5f2bcd0f2faef5e853172438069dad7052a",
+    "portable_sha256": "71205f0a999a1de05137e701b69888f19e8696bdbf9a9ca77758b043eca35196",
+    "change": "Archived filesystem metadata only was made relative; this file is not the original bytes. Original contract digests remain provenance references, not portable resume contracts.",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "verification/gpu_validation_v1/AI2D_TEST/summary.json",
+    "original_sha256": "4d55e43aa208f9c4d2a7338b66005f7cd3feed27f0d068b7c79134fb07055e25",
+    "portable_sha256": "e87e48e7b57f31594b1a72429eed00076b568312c6987fea658d19df38370f8a",
+    "change": "Archived filesystem metadata only was made relative; this file is not the original bytes. Original contract digests remain provenance references, not portable resume contracts.",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "verification/gpu_validation_v1/BabyVision/run_contract.json",
+    "original_sha256": "94937fcec2643fbb50b2a70a2fe8b4151aa8a61a38e24aa67ebbcc60deb4c1d7",
+    "portable_sha256": "f90df4c34ca4ea15b26337b8a82475c7fea2d096e3627ccdd7f5bee26d382e67",
+    "change": "Archived filesystem metadata only was made relative; this file is not the original bytes. Original contract digests remain provenance references, not portable resume contracts.",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "verification/gpu_validation_v1/BabyVision/summary.json",
+    "original_sha256": "1428de446bb02d542ab6b8a73add6398bb83c9b678b48149f05a591490700f78",
+    "portable_sha256": "54dd2f8c414b18af124dafabffbc36c452cc62e05069d004c022d4e9453052b4",
+    "change": "Archived filesystem metadata only was made relative; this file is not the original bytes. Original contract digests remain provenance references, not portable resume contracts.",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "verification/gpu_validation_v1/POPE/run_contract.json",
+    "original_sha256": "b02b1cd2f8da0da30682c38d8f231f4cba6bbe05b23759a9520174d6af61e512",
+    "portable_sha256": "89c8d2b01abb8b09322128e4c1a1601a3e556f0aafbf4e78696836000ed6c9a9",
+    "change": "Archived filesystem metadata only was made relative; this file is not the original bytes. Original contract digests remain provenance references, not portable resume contracts.",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "verification/gpu_validation_v1/POPE/summary.json",
+    "original_sha256": "ce8550c534e706dc392c6ba5fe69c1fe96dc52600d05f8d991f125b0a35b453d",
+    "portable_sha256": "3ab49ac46e3448d77d9f6099815f0a55ebca187bc66e6a93f4b78d61aa601bee",
+    "change": "Archived filesystem metadata only was made relative; this file is not the original bytes. Original contract digests remain provenance references, not portable resume contracts.",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "verification/gpu_validation_v1/RealWorldQA/predictions.summary.json",
+    "original_sha256": "40c1ca5295b85e7fca27772c642dcf25c93de0fd22a834fadf81ed3712b66a32",
+    "portable_sha256": "0ea5c317e15474cb200ab09a639c18c82000838f78669a9a0e94ce06f880ba3b",
+    "change": "Archived filesystem metadata only was made relative; this file is not the original bytes. Original contract digests remain provenance references, not portable resume contracts.",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "verification/gpu_validation_v1/RealWorldQA/run_contract.json",
+    "original_sha256": "e1e526ae74a83fe3ae5b816323fe393d843c4c0673c0b1aaa7e6042b3f6d84b0",
+    "portable_sha256": "780781df84e0cc50a85c887cce9e08ff0fbb358471910c3751fa0347043101f2",
+    "change": "Archived filesystem metadata only was made relative; this file is not the original bytes. Original contract digests remain provenance references, not portable resume contracts.",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "verification/gpu_validation_v1/RealWorldQA/summary.json",
+    "original_sha256": "286417a44a215f895df6336f058b44b6a821a4325ae2f1f7294c17720b51d07d",
+    "portable_sha256": "97e464af45368e38dff91e3afe0cc62c6a30411e25c86aa4227e43012748bc95",
+    "change": "Archived filesystem metadata only was made relative; this file is not the original bytes. Original contract digests remain provenance references, not portable resume contracts.",
+    "line_endings": "LF in published source files"
+  },
+  {
+    "path": "verification/scores.json",
+    "original_sha256": "407aefe6c9d2168e8983389a77badffe69fd7d6ec56c2ff149f0c25f1ac7b893",
+    "portable_sha256": "7fc8a8df15f0a3e5ebd3255a7380dc5bdc46527865908eff305ba1143e4b3dfc",
+    "change": "Archived filesystem metadata only was made relative; this file is not the original bytes. Original contract digests remain provenance references, not portable resume contracts.",
+    "line_endings": "LF in published source files"
+  }
+]

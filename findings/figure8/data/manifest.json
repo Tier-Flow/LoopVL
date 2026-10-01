@@ -1,0 +1,735 @@
+{
+  "figure": 8,
+  "cases": [
+    {
+      "id": "s08",
+      "sample": {
+        "id": "s08",
+        "family": "color",
+        "image": "images/s08.png",
+        "prompt": "What color is the large square? Answer with one color word.",
+        "answer": "pink",
+        "target_bbox": [
+          210,
+          34,
+          302,
+          126
+        ],
+        "target_shape": "square",
+        "target_color": "pink",
+        "target_position": "top right",
+        "present_concepts": [
+          "pink",
+          "square",
+          "gray"
+        ],
+        "absent_concepts": [
+          "orange",
+          "purple"
+        ],
+        "alternate_prompts": [
+          "Where is the pink square? Answer with a corner position.",
+          "Is there a black hexagon? Answer yes or no."
+        ],
+        "image_size": [
+          336,
+          336
+        ]
+      },
+      "grid": [
+        24,
+        24
+      ],
+      "display_question": "What color is the\nlarge square?",
+      "display_answer": "Pink",
+      "image_sha256": "f0e8e552af5f33a5f58a1c230593f8ee3f52998333710e2a20fc43c39ebca75b",
+      "source": {
+        "dataset": "controlled_synthetic_validation32",
+        "query_definition": "mean received from teacher-forced reference-answer query positions",
+        "head_aggregation": "all_heads_mean",
+        "head_count": 12,
+        "raw_visual_attention_total": [
+          0.6076810359954834,
+          0.6030824184417725
+        ],
+        "expanded_indices": [
+          63,
+          127
+        ],
+        "physical_layer_one_based": 16,
+        "module": "H",
+        "target_definition": "saved independent target_visual_mask from sample target bounding box",
+        "attention_capture_point": "inside the attention sublayer, before FFN"
+      },
+      "target_definition": "saved independent target_visual_mask from sample target bounding box",
+      "display_fill_panel": false,
+      "target_attention_share_first": 0.08819259280553424,
+      "target_attention_share_second": 0.5590901511182863,
+      "promoted_count": 34,
+      "target_promoted_count": 6,
+      "separate_generation_check": null
+    },
+    {
+      "id": "s22",
+      "sample": {
+        "id": "s22",
+        "family": "count",
+        "image": "images/s22.png",
+        "prompt": "How many cyan squares are shown? Answer with a number only.",
+        "answer": "2",
+        "target_bbox": [
+          41,
+          41,
+          197,
+          99
+        ],
+        "target_shape": "square",
+        "target_color": "cyan",
+        "target_position": "multiple",
+        "present_concepts": [
+          "cyan",
+          "square",
+          "2"
+        ],
+        "absent_concepts": [
+          "black",
+          "hexagon"
+        ],
+        "alternate_prompts": [
+          "What color are the repeated squares? Answer one word.",
+          "Are there five cyan squares? Answer yes or no."
+        ],
+        "image_size": [
+          336,
+          336
+        ]
+      },
+      "grid": [
+        24,
+        24
+      ],
+      "display_question": "How many\ncyan squares?",
+      "display_answer": "2",
+      "image_sha256": "846db4e8c0fa4350d97c962a702d5811cc85bdbc51c6229226612df901751488",
+      "source": {
+        "dataset": "controlled_synthetic_validation32",
+        "query_definition": "mean received from teacher-forced reference-answer query positions",
+        "head_aggregation": "all_heads_mean",
+        "head_count": 12,
+        "raw_visual_attention_total": [
+          0.5753197073936462,
+          0.4386625587940216
+        ],
+        "expanded_indices": [
+          63,
+          127
+        ],
+        "physical_layer_one_based": 16,
+        "module": "H",
+        "target_definition": "saved independent target_visual_mask from sample target bounding box",
+        "attention_capture_point": "inside the attention sublayer, before FFN"
+      },
+      "target_definition": "saved independent target_visual_mask from sample target bounding box",
+      "display_fill_panel": false,
+      "target_attention_share_first": 0.06723547296987038,
+      "target_attention_share_second": 0.2046896950795624,
+      "promoted_count": 46,
+      "target_promoted_count": 7,
+      "separate_generation_check": null
+    },
+    {
+      "id": "s31",
+      "sample": {
+        "id": "s31",
+        "family": "ocr",
+        "image": "images/s31.png",
+        "prompt": "What two-character code is shown in the bordered box? Answer with the code only.",
+        "answer": "X8",
+        "target_bbox": [
+          206,
+          222,
+          306,
+          290
+        ],
+        "target_shape": "code",
+        "target_color": "green",
+        "target_position": "bottom right",
+        "present_concepts": [
+          "X8",
+          "code",
+          "box"
+        ],
+        "absent_concepts": [
+          "Z0",
+          "blank"
+        ],
+        "alternate_prompts": [
+          "Where is the box containing X8? Answer with a corner position.",
+          "Is the code Z0? Answer yes or no."
+        ],
+        "image_size": [
+          336,
+          336
+        ]
+      },
+      "grid": [
+        24,
+        24
+      ],
+      "display_question": "What code is\ninside the box?",
+      "display_answer": "X8",
+      "image_sha256": "81aadd05d5631339399198171f91526bbf2e9794172238e035e0fac0a902a1fb",
+      "source": {
+        "dataset": "controlled_synthetic_validation32",
+        "query_definition": "mean received from teacher-forced reference-answer query positions",
+        "head_aggregation": "all_heads_mean",
+        "head_count": 12,
+        "raw_visual_attention_total": [
+          0.5748392343521118,
+          0.49869826436042786
+        ],
+        "expanded_indices": [
+          63,
+          127
+        ],
+        "physical_layer_one_based": 16,
+        "module": "H",
+        "target_definition": "saved independent target_visual_mask from sample target bounding box",
+        "attention_capture_point": "inside the attention sublayer, before FFN"
+      },
+      "target_definition": "saved independent target_visual_mask from sample target bounding box",
+      "display_fill_panel": false,
+      "target_attention_share_first": 0.08987514088982265,
+      "target_attention_share_second": 0.20867658133862332,
+      "promoted_count": 26,
+      "target_promoted_count": 1,
+      "separate_generation_check": null
+    },
+    {
+      "id": "s29",
+      "sample": {
+        "id": "s29",
+        "family": "ocr",
+        "image": "images/s29.png",
+        "prompt": "What two-character code is shown in the bordered box? Answer with the code only.",
+        "answer": "B6",
+        "target_bbox": [
+          206,
+          46,
+          306,
+          114
+        ],
+        "target_shape": "code",
+        "target_color": "red",
+        "target_position": "top right",
+        "present_concepts": [
+          "B6",
+          "code",
+          "box"
+        ],
+        "absent_concepts": [
+          "Z0",
+          "blank"
+        ],
+        "alternate_prompts": [
+          "Where is the box containing B6? Answer with a corner position.",
+          "Is the code Z0? Answer yes or no."
+        ],
+        "image_size": [
+          336,
+          336
+        ]
+      },
+      "grid": [
+        24,
+        24
+      ],
+      "display_question": "What code is\ninside the box?",
+      "display_answer": "B6",
+      "image_sha256": "029cdf9c471b2d64d9e1a4a582ee8cb66a43417b2205eb04d8edfca26e529ebd",
+      "source": {
+        "dataset": "controlled_synthetic_validation32",
+        "query_definition": "mean received from teacher-forced reference-answer query positions",
+        "head_aggregation": "all_heads_mean",
+        "head_count": 12,
+        "raw_visual_attention_total": [
+          0.5598208904266357,
+          0.39500439167022705
+        ],
+        "expanded_indices": [
+          63,
+          127
+        ],
+        "physical_layer_one_based": 16,
+        "module": "H",
+        "target_definition": "saved independent target_visual_mask from sample target bounding box",
+        "attention_capture_point": "inside the attention sublayer, before FFN"
+      },
+      "target_definition": "saved independent target_visual_mask from sample target bounding box",
+      "display_fill_panel": false,
+      "target_attention_share_first": 0.07274841608688541,
+      "target_attention_share_second": 0.14558225161029417,
+      "promoted_count": 35,
+      "target_promoted_count": 6,
+      "separate_generation_check": null
+    },
+    {
+      "id": "s21",
+      "sample": {
+        "id": "s21",
+        "family": "count",
+        "image": "images/s21.png",
+        "prompt": "How many orange circles are shown? Answer with a number only.",
+        "answer": "1",
+        "target_bbox": [
+          41,
+          41,
+          99,
+          99
+        ],
+        "target_shape": "circle",
+        "target_color": "orange",
+        "target_position": "multiple",
+        "present_concepts": [
+          "orange",
+          "circle",
+          "1"
+        ],
+        "absent_concepts": [
+          "black",
+          "hexagon"
+        ],
+        "alternate_prompts": [
+          "What color are the repeated circles? Answer one word.",
+          "Are there five orange circles? Answer yes or no."
+        ],
+        "image_size": [
+          336,
+          336
+        ]
+      },
+      "grid": [
+        24,
+        24
+      ],
+      "display_question": "How many\norange circles?",
+      "display_answer": "1",
+      "image_sha256": "771572b202678d9972c306da696210e8bebed36e81cce0b56202f959a57edc28",
+      "source": {
+        "dataset": "controlled_synthetic_validation32",
+        "query_definition": "mean received from teacher-forced reference-answer query positions",
+        "head_aggregation": "all_heads_mean",
+        "head_count": 12,
+        "raw_visual_attention_total": [
+          0.6205698847770691,
+          0.46921396255493164
+        ],
+        "expanded_indices": [
+          63,
+          127
+        ],
+        "physical_layer_one_based": 16,
+        "module": "H",
+        "target_definition": "saved independent target_visual_mask from sample target bounding box",
+        "attention_capture_point": "inside the attention sublayer, before FFN"
+      },
+      "target_definition": "saved independent target_visual_mask from sample target bounding box",
+      "display_fill_panel": false,
+      "target_attention_share_first": 0.027234666029996784,
+      "target_attention_share_second": 0.02645984529754597,
+      "promoted_count": 42,
+      "target_promoted_count": 3,
+      "separate_generation_check": null
+    },
+    {
+      "id": "rw_q10",
+      "sample": {
+        "id": "rw_q10",
+        "dataset": "RealWorldQA",
+        "image_path": "q10.png",
+        "grid_h": 36,
+        "grid_w": 56,
+        "question_zh": "白色面包车旁有几块碎片？",
+        "answer_zh": "3",
+        "prompt": "How many pieces of debris is next to the white van?\nPlease answer directly with a single word or number.",
+        "answer": "3",
+        "source_id": 10,
+        "expanded_indices": [
+          63,
+          127
+        ],
+        "head_aggregation": "all_heads_mean",
+        "head_count": 12,
+        "query_definition": "reference-answer query positions, teacher forced; identical prompt and answer across cycles",
+        "raw_capture": "q10.npz",
+        "raw_capture_sha256": "119fb03063e3340ceed91290069eb8439a4cbd4d1dac4eea3181bef5834dc7ca",
+        "target_definition": "Manually annotated group bounding box of the three visible road debris pieces, from the original image and question; includes gaps between pieces. Not an object segmentation or causal annotation.",
+        "generation_note": "archived full answer correct; this recapture verifies first-answer token only",
+        "first_answer_prediction": "3",
+        "target_bbox": [
+          539,
+          578,
+          780,
+          644
+        ],
+        "display_crop": [
+          350,
+          0,
+          1288,
+          938
+        ],
+        "annotation_pixel_coordinate_convention": "x0,y0,x1,y1 in original full-resolution RGB image",
+        "crop_note": "identical square display crop for all rows; statistics and percentile ranks are based on full input token grid",
+        "image": "images/rw_q10.png",
+        "image_size": [
+          1448,
+          938
+        ]
+      },
+      "grid": [
+        36,
+        56
+      ],
+      "display_question": "How many debris pieces\nare beside the white van?",
+      "display_answer": "3",
+      "image_sha256": "74fa0ab56e865de360ffb0cdecf3b69e5ac9bafce1918d6f1bd36a6f2657d567",
+      "source": {
+        "id": "rw_q10",
+        "dataset": "RealWorldQA",
+        "image_path": "q10.png",
+        "grid_h": 36,
+        "grid_w": 56,
+        "question_zh": "白色面包车旁有几块碎片？",
+        "answer_zh": "3",
+        "prompt": "How many pieces of debris is next to the white van?\nPlease answer directly with a single word or number.",
+        "answer": "3",
+        "source_id": 10,
+        "expanded_indices": [
+          63,
+          127
+        ],
+        "head_aggregation": "all_heads_mean",
+        "head_count": 12,
+        "query_definition": "reference-answer query positions, teacher forced; identical prompt and answer across cycles",
+        "raw_capture": "q10.npz",
+        "raw_capture_sha256": "119fb03063e3340ceed91290069eb8439a4cbd4d1dac4eea3181bef5834dc7ca",
+        "target_definition": "Manually annotated group bounding box of the three visible road debris pieces, from the original image and question; includes gaps between pieces. Not an object segmentation or causal annotation.",
+        "generation_note": "archived full answer correct; this recapture verifies first-answer token only",
+        "first_answer_prediction": "3",
+        "target_bbox": [
+          539,
+          578,
+          780,
+          644
+        ],
+        "display_crop": [
+          350,
+          0,
+          1288,
+          938
+        ],
+        "annotation_pixel_coordinate_convention": "x0,y0,x1,y1 in original full-resolution RGB image",
+        "crop_note": "identical square display crop for all rows; statistics and percentile ranks are based on full input token grid",
+        "metadata_sha256": "f9d029e19f1391603d265a8e18b28d8d92c0cc66e76be8bb613e4482b8bc4c08"
+      },
+      "target_definition": "Manually annotated group bounding box of the three visible road debris pieces, from the original image and question; includes gaps between pieces. Not an object segmentation or causal annotation.",
+      "display_fill_panel": false,
+      "target_attention_share_first": 0.011513605552399898,
+      "target_attention_share_second": 0.03456049828494999,
+      "promoted_count": 241,
+      "target_promoted_count": 15,
+      "separate_generation_check": null
+    },
+    {
+      "id": "new_r075",
+      "sample": {
+        "id": "new_r075",
+        "image_path": "r075.png",
+        "grid_h": 51,
+        "grid_w": 39,
+        "question_zh": "遥控器朝哪个方向？",
+        "answer_zh": "右侧",
+        "prompt": "What direction is the remote pointed towards?\nA. The remote is pointing towards the right side.\nB. The remote is centered.\nC. The remote is pointed towards the left side.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "original_question": "What direction is the remote pointed towards?\nA. The remote is pointing towards the right side.\nB. The remote is centered.\nC. The remote is pointed towards the left side.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "answer": "A",
+        "source_id": 75,
+        "dataset": "RealWorldQA",
+        "expanded_indices": [
+          63,
+          127
+        ],
+        "head_aggregation": "all_heads_mean",
+        "query_definition": "reference-answer query positions; teacher forced; same question and answer through both cycles",
+        "head_count": 12,
+        "raw_capture": "r075.npz",
+        "raw_capture_sha256": "e9ee93e7e88a89d7d39f371e88b7fcff6e9757ba8d126261be32e482e66910ff",
+        "first_answer_prediction": "A",
+        "first_answer_token_matches_reference": true,
+        "target_definition": "visual token centers inside manually annotated remote-control body polygon; annotation based on original image, excluding Roku tag and table",
+        "target_polygons": [
+          [
+            [
+              279,
+              503
+            ],
+            [
+              421,
+              257
+            ],
+            [
+              444,
+              246
+            ],
+            [
+              477,
+              257
+            ],
+            [
+              498,
+              275
+            ],
+            [
+              504,
+              293
+            ],
+            [
+              372,
+              550
+            ],
+            [
+              353,
+              561
+            ],
+            [
+              326,
+              558
+            ],
+            [
+              291,
+              539
+            ]
+          ]
+        ],
+        "display_crop": [
+          0,
+          150,
+          540,
+          690
+        ],
+        "annotation_coordinate_system": "original RGB image pixels; zero-origin; grid-cell center inclusion",
+        "annotation_independent_of_attention": true,
+        "answer_display_note": "reference answer, not a full free-generation correctness claim",
+        "image": "images/new_r075.png",
+        "image_size": [
+          540,
+          720
+        ]
+      },
+      "grid": [
+        51,
+        39
+      ],
+      "display_question": "Which way does\nthe remote point?",
+      "display_answer": "Right",
+      "image_sha256": "e38ebd90d4b7e78e49ab98f8d706226533fe392d997c52fccd3ecd23c669d647",
+      "source": {
+        "id": "new_r075",
+        "image_path": "r075.png",
+        "grid_h": 51,
+        "grid_w": 39,
+        "question_zh": "遥控器朝哪个方向？",
+        "answer_zh": "右侧",
+        "prompt": "What direction is the remote pointed towards?\nA. The remote is pointing towards the right side.\nB. The remote is centered.\nC. The remote is pointed towards the left side.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "original_question": "What direction is the remote pointed towards?\nA. The remote is pointing towards the right side.\nB. The remote is centered.\nC. The remote is pointed towards the left side.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "answer": "A",
+        "source_id": 75,
+        "dataset": "RealWorldQA",
+        "expanded_indices": [
+          63,
+          127
+        ],
+        "head_aggregation": "all_heads_mean",
+        "query_definition": "reference-answer query positions; teacher forced; same question and answer through both cycles",
+        "head_count": 12,
+        "raw_capture": "r075.npz",
+        "raw_capture_sha256": "e9ee93e7e88a89d7d39f371e88b7fcff6e9757ba8d126261be32e482e66910ff",
+        "first_answer_prediction": "A",
+        "first_answer_token_matches_reference": true,
+        "target_definition": "visual token centers inside manually annotated remote-control body polygon; annotation based on original image, excluding Roku tag and table",
+        "target_polygons": [
+          [
+            [
+              279,
+              503
+            ],
+            [
+              421,
+              257
+            ],
+            [
+              444,
+              246
+            ],
+            [
+              477,
+              257
+            ],
+            [
+              498,
+              275
+            ],
+            [
+              504,
+              293
+            ],
+            [
+              372,
+              550
+            ],
+            [
+              353,
+              561
+            ],
+            [
+              326,
+              558
+            ],
+            [
+              291,
+              539
+            ]
+          ]
+        ],
+        "display_crop": [
+          0,
+          150,
+          540,
+          690
+        ],
+        "annotation_coordinate_system": "original RGB image pixels; zero-origin; grid-cell center inclusion",
+        "annotation_independent_of_attention": true,
+        "answer_display_note": "reference answer, not a full free-generation correctness claim",
+        "metadata_sha256": "7440e790ab97bafd113c75da64420d3e8729ef0009c65490230c8cd9faa3f12a"
+      },
+      "target_definition": "visual token centers inside manually annotated remote-control body polygon; annotation based on original image, excluding Roku tag and table",
+      "display_fill_panel": false,
+      "target_attention_share_first": 0.10054755186588055,
+      "target_attention_share_second": 0.08658707371195706,
+      "promoted_count": 170,
+      "target_promoted_count": 25,
+      "separate_generation_check": null
+    },
+    {
+      "id": "new_r093",
+      "sample": {
+        "id": "new_r093",
+        "image_path": "r093.png",
+        "grid_h": 52,
+        "grid_w": 39,
+        "question_zh": "箭头朝哪个方向？",
+        "answer_zh": "向上",
+        "prompt": "Which direction is the arrow facing?\nA. The arrow is facing to the left.\nB. The arrow is facing to the right.\nC. The arrow is facing upward.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "original_question": "Which direction is the arrow facing?\nA. The arrow is facing to the left.\nB. The arrow is facing to the right.\nC. The arrow is facing upward.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "answer": "C",
+        "source_id": 93,
+        "dataset": "RealWorldQA",
+        "expanded_indices": [
+          63,
+          127
+        ],
+        "head_aggregation": "all_heads_mean",
+        "query_definition": "reference-answer query positions; teacher forced; same question and answer through both cycles",
+        "head_count": 12,
+        "raw_capture": "r093.npz",
+        "raw_capture_sha256": "e8b559a5d75ac19acb74e95891491119be0edc4183641ccf9cdb8d446ae0e3bc",
+        "first_answer_prediction": "C",
+        "first_answer_token_matches_reference": true,
+        "target_definition": "visual token centers inside tight manual red-arrow bounding box, excluding the UP text; independent original-image annotation",
+        "target_bbox": [
+          358,
+          450,
+          386,
+          491
+        ],
+        "display_crop": [
+          110,
+          245,
+          510,
+          645
+        ],
+        "annotation_coordinate_system": "original RGB image pixels; zero-origin; grid-cell center inclusion",
+        "annotation_independent_of_attention": true,
+        "answer_display_note": "reference answer, not a full free-generation correctness claim",
+        "image": "images/new_r093.png",
+        "image_size": [
+          625,
+          833
+        ]
+      },
+      "grid": [
+        52,
+        39
+      ],
+      "display_question": "Which way does\nthe arrow point?",
+      "display_answer": "Up",
+      "image_sha256": "27e509f33e1f94e1535c7f5378b07af9cd2e025bb4cab933c6b91041a6b23243",
+      "source": {
+        "id": "new_r093",
+        "image_path": "r093.png",
+        "grid_h": 52,
+        "grid_w": 39,
+        "question_zh": "箭头朝哪个方向？",
+        "answer_zh": "向上",
+        "prompt": "Which direction is the arrow facing?\nA. The arrow is facing to the left.\nB. The arrow is facing to the right.\nC. The arrow is facing upward.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "original_question": "Which direction is the arrow facing?\nA. The arrow is facing to the left.\nB. The arrow is facing to the right.\nC. The arrow is facing upward.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "answer": "C",
+        "source_id": 93,
+        "dataset": "RealWorldQA",
+        "expanded_indices": [
+          63,
+          127
+        ],
+        "head_aggregation": "all_heads_mean",
+        "query_definition": "reference-answer query positions; teacher forced; same question and answer through both cycles",
+        "head_count": 12,
+        "raw_capture": "r093.npz",
+        "raw_capture_sha256": "e8b559a5d75ac19acb74e95891491119be0edc4183641ccf9cdb8d446ae0e3bc",
+        "first_answer_prediction": "C",
+        "first_answer_token_matches_reference": true,
+        "target_definition": "visual token centers inside tight manual red-arrow bounding box, excluding the UP text; independent original-image annotation",
+        "target_bbox": [
+          358,
+          450,
+          386,
+          491
+        ],
+        "display_crop": [
+          110,
+          245,
+          510,
+          645
+        ],
+        "annotation_coordinate_system": "original RGB image pixels; zero-origin; grid-cell center inclusion",
+        "annotation_independent_of_attention": true,
+        "answer_display_note": "reference answer, not a full free-generation correctness claim",
+        "metadata_sha256": "53139888e45c81c356200dcc92e95c632182e7e03787f6c4cc106231f9f6ff5f"
+      },
+      "target_definition": "visual token centers inside tight manual red-arrow bounding box, excluding the UP text; independent original-image annotation",
+      "display_fill_panel": false,
+      "target_attention_share_first": 0.0023303312308497154,
+      "target_attention_share_second": 0.036074256503934844,
+      "promoted_count": 219,
+      "target_promoted_count": 4,
+      "separate_generation_check": null
+    }
+  ],
+  "expanded_indices": [
+    63,
+    127
+  ],
+  "query_definition": "Teacher-forced reference-answer token positions, averaged over all attention heads.",
+  "normalization": "Each endpoint is normalized over the entire original visual grid.",
+  "promotion_rule": "first <= median(first) and second >= quantile(second, 0.75)",
+  "selection": "Qualitative, phenomenon-selected examples; not representative sampling.",
+  "display": "Square-root color scale; paired 99.5th percentile; grid values and ranks are never cropped or rotated."
+}

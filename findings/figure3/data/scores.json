@@ -1,0 +1,77 @@
+{
+  "source": "Author-supplied full-benchmark H2L3 inference-control scores, 2026-09-21",
+  "condition_order": [
+    "normal",
+    "blocked",
+    "frozen"
+  ],
+  "conditions": {
+    "normal": "Standard LoopVL inference.",
+    "blocked": "Inference-only control blocking the carry of L-module visual-state updates in cycle 2.",
+    "frozen": "Author-supplied inference-only visual-freezing control; exact equivalence to the archived historical hook is not confirmed by aggregate scores alone."
+  },
+  "selected_benchmarks": [
+    "LogicVista",
+    "RealWorldQA",
+    "VMCBench-DEV",
+    "MMStar"
+  ],
+  "selection_reason": "Retain the four benchmark panels of the manuscript for the main-checkpoint inference controls.",
+  "benchmarks": {
+    "MMVP (pair)": {
+      "scores_percent": [
+        39.33,
+        27.33,
+        22.67
+      ],
+      "unit": "pairs"
+    },
+    "LogicVista": {
+      "scores_percent": [
+        44.97,
+        36.47,
+        31.54
+      ],
+      "unit": "questions"
+    },
+    "RealWorldQA": {
+      "scores_percent": [
+        71.63,
+        53.07,
+        37.91
+      ],
+      "unit": "questions"
+    },
+    "HallusionBench": {
+      "scores_percent": [
+        46.94,
+        37.74,
+        31.01
+      ]
+    },
+    "VMCBench-DEV": {
+      "scores_percent": [
+        67.7,
+        61.9,
+        42.6
+      ],
+      "unit": "questions"
+    },
+    "MMStar": {
+      "scores_percent": [
+        64.87,
+        51.07,
+        44.87
+      ],
+      "unit": "questions"
+    }
+  },
+  "reported_six_benchmark_macro_percent": [
+    55.91,
+    44.6,
+    35.1
+  ],
+  "results_not_recomputed": true,
+  "inference_code_audited": false,
+  "legacy_400_sample_result_reused": false
+}

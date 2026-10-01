@@ -1,0 +1,19 @@
+{
+  "dataset": "POPE",
+  "model": "hrm-penguin-v2",
+  "total": 5127,
+  "completed": 5127,
+  "errors_this_run": 0,
+  "scored": 5127,
+  "correct": 4586,
+  "normalized_exact_accuracy": 0.8944802028476692,
+  "lenient_accuracy": 0.8944802028476692,
+  "scoring_version": "lenient-v3-option-reference",
+  "official_evaluation": null,
+  "official_evaluation_error": null,
+  "source_tsv_md5": null,
+  "build_seconds": 14.385,
+  "inference_seconds_this_run": 2901.076,
+  "prediction_jsonl": "data/server_snapshot_20260906/hrm_bench_results/v2/POPE/predictions.jsonl",
+  "vlmeval_table": "data/server_snapshot_20260906/hrm_bench_results/v2/POPE/predictions.xlsx"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "MathVision-WildPhoto",
+  "model": "hrm-penguin-v2",
+  "source": "data/server_snapshot_20260906/HFDatasets/MathVision-WildPhoto",
+  "total_source_rows": 304,
+  "completed": 304,
+  "scored": 304,
+  "correct": 62,
+  "normalized_exact_accuracy": 0.20394736842105263,
+  "lenient_accuracy": 0.20394736842105263,
+  "scoring_version": "lenient-v3-option-reference",
+  "seconds_this_run": 13.018,
+  "prediction_jsonl": "data/server_snapshot_20260906/hrm_bench_results/v2/MathVision-WildPhoto/predictions.jsonl"
+}

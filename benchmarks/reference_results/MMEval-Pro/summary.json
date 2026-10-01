@@ -1,0 +1,14 @@
+{
+  "dataset": "MMEval-Pro",
+  "model": "hrm-penguin-v2",
+  "source": "data/server_snapshot_20260906/HFDatasets/MMEval-Pro",
+  "total_source_rows": 6414,
+  "completed": 6414,
+  "scored": 6414,
+  "correct": 4097,
+  "normalized_exact_accuracy": 0.6387589647645775,
+  "lenient_accuracy": 0.6387589647645775,
+  "scoring_version": "lenient-v3-option-reference",
+  "seconds_this_run": 1844.315,
+  "prediction_jsonl": "data/server_snapshot_20260906/hrm_bench_results/v2/MMEval-Pro/predictions.jsonl"
+}

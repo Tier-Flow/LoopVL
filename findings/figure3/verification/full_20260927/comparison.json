@@ -1,0 +1,150 @@
+{
+  "version": "figure3-full-main-controls-v1",
+  "run_contract_sha256": "5a05262d0bfc9122d93ee94f4d843124bd3730a265f809afe0228880295a01d7",
+  "updated_utc": "2026-09-27T06:16:23.285939+00:00",
+  "all_requested_complete": true,
+  "full_four_benchmark_main_controls": true,
+  "results": {
+    "LogicVista": {
+      "normal": {
+        "completed": 447,
+        "requested": 447,
+        "complete": true,
+        "full_dataset_count": 447,
+        "correct": 197,
+        "accuracy_percent": 44.07158836689038,
+        "strict_accuracy_percent": 34.22818791946309,
+        "paper_percent": 44.97,
+        "delta_pp": -0.8984116331096175
+      },
+      "blocked": {
+        "completed": 447,
+        "requested": 447,
+        "complete": true,
+        "full_dataset_count": 447,
+        "correct": 152,
+        "accuracy_percent": 34.00447427293065,
+        "strict_accuracy_percent": 31.09619686800895,
+        "paper_percent": 36.47,
+        "delta_pp": -2.4655257270693482
+      },
+      "frozen": {
+        "completed": 447,
+        "requested": 447,
+        "complete": true,
+        "full_dataset_count": 447,
+        "correct": 135,
+        "accuracy_percent": 30.201342281879196,
+        "strict_accuracy_percent": 20.80536912751678,
+        "paper_percent": 31.54,
+        "delta_pp": -1.3386577181208033
+      }
+    },
+    "RealWorldQA": {
+      "normal": {
+        "completed": 765,
+        "requested": 765,
+        "complete": true,
+        "full_dataset_count": 765,
+        "correct": 541,
+        "accuracy_percent": 70.71895424836602,
+        "strict_accuracy_percent": 70.19607843137256,
+        "paper_percent": 71.63,
+        "delta_pp": -0.9110457516339778
+      },
+      "blocked": {
+        "completed": 765,
+        "requested": 765,
+        "complete": true,
+        "full_dataset_count": 765,
+        "correct": 414,
+        "accuracy_percent": 54.11764705882353,
+        "strict_accuracy_percent": 53.98692810457516,
+        "paper_percent": 53.07,
+        "delta_pp": 1.0476470588235287
+      },
+      "frozen": {
+        "completed": 765,
+        "requested": 765,
+        "complete": true,
+        "full_dataset_count": 765,
+        "correct": 358,
+        "accuracy_percent": 46.79738562091503,
+        "strict_accuracy_percent": 46.27450980392157,
+        "paper_percent": 37.91,
+        "delta_pp": 8.887385620915033
+      }
+    },
+    "VMCBench_DEV": {
+      "normal": {
+        "completed": 1000,
+        "requested": 1000,
+        "complete": true,
+        "full_dataset_count": 1000,
+        "correct": 713,
+        "accuracy_percent": 71.3,
+        "strict_accuracy_percent": 68.8,
+        "paper_percent": 67.7,
+        "delta_pp": 3.5999999999999943
+      },
+      "blocked": {
+        "completed": 1000,
+        "requested": 1000,
+        "complete": true,
+        "full_dataset_count": 1000,
+        "correct": 625,
+        "accuracy_percent": 62.5,
+        "strict_accuracy_percent": 59.1,
+        "paper_percent": 61.9,
+        "delta_pp": 0.6000000000000014
+      },
+      "frozen": {
+        "completed": 1000,
+        "requested": 1000,
+        "complete": true,
+        "full_dataset_count": 1000,
+        "correct": 522,
+        "accuracy_percent": 52.2,
+        "strict_accuracy_percent": 39.0,
+        "paper_percent": 42.6,
+        "delta_pp": 9.600000000000001
+      }
+    },
+    "MMStar": {
+      "normal": {
+        "completed": 1500,
+        "requested": 1500,
+        "complete": true,
+        "full_dataset_count": 1500,
+        "correct": 939,
+        "accuracy_percent": 62.6,
+        "strict_accuracy_percent": 8.533333333333333,
+        "paper_percent": 64.87,
+        "delta_pp": -2.270000000000003
+      },
+      "blocked": {
+        "completed": 1500,
+        "requested": 1500,
+        "complete": true,
+        "full_dataset_count": 1500,
+        "correct": 751,
+        "accuracy_percent": 50.06666666666667,
+        "strict_accuracy_percent": 7.666666666666667,
+        "paper_percent": 51.07,
+        "delta_pp": -1.0033333333333303
+      },
+      "frozen": {
+        "completed": 1500,
+        "requested": 1500,
+        "complete": true,
+        "full_dataset_count": 1500,
+        "correct": 597,
+        "accuracy_percent": 39.8,
+        "strict_accuracy_percent": 4.533333333333333,
+        "paper_percent": 44.87,
+        "delta_pp": -5.07
+      }
+    }
+  },
+  "historical_paper_protocol_identity_verified": false
+}

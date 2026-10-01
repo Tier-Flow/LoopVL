@@ -1,0 +1,53 @@
+% Source: user-provided LoopVL section 3 screenshot, updated 2026-09-10.
+% Per the user's 2026-09-11 correction, all H2L3 scores match the LoopVL
+% column in the main table (ChartQA: 68.72% -> 74.52%). Other rows unchanged.
+\begin{table}[H]
+\centering
+\begin{minipage}{0.94\linewidth}
+\caption{Inference-time H/L schedule sweep for the main LoopVL checkpoint. H denotes the number of complete model cycles, and L denotes the number of L-module invocations within each cycle. Unrolled depth counts the total number of executed Transformer-layer calls in one forward pass. Darker and lighter shading indicate the best and second-best results, respectively.}
+\label{tab:loopvl-hl-ablation}
+\label{tab:lv-inference-ablation}
+\begingroup
+\definecolor{loopvlablationgreen}{HTML}{E8F1EC}
+\colorlet{loopvlablationsecondgreen}{loopvlablationgreen!55}
+\newcommand{\loopvlablationsecond}[1]{\cellcolor{loopvlablationsecondgreen}#1}
+\fontsize{9}{11}\selectfont
+\setlength{\tabcolsep}{3.8pt}
+\setlength{\extrarowheight}{0pt}
+\renewcommand{\arraystretch}{1}
+\newlength{\loopvlablationwidth}
+\setlength{\loopvlablationwidth}{\dimexpr(\linewidth-28mm-12mm-14\tabcolsep)/5\relax}
+\newcommand{\loopvlablationstrut}{\rule[-4.5pt]{0pt}{16pt}}
+\newcommand{\loopvlablationhead}[2]{\parbox[c][25pt][c]{#1}{\centering\sffamily\bfseries\color{black}\fontsize{8.2}{10}\selectfont#2\par}}
+\begin{tabular}{>{\loopvlablationstrut\raggedright\arraybackslash}p{28mm}>{\centering\arraybackslash}p{12mm}*{5}{>{\centering\arraybackslash}p{\loopvlablationwidth}}}
+\hline
+\loopvlablationhead{28mm}{Configuration} &
+\loopvlablationhead{12mm}{Unrolled\\layers} &
+\loopvlablationhead{\loopvlablationwidth}{MMStar} &
+\loopvlablationhead{\loopvlablationwidth}{RealWorldQA} &
+\loopvlablationhead{\loopvlablationwidth}{VMCBench} &
+\loopvlablationhead{\loopvlablationwidth}{AI2D} &
+\loopvlablationhead{\loopvlablationwidth}{ChartQA} \\
+\hline
+H1L1 {\fontsize{7.4}{9}\selectfont (Transformer)} & 32 & 0.47 & 0.00 & 0.50 & 1.62 & 0.00 \\
+H1L2 & 48 & 0.07 & 0.00 & 0.30 & 0.06 & 0.00 \\
+H1L3 & 64 & 0.07 & 0.00 & 0.10 & 0.45 & 0.04 \\
+\hline
+H2L1 & 64 & 29.40 & 12.81 & 27.90 & 25.74 & 17.40 \\
+H2L2 & 96 & 51.33 & 58.95 & 63.10 & 65.38 & \loopvlablationsecond{63.28} \\
+\rowcolor{loopvlablationgreen}
+\textbf{H2L3} & 128 & \textbf{63.47} & \textbf{70.98} & \textbf{70.90} & \textbf{75.49} & \textbf{74.52} \\
+\hline
+H3L1 & 96 & 34.27 & 29.67 & 30.00 & 32.90 & 16.44 \\
+H3L2 & 144 & 51.33 & 46.41 & 59.70 & 63.24 & 50.64 \\
+H3L3 & 192 & \loopvlablationsecond{58.20} & \loopvlablationsecond{60.13} & \loopvlablationsecond{65.70} & \loopvlablationsecond{67.78} & 56.80 \\
+\hline
+H4L1 & 128 & 24.67 & 13.07 & 25.50 & 20.17 & 1.52 \\
+H4L2 & 192 & 32.13 & 9.28 & 32.60 & 32.84 & 14.68 \\
+H4L3 & 256 & 24.00 & 14.51 & 22.50 & 21.66 & 12.96 \\
+\hline
+\end{tabular}
+\par
+\endgroup
+\end{minipage}
+\end{table}

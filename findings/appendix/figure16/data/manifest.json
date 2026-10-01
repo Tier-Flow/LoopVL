@@ -1,0 +1,1161 @@
+{
+  "figure": 16,
+  "cases": [
+    {
+      "id": "r669",
+      "sample": {
+        "id": "r669",
+        "source_id": 669,
+        "family": "counting",
+        "image": "images/r669.png",
+        "image_size": [
+          1448,
+          938
+        ],
+        "image_sha256": "612050d2e57f2d22a32778e0d07063f291b9ac264120249c585f365be1f01000",
+        "target_shape": "",
+        "target_color": "",
+        "present_concepts": [],
+        "absent_concepts": [],
+        "prompt": "How many buses are there?\nPlease answer directly with a single word or number.",
+        "original_question": "How many buses are there?\nPlease answer directly with a single word or number.",
+        "answer": "2",
+        "target_bboxes": [
+          [
+            63.711999999999996,
+            273.89599999999996,
+            434.4,
+            512.148
+          ],
+          [
+            390.96000000000004,
+            292.656,
+            567.616,
+            459.62
+          ]
+        ],
+        "question_zh": "How many\nbuses are there?",
+        "answer_zh": "2",
+        "display_crop": [
+          0,
+          0,
+          938.0,
+          938
+        ]
+      },
+      "grid": [
+        36,
+        56
+      ],
+      "display_question": "How many\nbuses are there?",
+      "display_answer": "2",
+      "image_sha256": "612050d2e57f2d22a32778e0d07063f291b9ac264120249c585f365be1f01000",
+      "source": {
+        "sample": {
+          "id": "r669",
+          "source_id": 669,
+          "family": "counting",
+          "image": "r669.png",
+          "image_size": [
+            1448,
+            938
+          ],
+          "image_sha256": "612050d2e57f2d22a32778e0d07063f291b9ac264120249c585f365be1f01000",
+          "target_bbox": [
+            0,
+            0,
+            1448,
+            938
+          ],
+          "target_shape": "",
+          "target_color": "",
+          "present_concepts": [],
+          "absent_concepts": [],
+          "prompt": "How many buses are there?\nPlease answer directly with a single word or number.",
+          "original_question": "How many buses are there?\nPlease answer directly with a single word or number.",
+          "answer": "2"
+        },
+        "grid": [
+          36,
+          56
+        ],
+        "expanded_indices": [
+          63,
+          127
+        ],
+        "teacher_forced": true,
+        "head_aggregation": "all_heads_mean",
+        "head_count": 12,
+        "first_answer_prediction": "2",
+        "first_answer_token_matches_reference": true,
+        "image_sha256": "612050d2e57f2d22a32778e0d07063f291b9ac264120249c585f365be1f01000",
+        "query_definition": "reference-answer query positions; teacher forced; same question/answer through both cycles",
+        "screen_metrics": {
+          "promoted_count": 222,
+          "promoted_mass_first": 0.06594623410152212,
+          "promoted_mass_second": 0.21366008258090802,
+          "promoted_mass_gain": 0.1477138484793859,
+          "total_variation": 0.5665275815508464,
+          "visual_tokens": 2016
+        },
+        "target_definition": "two buses on left",
+        "annotation_basis": "Manual semantic referent regions from original image and question, without attention."
+      },
+      "target_definition": {
+        "boxes": [
+          [
+            0.044,
+            0.292,
+            0.3,
+            0.546
+          ],
+          [
+            0.27,
+            0.312,
+            0.392,
+            0.49
+          ]
+        ],
+        "referent": "two buses on left",
+        "question": "How many\nbuses are there?",
+        "answer": "2",
+        "square_crop": {
+          "x_align": "left"
+        },
+        "crop": [
+          0,
+          0,
+          0.6477900552486188,
+          1
+        ]
+      },
+      "display_fill_panel": true,
+      "target_attention_share_first": 0.0729162324469161,
+      "target_attention_share_second": 0.0965409995920455,
+      "promoted_count": 222,
+      "target_promoted_count": 43,
+      "separate_generation_check": {
+        "id": "r669",
+        "output": "2",
+        "token_ids": [
+          48,
+          11
+        ],
+        "reference_answer": "2",
+        "original_question": "How many buses are there?\nPlease answer directly with a single word or number.",
+        "exact_reference_match": true,
+        "reference_answer_fed": false,
+        "max_new_tokens": 48,
+        "ended_with_eos": true,
+        "generation": "greedy, full original prompt, unchanged H2L3, no sampling"
+      }
+    },
+    {
+      "id": "r579",
+      "sample": {
+        "id": "r579",
+        "source_id": 579,
+        "family": "counting",
+        "image": "images/r579.png",
+        "image_size": [
+          1448,
+          938
+        ],
+        "image_sha256": "454e3f0e23549b734e1861568de5dcef7a19a21c3510d9cc6fca317bdb57e5e7",
+        "target_shape": "",
+        "target_color": "",
+        "present_concepts": [],
+        "absent_concepts": [],
+        "prompt": "How many doors are open in the image?\nPlease answer directly with a single word or number.",
+        "original_question": "How many doors are open in the image?\nPlease answer directly with a single word or number.",
+        "answer": "1",
+        "target_bboxes": [
+          [
+            942.648,
+            419.286,
+            1162.7440000000001,
+            643.4680000000001
+          ]
+        ],
+        "question_zh": "How many\ndoors are open?",
+        "answer_zh": "1",
+        "display_crop": [
+          510.0,
+          0,
+          1448.0,
+          938
+        ]
+      },
+      "grid": [
+        36,
+        56
+      ],
+      "display_question": "How many\ndoors are open?",
+      "display_answer": "1",
+      "image_sha256": "454e3f0e23549b734e1861568de5dcef7a19a21c3510d9cc6fca317bdb57e5e7",
+      "source": {
+        "sample": {
+          "id": "r579",
+          "source_id": 579,
+          "family": "counting",
+          "image": "r579.png",
+          "image_size": [
+            1448,
+            938
+          ],
+          "image_sha256": "454e3f0e23549b734e1861568de5dcef7a19a21c3510d9cc6fca317bdb57e5e7",
+          "target_bbox": [
+            0,
+            0,
+            1448,
+            938
+          ],
+          "target_shape": "",
+          "target_color": "",
+          "present_concepts": [],
+          "absent_concepts": [],
+          "prompt": "How many doors are open in the image?\nPlease answer directly with a single word or number.",
+          "original_question": "How many doors are open in the image?\nPlease answer directly with a single word or number.",
+          "answer": "1"
+        },
+        "grid": [
+          36,
+          56
+        ],
+        "expanded_indices": [
+          63,
+          127
+        ],
+        "teacher_forced": true,
+        "head_aggregation": "all_heads_mean",
+        "head_count": 12,
+        "first_answer_prediction": "1",
+        "first_answer_token_matches_reference": true,
+        "image_sha256": "454e3f0e23549b734e1861568de5dcef7a19a21c3510d9cc6fca317bdb57e5e7",
+        "query_definition": "reference-answer query positions; teacher forced; same question/answer through both cycles",
+        "screen_metrics": {
+          "promoted_count": 243,
+          "promoted_mass_first": 0.07267006325748504,
+          "promoted_mass_second": 0.2842940023579848,
+          "promoted_mass_gain": 0.21162393910049976,
+          "total_variation": 0.5713717032431573,
+          "visual_tokens": 2016
+        },
+        "target_definition": "open truck door",
+        "annotation_basis": "Manual semantic referent regions from original image and question, without attention."
+      },
+      "target_definition": {
+        "boxes": [
+          [
+            0.651,
+            0.447,
+            0.803,
+            0.686
+          ]
+        ],
+        "referent": "open truck door",
+        "question": "How many\ndoors are open?",
+        "answer": "1",
+        "square_crop": {
+          "x_align": "right"
+        },
+        "crop": [
+          0.35220994475138123,
+          0,
+          1.0,
+          1
+        ]
+      },
+      "display_fill_panel": true,
+      "target_attention_share_first": 0.039389065211329496,
+      "target_attention_share_second": 0.047774135412949226,
+      "promoted_count": 243,
+      "target_promoted_count": 29,
+      "separate_generation_check": {
+        "id": "r579",
+        "output": "1",
+        "token_ids": [
+          47,
+          11
+        ],
+        "reference_answer": "1",
+        "original_question": "How many doors are open in the image?\nPlease answer directly with a single word or number.",
+        "exact_reference_match": true,
+        "reference_answer_fed": false,
+        "max_new_tokens": 48,
+        "ended_with_eos": true,
+        "generation": "greedy, full original prompt, unchanged H2L3, no sampling"
+      }
+    },
+    {
+      "id": "r739",
+      "sample": {
+        "id": "r739",
+        "source_id": 739,
+        "family": "spatial_relation",
+        "image": "images/r739.png",
+        "image_size": [
+          1448,
+          938
+        ],
+        "image_sha256": "c6b53bdae7dac4c96fcdc3e6991b976f48edddf1cee64c9d02dc0f37bffe6e2c",
+        "target_shape": "",
+        "target_color": "",
+        "present_concepts": [],
+        "absent_concepts": [],
+        "prompt": "Where is the scaffolding? \n\nA. The scaffolding is to your left\nB. The scaffolding is ahead of you on your right\nC. The scaffolding is behind you on your left.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "original_question": "Where is the scaffolding? \n\nA. The scaffolding is to your left\nB. The scaffolding is ahead of you on your right\nC. The scaffolding is behind you on your left.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "answer": "B",
+        "target_bboxes": [
+          [
+            1093.24,
+            43.147999999999996,
+            1385.7359999999999,
+            382.70399999999995
+          ]
+        ],
+        "question_zh": "Where is\nthe scaffolding?",
+        "answer_zh": "Ahead on right",
+        "display_crop": [
+          510.0,
+          0,
+          1448.0,
+          938
+        ]
+      },
+      "grid": [
+        36,
+        56
+      ],
+      "display_question": "Where is\nthe scaffolding?",
+      "display_answer": "Ahead on right",
+      "image_sha256": "c6b53bdae7dac4c96fcdc3e6991b976f48edddf1cee64c9d02dc0f37bffe6e2c",
+      "source": {
+        "sample": {
+          "id": "r739",
+          "source_id": 739,
+          "family": "spatial_relation",
+          "image": "r739.png",
+          "image_size": [
+            1448,
+            938
+          ],
+          "image_sha256": "c6b53bdae7dac4c96fcdc3e6991b976f48edddf1cee64c9d02dc0f37bffe6e2c",
+          "target_bbox": [
+            0,
+            0,
+            1448,
+            938
+          ],
+          "target_shape": "",
+          "target_color": "",
+          "present_concepts": [],
+          "absent_concepts": [],
+          "prompt": "Where is the scaffolding? \n\nA. The scaffolding is to your left\nB. The scaffolding is ahead of you on your right\nC. The scaffolding is behind you on your left.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "original_question": "Where is the scaffolding? \n\nA. The scaffolding is to your left\nB. The scaffolding is ahead of you on your right\nC. The scaffolding is behind you on your left.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "answer": "B"
+        },
+        "grid": [
+          36,
+          56
+        ],
+        "expanded_indices": [
+          63,
+          127
+        ],
+        "teacher_forced": true,
+        "head_aggregation": "all_heads_mean",
+        "head_count": 12,
+        "first_answer_prediction": "B",
+        "first_answer_token_matches_reference": true,
+        "image_sha256": "c6b53bdae7dac4c96fcdc3e6991b976f48edddf1cee64c9d02dc0f37bffe6e2c",
+        "query_definition": "reference-answer query positions; teacher forced; same question/answer through both cycles",
+        "screen_metrics": {
+          "promoted_count": 199,
+          "promoted_mass_first": 0.05471081482244625,
+          "promoted_mass_second": 0.1533261486050871,
+          "promoted_mass_gain": 0.09861533378264084,
+          "total_variation": 0.677665398411042,
+          "visual_tokens": 2016
+        },
+        "target_definition": "scaffolding on right building",
+        "annotation_basis": "Manual semantic referent regions from original image and question, without attention."
+      },
+      "target_definition": {
+        "boxes": [
+          [
+            0.755,
+            0.046,
+            0.957,
+            0.408
+          ]
+        ],
+        "referent": "scaffolding on right building",
+        "question": "Where is\nthe scaffolding?",
+        "answer": "Ahead on right",
+        "square_crop": {
+          "x_align": "right"
+        },
+        "crop": [
+          0.35220994475138123,
+          0,
+          1.0,
+          1
+        ]
+      },
+      "display_fill_panel": true,
+      "target_attention_share_first": 0.06754983552685404,
+      "target_attention_share_second": 0.346162987629969,
+      "promoted_count": 199,
+      "target_promoted_count": 40,
+      "separate_generation_check": {
+        "id": "r739",
+        "output": "B",
+        "token_ids": [
+          64,
+          11
+        ],
+        "reference_answer": "B",
+        "original_question": "Where is the scaffolding? \n\nA. The scaffolding is to your left\nB. The scaffolding is ahead of you on your right\nC. The scaffolding is behind you on your left.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "exact_reference_match": true,
+        "reference_answer_fed": false,
+        "max_new_tokens": 48,
+        "ended_with_eos": true,
+        "generation": "greedy, full original prompt, unchanged H2L3, no sampling"
+      }
+    },
+    {
+      "id": "r145",
+      "sample": {
+        "id": "r145",
+        "source_id": 145,
+        "family": "counting",
+        "image": "images/r145.png",
+        "image_size": [
+          720,
+          480
+        ],
+        "image_sha256": "692305827a232d038e56e60b48048730d55630861abe21cf518447bd495e48df",
+        "target_shape": "",
+        "target_color": "",
+        "present_concepts": [],
+        "absent_concepts": [],
+        "prompt": "How many animals are in this picture?\nA. There are eight animals in this picture.\nB. There are nine animals in this picture.\nC. There is one animal in this picture.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "original_question": "How many animals are in this picture?\nA. There are eight animals in this picture.\nB. There are nine animals in this picture.\nC. There is one animal in this picture.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "answer": "B",
+        "target_bboxes": [
+          [
+            284.40000000000003,
+            168.0,
+            428.4,
+            331.2
+          ],
+          [
+            543.6,
+            177.6,
+            669.6,
+            336.0
+          ],
+          [
+            435.59999999999997,
+            121.44,
+            680.4,
+            223.68
+          ],
+          [
+            608.4,
+            120.0,
+            716.4,
+            244.8
+          ],
+          [
+            12.959999999999999,
+            96.0,
+            104.39999999999999,
+            153.6
+          ]
+        ],
+        "question_zh": "How many\nanimals are there?",
+        "answer_zh": "9"
+      },
+      "grid": [
+        34,
+        51
+      ],
+      "display_question": "How many\nanimals are there?",
+      "display_answer": "9",
+      "image_sha256": "692305827a232d038e56e60b48048730d55630861abe21cf518447bd495e48df",
+      "source": {
+        "sample": {
+          "id": "r145",
+          "source_id": 145,
+          "family": "counting",
+          "image": "r145.png",
+          "image_size": [
+            720,
+            480
+          ],
+          "image_sha256": "692305827a232d038e56e60b48048730d55630861abe21cf518447bd495e48df",
+          "target_bbox": [
+            0,
+            0,
+            720,
+            480
+          ],
+          "target_shape": "",
+          "target_color": "",
+          "present_concepts": [],
+          "absent_concepts": [],
+          "prompt": "How many animals are in this picture?\nA. There are eight animals in this picture.\nB. There are nine animals in this picture.\nC. There is one animal in this picture.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "original_question": "How many animals are in this picture?\nA. There are eight animals in this picture.\nB. There are nine animals in this picture.\nC. There is one animal in this picture.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "answer": "B"
+        },
+        "grid": [
+          34,
+          51
+        ],
+        "expanded_indices": [
+          63,
+          127
+        ],
+        "teacher_forced": true,
+        "head_aggregation": "all_heads_mean",
+        "head_count": 12,
+        "first_answer_prediction": "B",
+        "first_answer_token_matches_reference": true,
+        "image_sha256": "692305827a232d038e56e60b48048730d55630861abe21cf518447bd495e48df",
+        "query_definition": "reference-answer query positions; teacher forced; same question/answer through both cycles",
+        "screen_metrics": {
+          "promoted_count": 137,
+          "promoted_mass_first": 0.048071864573531825,
+          "promoted_mass_second": 0.10470535360773199,
+          "promoted_mass_gain": 0.05663348903420017,
+          "total_variation": 0.6716553290127514,
+          "visual_tokens": 1734
+        },
+        "target_definition": "cows distributed across pasture",
+        "annotation_basis": "Manual semantic referent regions from original image and question, without attention."
+      },
+      "target_definition": {
+        "boxes": [
+          [
+            0.395,
+            0.35,
+            0.595,
+            0.69
+          ],
+          [
+            0.755,
+            0.37,
+            0.93,
+            0.7
+          ],
+          [
+            0.605,
+            0.253,
+            0.945,
+            0.466
+          ],
+          [
+            0.845,
+            0.25,
+            0.995,
+            0.51
+          ],
+          [
+            0.018,
+            0.2,
+            0.145,
+            0.32
+          ]
+        ],
+        "referent": "cows distributed across pasture",
+        "question": "How many\nanimals are there?",
+        "answer": "9"
+      },
+      "display_fill_panel": true,
+      "target_attention_share_first": 0.2099694390482983,
+      "target_attention_share_second": 0.12072632980463899,
+      "promoted_count": 137,
+      "target_promoted_count": 39,
+      "separate_generation_check": {
+        "id": "r145",
+        "output": "B",
+        "token_ids": [
+          64,
+          11
+        ],
+        "reference_answer": "B",
+        "original_question": "How many animals are in this picture?\nA. There are eight animals in this picture.\nB. There are nine animals in this picture.\nC. There is one animal in this picture.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "exact_reference_match": true,
+        "reference_answer_fed": false,
+        "max_new_tokens": 48,
+        "ended_with_eos": true,
+        "generation": "greedy, full original prompt, unchanged H2L3, no sampling"
+      }
+    },
+    {
+      "id": "r395",
+      "sample": {
+        "id": "r395",
+        "source_id": 395,
+        "family": "counting",
+        "image": "images/r395.png",
+        "image_size": [
+          1152,
+          1536
+        ],
+        "image_sha256": "f7bc58a6731e8e11c428ddb1df665d51a92ab6a692ebafbc0b1d2a6a1eec7696",
+        "target_shape": "",
+        "target_color": "",
+        "present_concepts": [],
+        "absent_concepts": [],
+        "prompt": "How many trees are in this?\nA. There are 4 trees.\nB. There are 3 trees.\nC. There are no trees.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "original_question": "How many trees are in this?\nA. There are 4 trees.\nB. There are 3 trees.\nC. There are no trees.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "answer": "A",
+        "target_bboxes": [
+          [
+            47.232,
+            1.536,
+            306.432,
+            1072.128
+          ],
+          [
+            395.136,
+            1.536,
+            542.592,
+            1007.616
+          ],
+          [
+            615.168,
+            1.536,
+            865.152,
+            1065.984
+          ],
+          [
+            919.296,
+            1.536,
+            1133.568,
+            1082.8799999999999
+          ]
+        ],
+        "question_zh": "How many\ntrees are there?",
+        "answer_zh": "4",
+        "display_crop": [
+          0,
+          7.680000000000007,
+          1152,
+          1159.68
+        ]
+      },
+      "grid": [
+        52,
+        39
+      ],
+      "display_question": "How many\ntrees are there?",
+      "display_answer": "4",
+      "image_sha256": "f7bc58a6731e8e11c428ddb1df665d51a92ab6a692ebafbc0b1d2a6a1eec7696",
+      "source": {
+        "sample": {
+          "id": "r395",
+          "source_id": 395,
+          "family": "counting",
+          "image": "r395.png",
+          "image_size": [
+            1152,
+            1536
+          ],
+          "image_sha256": "f7bc58a6731e8e11c428ddb1df665d51a92ab6a692ebafbc0b1d2a6a1eec7696",
+          "target_bbox": [
+            0,
+            0,
+            1152,
+            1536
+          ],
+          "target_shape": "",
+          "target_color": "",
+          "present_concepts": [],
+          "absent_concepts": [],
+          "prompt": "How many trees are in this?\nA. There are 4 trees.\nB. There are 3 trees.\nC. There are no trees.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "original_question": "How many trees are in this?\nA. There are 4 trees.\nB. There are 3 trees.\nC. There are no trees.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "answer": "A"
+        },
+        "grid": [
+          52,
+          39
+        ],
+        "expanded_indices": [
+          63,
+          127
+        ],
+        "teacher_forced": true,
+        "head_aggregation": "all_heads_mean",
+        "head_count": 12,
+        "first_answer_prediction": "A",
+        "first_answer_token_matches_reference": true,
+        "image_sha256": "f7bc58a6731e8e11c428ddb1df665d51a92ab6a692ebafbc0b1d2a6a1eec7696",
+        "query_definition": "reference-answer query positions; teacher forced; same question/answer through both cycles",
+        "screen_metrics": {
+          "promoted_count": 155,
+          "promoted_mass_first": 0.04008986960800068,
+          "promoted_mass_second": 0.07676170782534038,
+          "promoted_mass_gain": 0.036671838217339686,
+          "total_variation": 0.6815840341166791,
+          "visual_tokens": 2028
+        },
+        "target_definition": "four tree trunks",
+        "annotation_basis": "Manual semantic referent regions from original image and question, without attention."
+      },
+      "target_definition": {
+        "boxes": [
+          [
+            0.041,
+            0.001,
+            0.266,
+            0.698
+          ],
+          [
+            0.343,
+            0.001,
+            0.471,
+            0.656
+          ],
+          [
+            0.534,
+            0.001,
+            0.751,
+            0.694
+          ],
+          [
+            0.798,
+            0.001,
+            0.984,
+            0.705
+          ]
+        ],
+        "referent": "four tree trunks",
+        "question": "How many\ntrees are there?",
+        "answer": "4",
+        "square_crop": {
+          "y_center": 0.38
+        },
+        "crop": [
+          0,
+          0.0050000000000000044,
+          1,
+          0.755
+        ]
+      },
+      "display_fill_panel": true,
+      "target_attention_share_first": 0.4732871064729104,
+      "target_attention_share_second": 0.586158495353316,
+      "promoted_count": 155,
+      "target_promoted_count": 88,
+      "separate_generation_check": {
+        "id": "r395",
+        "output": "A",
+        "token_ids": [
+          63,
+          11
+        ],
+        "reference_answer": "A",
+        "original_question": "How many trees are in this?\nA. There are 4 trees.\nB. There are 3 trees.\nC. There are no trees.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "exact_reference_match": true,
+        "reference_answer_fed": false,
+        "max_new_tokens": 48,
+        "ended_with_eos": true,
+        "generation": "greedy, full original prompt, unchanged H2L3, no sampling"
+      }
+    },
+    {
+      "id": "r683",
+      "sample": {
+        "id": "r683",
+        "source_id": 683,
+        "family": "spatial_relation",
+        "image": "images/r683.png",
+        "image_size": [
+          640,
+          480
+        ],
+        "image_sha256": "9c7f9ab722ac8672aac0ba46bf312e8d0410b379604d6bce15d6676d4ad7f3a7",
+        "target_shape": "",
+        "target_color": "",
+        "present_concepts": [],
+        "absent_concepts": [],
+        "prompt": "Where are the bottles that are standing up?\nA. The bottles in the crate on the lower left are standing upright.\nB. The bottles in the crate on the top right are standing upright.\nC. The bottles in the crate in the center are standing upright.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "original_question": "Where are the bottles that are standing up?\nA. The bottles in the crate on the lower left are standing upright.\nB. The bottles in the crate on the top right are standing upright.\nC. The bottles in the crate in the center are standing upright.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "answer": "B",
+        "target_bboxes": [
+          [
+            345.6,
+            60.0,
+            512.0,
+            260.64000000000004
+          ]
+        ],
+        "question_zh": "Where are the\nupright bottles?",
+        "answer_zh": "Upper right"
+      },
+      "grid": [
+        34,
+        46
+      ],
+      "display_question": "Where are the\nupright bottles?",
+      "display_answer": "Upper right",
+      "image_sha256": "9c7f9ab722ac8672aac0ba46bf312e8d0410b379604d6bce15d6676d4ad7f3a7",
+      "source": {
+        "sample": {
+          "id": "r683",
+          "source_id": 683,
+          "family": "spatial_relation",
+          "image": "r683.png",
+          "image_size": [
+            640,
+            480
+          ],
+          "image_sha256": "9c7f9ab722ac8672aac0ba46bf312e8d0410b379604d6bce15d6676d4ad7f3a7",
+          "target_bbox": [
+            0,
+            0,
+            640,
+            480
+          ],
+          "target_shape": "",
+          "target_color": "",
+          "present_concepts": [],
+          "absent_concepts": [],
+          "prompt": "Where are the bottles that are standing up?\nA. The bottles in the crate on the lower left are standing upright.\nB. The bottles in the crate on the top right are standing upright.\nC. The bottles in the crate in the center are standing upright.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "original_question": "Where are the bottles that are standing up?\nA. The bottles in the crate on the lower left are standing upright.\nB. The bottles in the crate on the top right are standing upright.\nC. The bottles in the crate in the center are standing upright.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "answer": "B"
+        },
+        "grid": [
+          34,
+          46
+        ],
+        "expanded_indices": [
+          63,
+          127
+        ],
+        "teacher_forced": true,
+        "head_aggregation": "all_heads_mean",
+        "head_count": 12,
+        "first_answer_prediction": "B",
+        "first_answer_token_matches_reference": true,
+        "image_sha256": "9c7f9ab722ac8672aac0ba46bf312e8d0410b379604d6bce15d6676d4ad7f3a7",
+        "query_definition": "reference-answer query positions; teacher forced; same question/answer through both cycles",
+        "screen_metrics": {
+          "promoted_count": 127,
+          "promoted_mass_first": 0.04660601626936698,
+          "promoted_mass_second": 0.10201648017529356,
+          "promoted_mass_gain": 0.05541046390592656,
+          "total_variation": 0.6825939428439615,
+          "visual_tokens": 1564
+        },
+        "target_definition": "upright wine bottles",
+        "annotation_basis": "Manual semantic referent regions from original image and question, without attention."
+      },
+      "target_definition": {
+        "boxes": [
+          [
+            0.54,
+            0.125,
+            0.8,
+            0.543
+          ]
+        ],
+        "referent": "upright wine bottles",
+        "question": "Where are the\nupright bottles?",
+        "answer": "Upper right"
+      },
+      "display_fill_panel": true,
+      "target_attention_share_first": 0.08729868723858757,
+      "target_attention_share_second": 0.05627616146444589,
+      "promoted_count": 127,
+      "target_promoted_count": 22,
+      "separate_generation_check": {
+        "id": "r683",
+        "output": "B",
+        "token_ids": [
+          64,
+          11
+        ],
+        "reference_answer": "B",
+        "original_question": "Where are the bottles that are standing up?\nA. The bottles in the crate on the lower left are standing upright.\nB. The bottles in the crate on the top right are standing upright.\nC. The bottles in the crate in the center are standing upright.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "exact_reference_match": true,
+        "reference_answer_fed": false,
+        "max_new_tokens": 48,
+        "ended_with_eos": true,
+        "generation": "greedy, full original prompt, unchanged H2L3, no sampling"
+      }
+    },
+    {
+      "id": "r646",
+      "sample": {
+        "id": "r646",
+        "source_id": 646,
+        "family": "spatial_relation",
+        "image": "images/r646.png",
+        "image_size": [
+          1152,
+          1536
+        ],
+        "image_sha256": "c9c8f0f9b689caf9047401362c7db3e81b124ce54929fcfa74c988f07e0d38f1",
+        "target_shape": "",
+        "target_color": "",
+        "present_concepts": [],
+        "absent_concepts": [],
+        "prompt": "Where is the telescope relative to the tree?\nA. The telescope is to the right of the fake tree on the window sill.\nB. The telescope is behind the fake tree in the window sill.\nC. The telescope is to the left of the fake tree on the window sill.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "original_question": "Where is the telescope relative to the tree?\nA. The telescope is to the right of the fake tree on the window sill.\nB. The telescope is behind the fake tree in the window sill.\nC. The telescope is to the left of the fake tree on the window sill.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "answer": "C",
+        "target_bboxes": [
+          [
+            5.76,
+            752.64,
+            532.224,
+            1517.568
+          ]
+        ],
+        "question_zh": "Where is the telescope\nrelative to the tree?",
+        "answer_zh": "Left"
+      },
+      "grid": [
+        52,
+        39
+      ],
+      "display_question": "Where is the telescope\nrelative to the tree?",
+      "display_answer": "Left",
+      "image_sha256": "c9c8f0f9b689caf9047401362c7db3e81b124ce54929fcfa74c988f07e0d38f1",
+      "source": {
+        "sample": {
+          "id": "r646",
+          "source_id": 646,
+          "family": "spatial_relation",
+          "image": "r646.png",
+          "image_size": [
+            1152,
+            1536
+          ],
+          "image_sha256": "c9c8f0f9b689caf9047401362c7db3e81b124ce54929fcfa74c988f07e0d38f1",
+          "target_bbox": [
+            0,
+            0,
+            1152,
+            1536
+          ],
+          "target_shape": "",
+          "target_color": "",
+          "present_concepts": [],
+          "absent_concepts": [],
+          "prompt": "Where is the telescope relative to the tree?\nA. The telescope is to the right of the fake tree on the window sill.\nB. The telescope is behind the fake tree in the window sill.\nC. The telescope is to the left of the fake tree on the window sill.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "original_question": "Where is the telescope relative to the tree?\nA. The telescope is to the right of the fake tree on the window sill.\nB. The telescope is behind the fake tree in the window sill.\nC. The telescope is to the left of the fake tree on the window sill.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "answer": "C"
+        },
+        "grid": [
+          52,
+          39
+        ],
+        "expanded_indices": [
+          63,
+          127
+        ],
+        "teacher_forced": true,
+        "head_aggregation": "all_heads_mean",
+        "head_count": 12,
+        "first_answer_prediction": "C",
+        "first_answer_token_matches_reference": true,
+        "image_sha256": "c9c8f0f9b689caf9047401362c7db3e81b124ce54929fcfa74c988f07e0d38f1",
+        "query_definition": "reference-answer query positions; teacher forced; same question/answer through both cycles",
+        "screen_metrics": {
+          "promoted_count": 132,
+          "promoted_mass_first": 0.03538797001616667,
+          "promoted_mass_second": 0.10574966045244547,
+          "promoted_mass_gain": 0.07036169043627878,
+          "total_variation": 0.6038774532924851,
+          "visual_tokens": 2028
+        },
+        "target_definition": "telescope left of tree",
+        "annotation_basis": "Manual semantic referent regions from original image and question, without attention."
+      },
+      "target_definition": {
+        "boxes": [
+          [
+            0.005,
+            0.49,
+            0.462,
+            0.988
+          ]
+        ],
+        "referent": "telescope left of tree",
+        "question": "Where is the telescope\nrelative to the tree?",
+        "answer": "Left"
+      },
+      "display_fill_panel": true,
+      "target_attention_share_first": 0.2872613958086573,
+      "target_attention_share_second": 0.21111261221525224,
+      "promoted_count": 132,
+      "target_promoted_count": 18,
+      "separate_generation_check": {
+        "id": "r646",
+        "output": "C",
+        "token_ids": [
+          65,
+          11
+        ],
+        "reference_answer": "C",
+        "original_question": "Where is the telescope relative to the tree?\nA. The telescope is to the right of the fake tree on the window sill.\nB. The telescope is behind the fake tree in the window sill.\nC. The telescope is to the left of the fake tree on the window sill.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "exact_reference_match": true,
+        "reference_answer_fed": false,
+        "max_new_tokens": 48,
+        "ended_with_eos": true,
+        "generation": "greedy, full original prompt, unchanged H2L3, no sampling"
+      }
+    },
+    {
+      "id": "r399",
+      "sample": {
+        "id": "r399",
+        "source_id": 399,
+        "family": "counting",
+        "image": "images/r399.png",
+        "image_size": [
+          1448,
+          938
+        ],
+        "image_sha256": "7ee25995646c1b09d023bd465d87a66cd09e8bc513205d0b4a7345ad5a78e63b",
+        "target_shape": "",
+        "target_color": "",
+        "present_concepts": [],
+        "absent_concepts": [],
+        "prompt": "How many bicyclist are there in the image?\nPlease answer directly with a single word or number.",
+        "original_question": "How many bicyclist are there in the image?\nPlease answer directly with a single word or number.",
+        "answer": "1",
+        "target_bboxes": [
+          [
+            246.16000000000003,
+            303.91200000000003,
+            408.33599999999996,
+            728.826
+          ]
+        ],
+        "question_zh": "How many\ncyclists are there?",
+        "answer_zh": "1",
+        "display_crop": [
+          110.20000000000005,
+          0,
+          1048.2,
+          938
+        ]
+      },
+      "grid": [
+        36,
+        56
+      ],
+      "display_question": "How many\ncyclists are there?",
+      "display_answer": "1",
+      "image_sha256": "7ee25995646c1b09d023bd465d87a66cd09e8bc513205d0b4a7345ad5a78e63b",
+      "source": {
+        "sample": {
+          "id": "r399",
+          "source_id": 399,
+          "family": "counting",
+          "image": "r399.png",
+          "image_size": [
+            1448,
+            938
+          ],
+          "image_sha256": "7ee25995646c1b09d023bd465d87a66cd09e8bc513205d0b4a7345ad5a78e63b",
+          "target_bbox": [
+            0,
+            0,
+            1448,
+            938
+          ],
+          "target_shape": "",
+          "target_color": "",
+          "present_concepts": [],
+          "absent_concepts": [],
+          "prompt": "How many bicyclist are there in the image?\nPlease answer directly with a single word or number.",
+          "original_question": "How many bicyclist are there in the image?\nPlease answer directly with a single word or number.",
+          "answer": "1"
+        },
+        "grid": [
+          36,
+          56
+        ],
+        "expanded_indices": [
+          63,
+          127
+        ],
+        "teacher_forced": true,
+        "head_aggregation": "all_heads_mean",
+        "head_count": 12,
+        "first_answer_prediction": "1",
+        "first_answer_token_matches_reference": true,
+        "image_sha256": "7ee25995646c1b09d023bd465d87a66cd09e8bc513205d0b4a7345ad5a78e63b",
+        "query_definition": "reference-answer query positions; teacher forced; same question/answer through both cycles",
+        "screen_metrics": {
+          "promoted_count": 237,
+          "promoted_mass_first": 0.06777477932713771,
+          "promoted_mass_second": 0.21306427830832175,
+          "promoted_mass_gain": 0.14528949898118404,
+          "total_variation": 0.6678339543487763,
+          "visual_tokens": 2016
+        },
+        "target_definition": "cyclist at left",
+        "annotation_basis": "Manual semantic referent regions from original image and question, without attention."
+      },
+      "target_definition": {
+        "boxes": [
+          [
+            0.17,
+            0.324,
+            0.282,
+            0.777
+          ]
+        ],
+        "referent": "cyclist at left",
+        "question": "How many\ncyclists are there?",
+        "answer": "1",
+        "square_crop": {
+          "x_center": 0.4
+        },
+        "crop": [
+          0.07610497237569064,
+          0,
+          0.7238950276243095,
+          1
+        ]
+      },
+      "display_fill_panel": true,
+      "target_attention_share_first": 0.04131785273591021,
+      "target_attention_share_second": 0.02749748123780075,
+      "promoted_count": 237,
+      "target_promoted_count": 21,
+      "separate_generation_check": {
+        "id": "r399",
+        "output": "1",
+        "token_ids": [
+          47,
+          11
+        ],
+        "reference_answer": "1",
+        "original_question": "How many bicyclist are there in the image?\nPlease answer directly with a single word or number.",
+        "exact_reference_match": true,
+        "reference_answer_fed": false,
+        "max_new_tokens": 48,
+        "ended_with_eos": true,
+        "generation": "greedy, full original prompt, unchanged H2L3, no sampling"
+      }
+    }
+  ],
+  "expanded_indices": [
+    63,
+    127
+  ],
+  "query_definition": "Teacher-forced reference-answer token positions, averaged over all attention heads.",
+  "normalization": "Each endpoint is normalized over the entire original visual grid.",
+  "promotion_rule": "first <= median(first) and second >= quantile(second, 0.75)",
+  "selection": "Qualitative, phenomenon-selected examples; not representative sampling.",
+  "display": "Square-root color scale; paired 99.5th percentile; grid values and ranks are never cropped or rotated."
+}

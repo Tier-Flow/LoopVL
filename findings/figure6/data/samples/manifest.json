@@ -1,0 +1,939 @@
+{
+  "name": "Independent 32-sample validation panel",
+  "image_size": [
+    336,
+    336
+  ],
+  "sample_count": 32,
+  "design": "Four balanced families, eight samples each; new images distinct from the original 16-sample discovery panel.",
+  "samples": [
+    {
+      "id": "s01",
+      "family": "color",
+      "image": "samples/images/s01.png",
+      "prompt": "What color is the large circle? Answer with one color word.",
+      "answer": "red",
+      "target_bbox": [
+        34,
+        34,
+        126,
+        126
+      ],
+      "target_shape": "circle",
+      "target_color": "red",
+      "target_position": "top left",
+      "present_concepts": [
+        "red",
+        "circle",
+        "gray"
+      ],
+      "absent_concepts": [
+        "orange",
+        "purple"
+      ],
+      "alternate_prompts": [
+        "Where is the red circle? Answer with a corner position.",
+        "Is there a black hexagon? Answer yes or no."
+      ]
+    },
+    {
+      "id": "s02",
+      "family": "color",
+      "image": "samples/images/s02.png",
+      "prompt": "What color is the large triangle? Answer with one color word.",
+      "answer": "blue",
+      "target_bbox": [
+        210,
+        210,
+        302,
+        302
+      ],
+      "target_shape": "triangle",
+      "target_color": "blue",
+      "target_position": "bottom right",
+      "present_concepts": [
+        "blue",
+        "triangle",
+        "gray"
+      ],
+      "absent_concepts": [
+        "orange",
+        "purple"
+      ],
+      "alternate_prompts": [
+        "Where is the blue triangle? Answer with a corner position.",
+        "Is there a black hexagon? Answer yes or no."
+      ]
+    },
+    {
+      "id": "s03",
+      "family": "color",
+      "image": "samples/images/s03.png",
+      "prompt": "What color is the large star? Answer with one color word.",
+      "answer": "green",
+      "target_bbox": [
+        34,
+        210,
+        126,
+        302
+      ],
+      "target_shape": "star",
+      "target_color": "green",
+      "target_position": "bottom left",
+      "present_concepts": [
+        "green",
+        "star",
+        "gray"
+      ],
+      "absent_concepts": [
+        "orange",
+        "purple"
+      ],
+      "alternate_prompts": [
+        "Where is the green star? Answer with a corner position.",
+        "Is there a black hexagon? Answer yes or no."
+      ]
+    },
+    {
+      "id": "s04",
+      "family": "color",
+      "image": "samples/images/s04.png",
+      "prompt": "What color is the large square? Answer with one color word.",
+      "answer": "yellow",
+      "target_bbox": [
+        210,
+        34,
+        302,
+        126
+      ],
+      "target_shape": "square",
+      "target_color": "yellow",
+      "target_position": "top right",
+      "present_concepts": [
+        "yellow",
+        "square",
+        "gray"
+      ],
+      "absent_concepts": [
+        "orange",
+        "purple"
+      ],
+      "alternate_prompts": [
+        "Where is the yellow square? Answer with a corner position.",
+        "Is there a black hexagon? Answer yes or no."
+      ]
+    },
+    {
+      "id": "s05",
+      "family": "color",
+      "image": "samples/images/s05.png",
+      "prompt": "What color is the large circle? Answer with one color word.",
+      "answer": "purple",
+      "target_bbox": [
+        34,
+        34,
+        126,
+        126
+      ],
+      "target_shape": "circle",
+      "target_color": "purple",
+      "target_position": "top left",
+      "present_concepts": [
+        "purple",
+        "circle",
+        "gray"
+      ],
+      "absent_concepts": [
+        "green",
+        "pink"
+      ],
+      "alternate_prompts": [
+        "Where is the purple circle? Answer with a corner position.",
+        "Is there a black hexagon? Answer yes or no."
+      ]
+    },
+    {
+      "id": "s06",
+      "family": "color",
+      "image": "samples/images/s06.png",
+      "prompt": "What color is the large triangle? Answer with one color word.",
+      "answer": "orange",
+      "target_bbox": [
+        210,
+        210,
+        302,
+        302
+      ],
+      "target_shape": "triangle",
+      "target_color": "orange",
+      "target_position": "bottom right",
+      "present_concepts": [
+        "orange",
+        "triangle",
+        "gray"
+      ],
+      "absent_concepts": [
+        "green",
+        "pink"
+      ],
+      "alternate_prompts": [
+        "Where is the orange triangle? Answer with a corner position.",
+        "Is there a black hexagon? Answer yes or no."
+      ]
+    },
+    {
+      "id": "s07",
+      "family": "color",
+      "image": "samples/images/s07.png",
+      "prompt": "What color is the large star? Answer with one color word.",
+      "answer": "cyan",
+      "target_bbox": [
+        34,
+        210,
+        126,
+        302
+      ],
+      "target_shape": "star",
+      "target_color": "cyan",
+      "target_position": "bottom left",
+      "present_concepts": [
+        "cyan",
+        "star",
+        "gray"
+      ],
+      "absent_concepts": [
+        "orange",
+        "purple"
+      ],
+      "alternate_prompts": [
+        "Where is the cyan star? Answer with a corner position.",
+        "Is there a black hexagon? Answer yes or no."
+      ]
+    },
+    {
+      "id": "s08",
+      "family": "color",
+      "image": "samples/images/s08.png",
+      "prompt": "What color is the large square? Answer with one color word.",
+      "answer": "pink",
+      "target_bbox": [
+        210,
+        34,
+        302,
+        126
+      ],
+      "target_shape": "square",
+      "target_color": "pink",
+      "target_position": "top right",
+      "present_concepts": [
+        "pink",
+        "square",
+        "gray"
+      ],
+      "absent_concepts": [
+        "orange",
+        "purple"
+      ],
+      "alternate_prompts": [
+        "Where is the pink square? Answer with a corner position.",
+        "Is there a black hexagon? Answer yes or no."
+      ]
+    },
+    {
+      "id": "s09",
+      "family": "position",
+      "image": "samples/images/s09.png",
+      "prompt": "Where is the purple circle? Answer with one of: top left, top right, bottom left, bottom right.",
+      "answer": "top left",
+      "target_bbox": [
+        34,
+        34,
+        126,
+        126
+      ],
+      "target_shape": "circle",
+      "target_color": "purple",
+      "target_position": "top left",
+      "present_concepts": [
+        "purple",
+        "circle",
+        "gray"
+      ],
+      "absent_concepts": [
+        "black",
+        "hexagon"
+      ],
+      "alternate_prompts": [
+        "What color is the circle away from the center? Answer one word.",
+        "Is the colored object at the center? Answer yes or no."
+      ]
+    },
+    {
+      "id": "s10",
+      "family": "position",
+      "image": "samples/images/s10.png",
+      "prompt": "Where is the orange star? Answer with one of: top left, top right, bottom left, bottom right.",
+      "answer": "top right",
+      "target_bbox": [
+        210,
+        34,
+        302,
+        126
+      ],
+      "target_shape": "star",
+      "target_color": "orange",
+      "target_position": "top right",
+      "present_concepts": [
+        "orange",
+        "star",
+        "gray"
+      ],
+      "absent_concepts": [
+        "black",
+        "hexagon"
+      ],
+      "alternate_prompts": [
+        "What color is the star away from the center? Answer one word.",
+        "Is the colored object at the center? Answer yes or no."
+      ]
+    },
+    {
+      "id": "s11",
+      "family": "position",
+      "image": "samples/images/s11.png",
+      "prompt": "Where is the red circle? Answer with one of: top left, top right, bottom left, bottom right.",
+      "answer": "bottom left",
+      "target_bbox": [
+        34,
+        210,
+        126,
+        302
+      ],
+      "target_shape": "circle",
+      "target_color": "red",
+      "target_position": "bottom left",
+      "present_concepts": [
+        "red",
+        "circle",
+        "gray"
+      ],
+      "absent_concepts": [
+        "black",
+        "hexagon"
+      ],
+      "alternate_prompts": [
+        "What color is the circle away from the center? Answer one word.",
+        "Is the colored object at the center? Answer yes or no."
+      ]
+    },
+    {
+      "id": "s12",
+      "family": "position",
+      "image": "samples/images/s12.png",
+      "prompt": "Where is the blue star? Answer with one of: top left, top right, bottom left, bottom right.",
+      "answer": "bottom right",
+      "target_bbox": [
+        210,
+        210,
+        302,
+        302
+      ],
+      "target_shape": "star",
+      "target_color": "blue",
+      "target_position": "bottom right",
+      "present_concepts": [
+        "blue",
+        "star",
+        "gray"
+      ],
+      "absent_concepts": [
+        "black",
+        "hexagon"
+      ],
+      "alternate_prompts": [
+        "What color is the star away from the center? Answer one word.",
+        "Is the colored object at the center? Answer yes or no."
+      ]
+    },
+    {
+      "id": "s13",
+      "family": "position",
+      "image": "samples/images/s13.png",
+      "prompt": "Where is the green circle? Answer with one of: top left, top right, bottom left, bottom right.",
+      "answer": "top left",
+      "target_bbox": [
+        34,
+        34,
+        126,
+        126
+      ],
+      "target_shape": "circle",
+      "target_color": "green",
+      "target_position": "top left",
+      "present_concepts": [
+        "green",
+        "circle",
+        "gray"
+      ],
+      "absent_concepts": [
+        "black",
+        "hexagon"
+      ],
+      "alternate_prompts": [
+        "What color is the circle away from the center? Answer one word.",
+        "Is the colored object at the center? Answer yes or no."
+      ]
+    },
+    {
+      "id": "s14",
+      "family": "position",
+      "image": "samples/images/s14.png",
+      "prompt": "Where is the yellow star? Answer with one of: top left, top right, bottom left, bottom right.",
+      "answer": "top right",
+      "target_bbox": [
+        210,
+        34,
+        302,
+        126
+      ],
+      "target_shape": "star",
+      "target_color": "yellow",
+      "target_position": "top right",
+      "present_concepts": [
+        "yellow",
+        "star",
+        "gray"
+      ],
+      "absent_concepts": [
+        "black",
+        "hexagon"
+      ],
+      "alternate_prompts": [
+        "What color is the star away from the center? Answer one word.",
+        "Is the colored object at the center? Answer yes or no."
+      ]
+    },
+    {
+      "id": "s15",
+      "family": "position",
+      "image": "samples/images/s15.png",
+      "prompt": "Where is the pink circle? Answer with one of: top left, top right, bottom left, bottom right.",
+      "answer": "bottom left",
+      "target_bbox": [
+        34,
+        210,
+        126,
+        302
+      ],
+      "target_shape": "circle",
+      "target_color": "pink",
+      "target_position": "bottom left",
+      "present_concepts": [
+        "pink",
+        "circle",
+        "gray"
+      ],
+      "absent_concepts": [
+        "black",
+        "hexagon"
+      ],
+      "alternate_prompts": [
+        "What color is the circle away from the center? Answer one word.",
+        "Is the colored object at the center? Answer yes or no."
+      ]
+    },
+    {
+      "id": "s16",
+      "family": "position",
+      "image": "samples/images/s16.png",
+      "prompt": "Where is the cyan star? Answer with one of: top left, top right, bottom left, bottom right.",
+      "answer": "bottom right",
+      "target_bbox": [
+        210,
+        210,
+        302,
+        302
+      ],
+      "target_shape": "star",
+      "target_color": "cyan",
+      "target_position": "bottom right",
+      "present_concepts": [
+        "cyan",
+        "star",
+        "gray"
+      ],
+      "absent_concepts": [
+        "black",
+        "hexagon"
+      ],
+      "alternate_prompts": [
+        "What color is the star away from the center? Answer one word.",
+        "Is the colored object at the center? Answer yes or no."
+      ]
+    },
+    {
+      "id": "s17",
+      "family": "count",
+      "image": "samples/images/s17.png",
+      "prompt": "How many green circles are shown? Answer with a number only.",
+      "answer": "1",
+      "target_bbox": [
+        41,
+        41,
+        99,
+        99
+      ],
+      "target_shape": "circle",
+      "target_color": "green",
+      "target_position": "multiple",
+      "present_concepts": [
+        "green",
+        "circle",
+        "1"
+      ],
+      "absent_concepts": [
+        "black",
+        "hexagon"
+      ],
+      "alternate_prompts": [
+        "What color are the repeated circles? Answer one word.",
+        "Are there five green circles? Answer yes or no."
+      ]
+    },
+    {
+      "id": "s18",
+      "family": "count",
+      "image": "samples/images/s18.png",
+      "prompt": "How many red squares are shown? Answer with a number only.",
+      "answer": "2",
+      "target_bbox": [
+        41,
+        41,
+        197,
+        99
+      ],
+      "target_shape": "square",
+      "target_color": "red",
+      "target_position": "multiple",
+      "present_concepts": [
+        "red",
+        "square",
+        "2"
+      ],
+      "absent_concepts": [
+        "black",
+        "hexagon"
+      ],
+      "alternate_prompts": [
+        "What color are the repeated squares? Answer one word.",
+        "Are there five red squares? Answer yes or no."
+      ]
+    },
+    {
+      "id": "s19",
+      "family": "count",
+      "image": "samples/images/s19.png",
+      "prompt": "How many blue triangles are shown? Answer with a number only.",
+      "answer": "3",
+      "target_bbox": [
+        41,
+        41,
+        295,
+        99
+      ],
+      "target_shape": "triangle",
+      "target_color": "blue",
+      "target_position": "multiple",
+      "present_concepts": [
+        "blue",
+        "triangle",
+        "3"
+      ],
+      "absent_concepts": [
+        "black",
+        "hexagon"
+      ],
+      "alternate_prompts": [
+        "What color are the repeated triangles? Answer one word.",
+        "Are there five blue triangles? Answer yes or no."
+      ]
+    },
+    {
+      "id": "s20",
+      "family": "count",
+      "image": "samples/images/s20.png",
+      "prompt": "How many purple stars are shown? Answer with a number only.",
+      "answer": "4",
+      "target_bbox": [
+        41,
+        41,
+        295,
+        197
+      ],
+      "target_shape": "star",
+      "target_color": "purple",
+      "target_position": "multiple",
+      "present_concepts": [
+        "purple",
+        "star",
+        "4"
+      ],
+      "absent_concepts": [
+        "black",
+        "hexagon"
+      ],
+      "alternate_prompts": [
+        "What color are the repeated stars? Answer one word.",
+        "Are there five purple stars? Answer yes or no."
+      ]
+    },
+    {
+      "id": "s21",
+      "family": "count",
+      "image": "samples/images/s21.png",
+      "prompt": "How many orange circles are shown? Answer with a number only.",
+      "answer": "1",
+      "target_bbox": [
+        41,
+        41,
+        99,
+        99
+      ],
+      "target_shape": "circle",
+      "target_color": "orange",
+      "target_position": "multiple",
+      "present_concepts": [
+        "orange",
+        "circle",
+        "1"
+      ],
+      "absent_concepts": [
+        "black",
+        "hexagon"
+      ],
+      "alternate_prompts": [
+        "What color are the repeated circles? Answer one word.",
+        "Are there five orange circles? Answer yes or no."
+      ]
+    },
+    {
+      "id": "s22",
+      "family": "count",
+      "image": "samples/images/s22.png",
+      "prompt": "How many cyan squares are shown? Answer with a number only.",
+      "answer": "2",
+      "target_bbox": [
+        41,
+        41,
+        197,
+        99
+      ],
+      "target_shape": "square",
+      "target_color": "cyan",
+      "target_position": "multiple",
+      "present_concepts": [
+        "cyan",
+        "square",
+        "2"
+      ],
+      "absent_concepts": [
+        "black",
+        "hexagon"
+      ],
+      "alternate_prompts": [
+        "What color are the repeated squares? Answer one word.",
+        "Are there five cyan squares? Answer yes or no."
+      ]
+    },
+    {
+      "id": "s23",
+      "family": "count",
+      "image": "samples/images/s23.png",
+      "prompt": "How many pink triangles are shown? Answer with a number only.",
+      "answer": "3",
+      "target_bbox": [
+        41,
+        41,
+        295,
+        99
+      ],
+      "target_shape": "triangle",
+      "target_color": "pink",
+      "target_position": "multiple",
+      "present_concepts": [
+        "pink",
+        "triangle",
+        "3"
+      ],
+      "absent_concepts": [
+        "black",
+        "hexagon"
+      ],
+      "alternate_prompts": [
+        "What color are the repeated triangles? Answer one word.",
+        "Are there five pink triangles? Answer yes or no."
+      ]
+    },
+    {
+      "id": "s24",
+      "family": "count",
+      "image": "samples/images/s24.png",
+      "prompt": "How many yellow stars are shown? Answer with a number only.",
+      "answer": "4",
+      "target_bbox": [
+        41,
+        41,
+        295,
+        197
+      ],
+      "target_shape": "star",
+      "target_color": "yellow",
+      "target_position": "multiple",
+      "present_concepts": [
+        "yellow",
+        "star",
+        "4"
+      ],
+      "absent_concepts": [
+        "black",
+        "hexagon"
+      ],
+      "alternate_prompts": [
+        "What color are the repeated stars? Answer one word.",
+        "Are there five yellow stars? Answer yes or no."
+      ]
+    },
+    {
+      "id": "s25",
+      "family": "ocr",
+      "image": "samples/images/s25.png",
+      "prompt": "What two-character code is shown in the bordered box? Answer with the code only.",
+      "answer": "K7",
+      "target_bbox": [
+        206,
+        46,
+        306,
+        114
+      ],
+      "target_shape": "code",
+      "target_color": "red",
+      "target_position": "top right",
+      "present_concepts": [
+        "K7",
+        "code",
+        "box"
+      ],
+      "absent_concepts": [
+        "Z0",
+        "blank"
+      ],
+      "alternate_prompts": [
+        "Where is the box containing K7? Answer with a corner position.",
+        "Is the code Z0? Answer yes or no."
+      ]
+    },
+    {
+      "id": "s26",
+      "family": "ocr",
+      "image": "samples/images/s26.png",
+      "prompt": "What two-character code is shown in the bordered box? Answer with the code only.",
+      "answer": "M2",
+      "target_bbox": [
+        30,
+        46,
+        130,
+        114
+      ],
+      "target_shape": "code",
+      "target_color": "blue",
+      "target_position": "top left",
+      "present_concepts": [
+        "M2",
+        "code",
+        "box"
+      ],
+      "absent_concepts": [
+        "Z0",
+        "blank"
+      ],
+      "alternate_prompts": [
+        "Where is the box containing M2? Answer with a corner position.",
+        "Is the code Z0? Answer yes or no."
+      ]
+    },
+    {
+      "id": "s27",
+      "family": "ocr",
+      "image": "samples/images/s27.png",
+      "prompt": "What two-character code is shown in the bordered box? Answer with the code only.",
+      "answer": "R9",
+      "target_bbox": [
+        206,
+        222,
+        306,
+        290
+      ],
+      "target_shape": "code",
+      "target_color": "green",
+      "target_position": "bottom right",
+      "present_concepts": [
+        "R9",
+        "code",
+        "box"
+      ],
+      "absent_concepts": [
+        "Z0",
+        "blank"
+      ],
+      "alternate_prompts": [
+        "Where is the box containing R9? Answer with a corner position.",
+        "Is the code Z0? Answer yes or no."
+      ]
+    },
+    {
+      "id": "s28",
+      "family": "ocr",
+      "image": "samples/images/s28.png",
+      "prompt": "What two-character code is shown in the bordered box? Answer with the code only.",
+      "answer": "T4",
+      "target_bbox": [
+        30,
+        222,
+        130,
+        290
+      ],
+      "target_shape": "code",
+      "target_color": "purple",
+      "target_position": "bottom left",
+      "present_concepts": [
+        "T4",
+        "code",
+        "box"
+      ],
+      "absent_concepts": [
+        "Z0",
+        "blank"
+      ],
+      "alternate_prompts": [
+        "Where is the box containing T4? Answer with a corner position.",
+        "Is the code Z0? Answer yes or no."
+      ]
+    },
+    {
+      "id": "s29",
+      "family": "ocr",
+      "image": "samples/images/s29.png",
+      "prompt": "What two-character code is shown in the bordered box? Answer with the code only.",
+      "answer": "B6",
+      "target_bbox": [
+        206,
+        46,
+        306,
+        114
+      ],
+      "target_shape": "code",
+      "target_color": "red",
+      "target_position": "top right",
+      "present_concepts": [
+        "B6",
+        "code",
+        "box"
+      ],
+      "absent_concepts": [
+        "Z0",
+        "blank"
+      ],
+      "alternate_prompts": [
+        "Where is the box containing B6? Answer with a corner position.",
+        "Is the code Z0? Answer yes or no."
+      ]
+    },
+    {
+      "id": "s30",
+      "family": "ocr",
+      "image": "samples/images/s30.png",
+      "prompt": "What two-character code is shown in the bordered box? Answer with the code only.",
+      "answer": "Q3",
+      "target_bbox": [
+        30,
+        46,
+        130,
+        114
+      ],
+      "target_shape": "code",
+      "target_color": "blue",
+      "target_position": "top left",
+      "present_concepts": [
+        "Q3",
+        "code",
+        "box"
+      ],
+      "absent_concepts": [
+        "Z0",
+        "blank"
+      ],
+      "alternate_prompts": [
+        "Where is the box containing Q3? Answer with a corner position.",
+        "Is the code Z0? Answer yes or no."
+      ]
+    },
+    {
+      "id": "s31",
+      "family": "ocr",
+      "image": "samples/images/s31.png",
+      "prompt": "What two-character code is shown in the bordered box? Answer with the code only.",
+      "answer": "X8",
+      "target_bbox": [
+        206,
+        222,
+        306,
+        290
+      ],
+      "target_shape": "code",
+      "target_color": "green",
+      "target_position": "bottom right",
+      "present_concepts": [
+        "X8",
+        "code",
+        "box"
+      ],
+      "absent_concepts": [
+        "Z0",
+        "blank"
+      ],
+      "alternate_prompts": [
+        "Where is the box containing X8? Answer with a corner position.",
+        "Is the code Z0? Answer yes or no."
+      ]
+    },
+    {
+      "id": "s32",
+      "family": "ocr",
+      "image": "samples/images/s32.png",
+      "prompt": "What two-character code is shown in the bordered box? Answer with the code only.",
+      "answer": "P5",
+      "target_bbox": [
+        30,
+        222,
+        130,
+        290
+      ],
+      "target_shape": "code",
+      "target_color": "purple",
+      "target_position": "bottom left",
+      "present_concepts": [
+        "P5",
+        "code",
+        "box"
+      ],
+      "absent_concepts": [
+        "Z0",
+        "blank"
+      ],
+      "alternate_prompts": [
+        "Where is the box containing P5? Answer with a corner position.",
+        "Is the code Z0? Answer yes or no."
+      ]
+    }
+  ]
+}

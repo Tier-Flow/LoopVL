@@ -1,0 +1,10 @@
+# Tested packaging environment (2026-09-26), not a recovered historical lockfile.
+# Install matching torch/torchvision for your CUDA driver separately.
+transformers==5.15.1
+datasets==5.0.1
+pandas==3.0.6
+pillow==12.2.0
+safetensors==0.8.0
+accelerate==1.15.0
+pyarrow==25.0.1
+pyyaml==6.0.3

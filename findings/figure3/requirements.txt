@@ -1,0 +1,11 @@
+# First install a CUDA-compatible torch/torchvision pair.
+# No Hugging Face datasets package is needed for the pinned replay inputs.
+transformers==5.15.1
+safetensors==0.8.0
+accelerate==1.15.0
+pillow==12.2.0
+pyyaml>=6
+numpy>=1.26
+pandas>=2
+pyarrow>=21
+matplotlib>=3.8

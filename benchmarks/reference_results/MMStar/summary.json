@@ -1,0 +1,23 @@
+{
+  "dataset": "MMStar",
+  "model": "hrm-penguin-v2",
+  "total": 1500,
+  "completed": 1500,
+  "errors_this_run": 0,
+  "scored": 1500,
+  "correct": 952,
+  "normalized_exact_accuracy": 0.6346666666666667,
+  "build_seconds": 0.678,
+  "inference_seconds_this_run": 1153.299,
+  "prediction_jsonl": "data/server_snapshot_20260906/hrm_bench_results/v2/MMStar/predictions.jsonl",
+  "vlmeval_table": "data/server_snapshot_20260906/hrm_bench_results/v2/MMStar/predictions.xlsx",
+  "original_correct": 951,
+  "original_accuracy": 0.634,
+  "lenient_accuracy": 0.6346666666666667,
+  "scoring_version": "lenient-v3-option-reference",
+  "match_methods": {
+    "no_match": 548,
+    "legacy_match": 717,
+    "original_match": 235
+  }
+}

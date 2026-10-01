@@ -1,0 +1,37 @@
+[
+  {
+    "path": "server_snapshot_20260906/VLMEvalData/images/ChartQA_TEST/443.png",
+    "sha256": "51d1921dddca32c0aaabfcaff406a1e77f682381171db9e34b0ab2861eed6d79",
+    "source": "VLMEvalData/ChartQA_TEST.tsv base64"
+  },
+  {
+    "path": "server_snapshot_20260906/VLMEvalData/images/ChartQA_TEST/444.png",
+    "sha256": "51d1921dddca32c0aaabfcaff406a1e77f682381171db9e34b0ab2861eed6d79",
+    "source": "VLMEvalData/ChartQA_TEST.tsv base64"
+  },
+  {
+    "path": "server_snapshot_20260906/VLMEvalData/images/MMStar/159.png",
+    "sha256": "296ec7ff7bd1541c1cc7c485b5ba48a48ad85b1711d880176f5582c8d13f775c",
+    "source": "VLMEvalData/MMStar.tsv base64"
+  },
+  {
+    "path": "server_snapshot_20260906/hrm_bench_results/v2/MMMU-Pro/images/000118_1.jpg",
+    "sha256": "6520c9247897561bd865f9ba6031810b1c076f7ce2816f5c6f782fee21df9be9",
+    "source": "HFDatasets/MMMU-Pro row 118, archived RGB JPEG quality95"
+  },
+  {
+    "path": "server_snapshot_20260906/hrm_bench_results/v2/MMMU-Pro/images/000156_1.jpg",
+    "sha256": "3ff9c7268eff2df783d0a78d3d9a94703f2f7c2d92ea75bc4e1c4ccdf273a146",
+    "source": "HFDatasets/MMMU-Pro row 156, archived RGB JPEG quality95"
+  },
+  {
+    "path": "server_snapshot_20260906/hrm_bench_results/v2/MMMU-Pro/images/000333_1.jpg",
+    "sha256": "fb9ee80a74b09b5c04221400d09faa3c9657b901e4e4ff2ae15132d749265edb",
+    "source": "HFDatasets/MMMU-Pro row 333, archived RGB JPEG quality95"
+  },
+  {
+    "path": "server_snapshot_20260906/hrm_bench_results/v2/MMMU-Pro/images/001227_1.jpg",
+    "sha256": "b9ffb30c0d1123a12b1c0c0a33430a6ed6be25ede0a7ac32772aed47476e2d82",
+    "source": "HFDatasets/MMMU-Pro row 1227, archived RGB JPEG quality95"
+  }
+]

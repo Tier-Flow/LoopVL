@@ -1,0 +1,59 @@
+{
+  "full_gpu_benchmark_rerun_performed": false,
+  "gpu_smoke_samples": [
+    {
+      "dataset": "AI2D_TEST",
+      "id": "345802",
+      "prediction": "D",
+      "reference": "D",
+      "historical_prediction": "D. Thorax",
+      "same_prediction_as_archive": false,
+      "budget": 32,
+      "latency_seconds": 0.8785,
+      "error": null,
+      "source_sha256": "64a8e812f6126e25672e2d3415821488442a6bd5fa53df6698906aa9fecfbf31"
+    },
+    {
+      "dataset": "BabyVision",
+      "id": "0",
+      "prediction": "(6,6)",
+      "reference": "(4,7)",
+      "historical_prediction": "4,4)",
+      "same_prediction_as_archive": false,
+      "budget": 8,
+      "latency_seconds": 1.4895,
+      "error": null,
+      "source_sha256": "76db03321f5d00d87ff775a6e9df98488d8926113553ab444eb13a40b64d6377"
+    },
+    {
+      "dataset": "POPE",
+      "id": "0",
+      "prediction": "No",
+      "reference": "No",
+      "historical_prediction": "no",
+      "same_prediction_as_archive": false,
+      "budget": 32,
+      "latency_seconds": 0.7183,
+      "error": null,
+      "source_sha256": "2c506d679f006ca3b4142b9b34782705e50644970c2bfea8f9d8b7070b435ef1"
+    },
+    {
+      "dataset": "RealWorldQA",
+      "id": 0,
+      "prediction": "C",
+      "reference": "C",
+      "historical_prediction": "C",
+      "same_prediction_as_archive": true,
+      "budget": 32,
+      "latency_seconds": 1.0388,
+      "error": null,
+      "source_sha256": "d2a2128e3bea6f8bbd4d30ccd0e81b3cf43ea6c227cfc5a82bfa2ffc77a1ffcb"
+    }
+  ],
+  "verified_saved_output_rows": 23,
+  "verified_benchmark_families": 16,
+  "archived_unique_items": 31422,
+  "full_input_assets_downloaded": false,
+  "downloaded_assets_scope": "All LoopVL weights; AI2D/BabyVision/POPE first-item images; RealWorldQA parquet; source data for seven image repairs",
+  "weights_data_and_staging_outside_package": true
+}

@@ -1,0 +1,42 @@
+{
+  "schema_version": 2,
+  "release_assets": "../../benchmarks/provenance/release_assets.json",
+  "files": [
+    {
+      "asset": "AI2D_TEST.tsv",
+      "local": "AI2D_TEST.tsv",
+      "bytes": 167443652,
+      "sha256": "3b16aa83c6809149df6978c7d5a6ee830b75f0010a60b26d33c004c47d575c4a"
+    },
+    {
+      "asset": "ChartQA_TEST.tsv",
+      "local": "ChartQA_TEST.tsv",
+      "bytes": 129773428,
+      "sha256": "943c5155752e39984f8af928f551207703e5a8561f6ac89aaf5557305f9be7be"
+    },
+    {
+      "asset": "MMStar.tsv",
+      "local": "MMStar.tsv",
+      "bytes": 59552082,
+      "sha256": "5b581d485fcfbb0f4c8fc0440fc4ecea17fb4ba1750c6446fd20833070552e95"
+    },
+    {
+      "asset": "VMCBench_DEV.tsv",
+      "local": "VMCBench_DEV.tsv",
+      "bytes": 212772664,
+      "sha256": "52471da2e155851d9fb1815bd39ebffc000854cded2070b612daa8938fe51eea"
+    },
+    {
+      "asset": "RealWorldQA-test-00000-of-00002.parquet",
+      "local": "RealWorldQA/data/test-00000-of-00002.parquet",
+      "bytes": 337443936,
+      "sha256": "2cf29e308a34e0255f23520796fc04445a01b8baab18686f1a4b3c3943f695b2"
+    },
+    {
+      "asset": "RealWorldQA-test-00001-of-00002.parquet",
+      "local": "RealWorldQA/data/test-00001-of-00002.parquet",
+      "bytes": 340887239,
+      "sha256": "dac5b9f7cfb947a4865ea3424abfbdb3449d09e0a0b911a787cdc930cefefdc0"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+-r requirements-plot.txt
+# Install a PyTorch build compatible with the host CUDA driver first.
+torch>=2.5
+transformers==5.15.1
+safetensors>=0.4
+accelerate>=1.0
+PyYAML>=6
+pandas>=2.0
+pyarrow>=14
+torchvision

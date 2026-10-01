@@ -1,0 +1,855 @@
+{
+  "mode": "recomputed_from_predictions_no_model_inference",
+  "scoring_version": "lenient-v3-option-reference",
+  "historical_original_correct_fallback": true,
+  "expected_values_are_comparison_targets_only": true,
+  "all_screenshot_rows_match": true,
+  "all_dataset_counts_valid_and_no_errors": true,
+  "all_stored_correct_flags_match": true,
+  "all_pope_and_mmk12_group_counts_valid": true,
+  "table": [
+    {
+      "category": "General",
+      "benchmark": "BabyVision",
+      "recomputed_score_percent": 13.144329896907216,
+      "displayed_score": "13.14",
+      "screenshot_expected_score": 13.14,
+      "matches_screenshot": true,
+      "metric": "historical lenient-v3 answer accuracy (original_correct fallback enabled)"
+    },
+    {
+      "category": "General",
+      "benchmark": "LogicVista",
+      "recomputed_score_percent": 45.19015659955257,
+      "displayed_score": "45.19",
+      "screenshot_expected_score": 45.19,
+      "matches_screenshot": true,
+      "metric": "historical lenient-v3 answer accuracy (original_correct fallback enabled)"
+    },
+    {
+      "category": "General",
+      "benchmark": "MMEval-Pro",
+      "recomputed_score_percent": 24.6227,
+      "displayed_score": "24.62",
+      "screenshot_expected_score": 24.62,
+      "matches_screenshot": true,
+      "metric": "source-macro genuine triplet accuracy (MMMU, MathVista, ScienceQA)"
+    },
+    {
+      "category": "General",
+      "benchmark": "MMMU-Pro",
+      "recomputed_score_percent": 38.67052023121387,
+      "displayed_score": "38.67",
+      "screenshot_expected_score": 38.67,
+      "matches_screenshot": true,
+      "metric": "historical lenient-v3 answer accuracy (original_correct fallback enabled)"
+    },
+    {
+      "category": "General",
+      "benchmark": "MMStar",
+      "recomputed_score_percent": 63.46666666666667,
+      "displayed_score": "63.47",
+      "screenshot_expected_score": 63.47,
+      "matches_screenshot": true,
+      "metric": "historical lenient-v3 answer accuracy (original_correct fallback enabled)"
+    },
+    {
+      "category": "General",
+      "benchmark": "RealWorldQA",
+      "recomputed_score_percent": 70.98039215686275,
+      "displayed_score": "70.98",
+      "screenshot_expected_score": 70.98,
+      "matches_screenshot": true,
+      "metric": "historical lenient-v3 answer accuracy (original_correct fallback enabled)"
+    },
+    {
+      "category": "General",
+      "benchmark": "VMCBench",
+      "recomputed_score_percent": 70.9,
+      "displayed_score": "70.90",
+      "screenshot_expected_score": 70.9,
+      "matches_screenshot": true,
+      "metric": "historical lenient-v3 answer accuracy (original_correct fallback enabled)"
+    },
+    {
+      "category": "General",
+      "benchmark": "VisuLogic",
+      "recomputed_score_percent": 27.0,
+      "displayed_score": "27.00",
+      "screenshot_expected_score": 27.0,
+      "matches_screenshot": true,
+      "metric": "historical lenient-v3 answer accuracy (original_correct fallback enabled)"
+    },
+    {
+      "category": "General",
+      "benchmark": "VisualPuzzles",
+      "recomputed_score_percent": 34.76027397260274,
+      "displayed_score": "34.76",
+      "screenshot_expected_score": 34.76,
+      "matches_screenshot": true,
+      "metric": "historical lenient-v3 answer accuracy (original_correct fallback enabled)"
+    },
+    {
+      "category": "Hallucination",
+      "benchmark": "HallusionBench",
+      "recomputed_score_percent": 44.711089416692886,
+      "displayed_score": "44.71",
+      "screenshot_expected_score": 44.71,
+      "matches_screenshot": true,
+      "metric": "mean(aAcc, fAcc, qAcc)"
+    },
+    {
+      "category": "Hallucination",
+      "benchmark": "POPE-A",
+      "recomputed_score_percent": 87.59861154938466,
+      "displayed_score": "87.60",
+      "screenshot_expected_score": 87.6,
+      "matches_screenshot": true,
+      "metric": "F1 on adversarial category instances"
+    },
+    {
+      "category": "Hallucination",
+      "benchmark": "POPE-P",
+      "recomputed_score_percent": 91.92052980132449,
+      "displayed_score": "91.92",
+      "screenshot_expected_score": 91.92,
+      "matches_screenshot": true,
+      "metric": "F1 on popular category instances"
+    },
+    {
+      "category": "Hallucination",
+      "benchmark": "POPE-R",
+      "recomputed_score_percent": 92.7807486631016,
+      "displayed_score": "92.78",
+      "screenshot_expected_score": 92.78,
+      "matches_screenshot": true,
+      "metric": "F1 on random category instances"
+    },
+    {
+      "category": "Hallucination",
+      "benchmark": "POPE",
+      "recomputed_score_percent": 90.70907308572052,
+      "displayed_score": "90.71",
+      "screenshot_expected_score": 90.71,
+      "matches_screenshot": true,
+      "metric": "pooled F1 on all overlapping category instances"
+    },
+    {
+      "category": "Mathematics",
+      "benchmark": "ChartQA",
+      "recomputed_score_percent": 74.52,
+      "displayed_score": "74.52",
+      "screenshot_expected_score": 74.52,
+      "matches_screenshot": true,
+      "metric": "VLMEvalKit relaxed accuracy, maximum over reference answers"
+    },
+    {
+      "category": "Mathematics",
+      "benchmark": "MMK12-Math",
+      "recomputed_score_percent": 61.6,
+      "displayed_score": "61.60",
+      "screenshot_expected_score": 61.6,
+      "matches_screenshot": true,
+      "metric": "historical lenient-v3 accuracy within metadata.subject"
+    },
+    {
+      "category": "Mathematics",
+      "benchmark": "MathVision",
+      "recomputed_score_percent": 38.48684210526316,
+      "displayed_score": "38.49",
+      "screenshot_expected_score": 38.49,
+      "matches_screenshot": true,
+      "metric": "historical lenient-v3 answer accuracy (original_correct fallback enabled)"
+    },
+    {
+      "category": "Mathematics",
+      "benchmark": "MathVision-WildPhoto",
+      "recomputed_score_percent": 20.394736842105264,
+      "displayed_score": "20.39",
+      "screenshot_expected_score": 20.39,
+      "matches_screenshot": true,
+      "metric": "historical lenient-v3 answer accuracy (original_correct fallback enabled)"
+    },
+    {
+      "category": "Science",
+      "benchmark": "AI2D",
+      "recomputed_score_percent": 75.48575129533678,
+      "displayed_score": "75.49",
+      "screenshot_expected_score": 75.49,
+      "matches_screenshot": true,
+      "metric": "historical lenient-v3 answer accuracy (original_correct fallback enabled)"
+    },
+    {
+      "category": "Science",
+      "benchmark": "MMK12-Biology",
+      "recomputed_score_percent": 46.2,
+      "displayed_score": "46.20",
+      "screenshot_expected_score": 46.2,
+      "matches_screenshot": true,
+      "metric": "historical lenient-v3 accuracy within metadata.subject"
+    },
+    {
+      "category": "Science",
+      "benchmark": "MMK12-Chemistry",
+      "recomputed_score_percent": 48.0,
+      "displayed_score": "48.00",
+      "screenshot_expected_score": 48.0,
+      "matches_screenshot": true,
+      "metric": "historical lenient-v3 accuracy within metadata.subject"
+    },
+    {
+      "category": "Science",
+      "benchmark": "MMK12-Physics",
+      "recomputed_score_percent": 42.8,
+      "displayed_score": "42.80",
+      "screenshot_expected_score": 42.8,
+      "matches_screenshot": true,
+      "metric": "historical lenient-v3 accuracy within metadata.subject"
+    },
+    {
+      "category": "Science",
+      "benchmark": "MMK12",
+      "recomputed_score_percent": 49.65,
+      "displayed_score": "49.65",
+      "screenshot_expected_score": 49.65,
+      "matches_screenshot": true,
+      "metric": "historical lenient-v3 answer accuracy (original_correct fallback enabled)"
+    }
+  ],
+  "datasets": {
+    "AI2D_TEST": {
+      "stored_flag_mismatch_count": 0,
+      "stored_flag_mismatches": [],
+      "original_correct_fallback_count": 0,
+      "original_correct_fallback_items": [],
+      "empty_predictions_accepted_by_historical_matcher": [],
+      "recomputed_match_methods": {
+        "legacy_match": 1778,
+        "no_match": 757,
+        "multiple_choice_formatted_reference": 553
+      },
+      "unique_records": 3088,
+      "expected_records": 3088,
+      "count_matches": true,
+      "duplicate_lines_removed": 0,
+      "error_records": 0,
+      "missing_references": 0,
+      "row_budget_counts": {
+        "32": 3087,
+        "512": 1
+      },
+      "summary_budget": null,
+      "recorded_scoring_versions": {
+        "lenient-v3-option-reference": 3088
+      },
+      "lenient_accuracy_percent": 75.48575129533678
+    },
+    "BabyVision": {
+      "stored_flag_mismatch_count": 0,
+      "stored_flag_mismatches": [],
+      "original_correct_fallback_count": 0,
+      "original_correct_fallback_items": [],
+      "empty_predictions_accepted_by_historical_matcher": [],
+      "recomputed_match_methods": {
+        "no_match": 337,
+        "legacy_match": 50,
+        "multiple_choice_formatted_reference": 1
+      },
+      "unique_records": 388,
+      "expected_records": 388,
+      "count_matches": true,
+      "duplicate_lines_removed": 0,
+      "error_records": 0,
+      "missing_references": 0,
+      "row_budget_counts": {
+        "8": 345,
+        "512": 43
+      },
+      "summary_budget": null,
+      "recorded_scoring_versions": {
+        "lenient-v3-option-reference": 388
+      },
+      "lenient_accuracy_percent": 13.144329896907216
+    },
+    "ChartQA_TEST": {
+      "stored_flag_mismatch_count": 0,
+      "stored_flag_mismatches": [],
+      "original_correct_fallback_count": 0,
+      "original_correct_fallback_items": [],
+      "empty_predictions_accepted_by_historical_matcher": [],
+      "recomputed_match_methods": {
+        "legacy_match": 1674,
+        "no_match": 782,
+        "minor_text_variation": 13,
+        "numeric": 25,
+        "reference_in_prediction": 6
+      },
+      "unique_records": 2500,
+      "expected_records": 2500,
+      "count_matches": true,
+      "duplicate_lines_removed": 0,
+      "error_records": 0,
+      "missing_references": 0,
+      "row_budget_counts": {
+        "32": 2500
+      },
+      "summary_budget": null,
+      "recorded_scoring_versions": {
+        "lenient-v3-option-reference": 2500
+      },
+      "lenient_accuracy_percent": 68.72
+    },
+    "HallusionBench": {
+      "stored_flag_mismatch_count": 0,
+      "stored_flag_mismatches": [],
+      "original_correct_fallback_count": 0,
+      "original_correct_fallback_items": [],
+      "empty_predictions_accepted_by_historical_matcher": [],
+      "recomputed_match_methods": {
+        "no_match": 349,
+        "legacy_match": 602
+      },
+      "unique_records": 951,
+      "expected_records": 951,
+      "count_matches": true,
+      "duplicate_lines_removed": 0,
+      "error_records": 0,
+      "missing_references": 0,
+      "row_budget_counts": {
+        "32": 385,
+        "8": 560,
+        "512": 6
+      },
+      "summary_budget": null,
+      "recorded_scoring_versions": {
+        "lenient-v3-option-reference": 951
+      },
+      "lenient_accuracy_percent": 63.30178759200841
+    },
+    "LogicVista": {
+      "stored_flag_mismatch_count": 0,
+      "stored_flag_mismatches": [],
+      "original_correct_fallback_count": 0,
+      "original_correct_fallback_items": [],
+      "empty_predictions_accepted_by_historical_matcher": [],
+      "recomputed_match_methods": {
+        "no_match": 245,
+        "legacy_match": 181,
+        "multiple_choice_formatted_reference": 21
+      },
+      "unique_records": 447,
+      "expected_records": 447,
+      "count_matches": true,
+      "duplicate_lines_removed": 0,
+      "error_records": 0,
+      "missing_references": 0,
+      "row_budget_counts": {
+        "32": 412,
+        "512": 35
+      },
+      "summary_budget": null,
+      "recorded_scoring_versions": {
+        "lenient-v3-option-reference": 447
+      },
+      "lenient_accuracy_percent": 45.19015659955257
+    },
+    "MMEval-Pro": {
+      "stored_flag_mismatch_count": 0,
+      "stored_flag_mismatches": [],
+      "original_correct_fallback_count": 0,
+      "original_correct_fallback_items": [],
+      "empty_predictions_accepted_by_historical_matcher": [],
+      "recomputed_match_methods": {
+        "legacy_match": 3469,
+        "no_match": 2317,
+        "multiple_choice_formatted_reference": 628
+      },
+      "unique_records": 6414,
+      "expected_records": 6414,
+      "count_matches": true,
+      "duplicate_lines_removed": 0,
+      "error_records": 0,
+      "missing_references": 0,
+      "row_budget_counts": {
+        "32": 6412,
+        "64": 2
+      },
+      "summary_budget": null,
+      "recorded_scoring_versions": {
+        "lenient-v3-option-reference": 6414
+      },
+      "lenient_accuracy_percent": 63.87589647645775
+    },
+    "MMK12": {
+      "stored_flag_mismatch_count": 0,
+      "stored_flag_mismatches": [],
+      "original_correct_fallback_count": 0,
+      "original_correct_fallback_items": [],
+      "empty_predictions_accepted_by_historical_matcher": [],
+      "recomputed_match_methods": {
+        "no_match": 1007,
+        "legacy_match": 985,
+        "multiple_choice_formatted_reference": 8
+      },
+      "unique_records": 2000,
+      "expected_records": 2000,
+      "count_matches": true,
+      "duplicate_lines_removed": 0,
+      "error_records": 0,
+      "missing_references": 0,
+      "row_budget_counts": {
+        "32": 2000
+      },
+      "summary_budget": null,
+      "recorded_scoring_versions": {
+        "lenient-v3-option-reference": 2000
+      },
+      "lenient_accuracy_percent": 49.65
+    },
+    "MMMU-Pro": {
+      "stored_flag_mismatch_count": 0,
+      "stored_flag_mismatches": [],
+      "original_correct_fallback_count": 0,
+      "original_correct_fallback_items": [],
+      "empty_predictions_accepted_by_historical_matcher": [],
+      "recomputed_match_methods": {
+        "no_match": 1061,
+        "multiple_choice_formatted_reference": 83,
+        "legacy_match": 586
+      },
+      "unique_records": 1730,
+      "expected_records": 1730,
+      "count_matches": true,
+      "duplicate_lines_removed": 0,
+      "error_records": 0,
+      "missing_references": 0,
+      "row_budget_counts": {
+        "32": 1729,
+        "512": 1
+      },
+      "summary_budget": null,
+      "recorded_scoring_versions": {
+        "lenient-v3-option-reference": 1730
+      },
+      "lenient_accuracy_percent": 38.67052023121387
+    },
+    "MMStar": {
+      "stored_flag_mismatch_count": 0,
+      "stored_flag_mismatches": [],
+      "original_correct_fallback_count": 0,
+      "original_correct_fallback_items": [],
+      "empty_predictions_accepted_by_historical_matcher": [],
+      "recomputed_match_methods": {
+        "no_match": 548,
+        "legacy_match": 717,
+        "multiple_choice_formatted_reference": 235
+      },
+      "unique_records": 1500,
+      "expected_records": 1500,
+      "count_matches": true,
+      "duplicate_lines_removed": 0,
+      "error_records": 0,
+      "missing_references": 0,
+      "row_budget_counts": {
+        "32": 1500
+      },
+      "summary_budget": null,
+      "recorded_scoring_versions": {
+        "lenient-v3-option-reference": 1500
+      },
+      "lenient_accuracy_percent": 63.46666666666667
+    },
+    "MathVision": {
+      "stored_flag_mismatch_count": 0,
+      "stored_flag_mismatches": [],
+      "original_correct_fallback_count": 0,
+      "original_correct_fallback_items": [],
+      "empty_predictions_accepted_by_historical_matcher": [],
+      "recomputed_match_methods": {
+        "legacy_match": 1150,
+        "no_match": 1870,
+        "multiple_choice_formatted_reference": 8,
+        "numeric": 6,
+        "minor_text_variation": 2,
+        "reference_in_prediction": 4
+      },
+      "unique_records": 3040,
+      "expected_records": 3040,
+      "count_matches": true,
+      "duplicate_lines_removed": 0,
+      "error_records": 0,
+      "missing_references": 0,
+      "row_budget_counts": {
+        "32": 3040
+      },
+      "summary_budget": null,
+      "recorded_scoring_versions": {
+        "lenient-v3-option-reference": 3040
+      },
+      "lenient_accuracy_percent": 38.48684210526316
+    },
+    "MathVision-WildPhoto": {
+      "stored_flag_mismatch_count": 0,
+      "stored_flag_mismatches": [],
+      "original_correct_fallback_count": 0,
+      "original_correct_fallback_items": [],
+      "empty_predictions_accepted_by_historical_matcher": [],
+      "recomputed_match_methods": {
+        "no_match": 242,
+        "numeric": 20,
+        "legacy_match": 4,
+        "multiple_choice_formatted_reference": 37,
+        "reference_in_prediction": 1
+      },
+      "unique_records": 304,
+      "expected_records": 304,
+      "count_matches": true,
+      "duplicate_lines_removed": 0,
+      "error_records": 0,
+      "missing_references": 0,
+      "row_budget_counts": {
+        "32": 302,
+        "512": 2
+      },
+      "summary_budget": null,
+      "recorded_scoring_versions": {
+        "lenient-v3-option-reference": 304
+      },
+      "lenient_accuracy_percent": 20.394736842105264
+    },
+    "POPE": {
+      "stored_flag_mismatch_count": 0,
+      "stored_flag_mismatches": [],
+      "original_correct_fallback_count": 0,
+      "original_correct_fallback_items": [],
+      "empty_predictions_accepted_by_historical_matcher": [],
+      "recomputed_match_methods": {
+        "legacy_match": 4586,
+        "no_match": 541
+      },
+      "unique_records": 5127,
+      "expected_records": 5127,
+      "count_matches": true,
+      "duplicate_lines_removed": 0,
+      "error_records": 0,
+      "missing_references": 0,
+      "row_budget_counts": {
+        "32": 5127
+      },
+      "summary_budget": null,
+      "recorded_scoring_versions": {
+        "lenient-v3-option-reference": 5127
+      },
+      "lenient_accuracy_percent": 89.44802028476693
+    },
+    "RealWorldQA": {
+      "stored_flag_mismatch_count": 0,
+      "stored_flag_mismatches": [],
+      "original_correct_fallback_count": 0,
+      "original_correct_fallback_items": [],
+      "empty_predictions_accepted_by_historical_matcher": [],
+      "recomputed_match_methods": {
+        "legacy_match": 543,
+        "no_match": 222
+      },
+      "unique_records": 765,
+      "expected_records": 765,
+      "count_matches": true,
+      "duplicate_lines_removed": 0,
+      "error_records": 0,
+      "missing_references": 0,
+      "row_budget_counts": {
+        "not_recorded": 765
+      },
+      "summary_budget": 32,
+      "recorded_scoring_versions": {
+        "lenient-v2": 765
+      },
+      "lenient_accuracy_percent": 70.98039215686275
+    },
+    "VMCBench_DEV": {
+      "stored_flag_mismatch_count": 0,
+      "stored_flag_mismatches": [],
+      "original_correct_fallback_count": 0,
+      "original_correct_fallback_items": [],
+      "empty_predictions_accepted_by_historical_matcher": [],
+      "recomputed_match_methods": {
+        "legacy_match": 704,
+        "no_match": 291,
+        "multiple_choice_formatted_reference": 5
+      },
+      "unique_records": 1000,
+      "expected_records": 1000,
+      "count_matches": true,
+      "duplicate_lines_removed": 0,
+      "error_records": 0,
+      "missing_references": 0,
+      "row_budget_counts": {
+        "32": 1000
+      },
+      "summary_budget": null,
+      "recorded_scoring_versions": {
+        "lenient-v3-option-reference": 1000
+      },
+      "lenient_accuracy_percent": 70.9
+    },
+    "VisuLogic": {
+      "stored_flag_mismatch_count": 0,
+      "stored_flag_mismatches": [],
+      "original_correct_fallback_count": 0,
+      "original_correct_fallback_items": [],
+      "empty_predictions_accepted_by_historical_matcher": [],
+      "recomputed_match_methods": {
+        "no_match": 730,
+        "legacy_match": 269,
+        "multiple_choice_formatted_reference": 1
+      },
+      "unique_records": 1000,
+      "expected_records": 1000,
+      "count_matches": true,
+      "duplicate_lines_removed": 0,
+      "error_records": 0,
+      "missing_references": 0,
+      "row_budget_counts": {
+        "32": 1000
+      },
+      "summary_budget": null,
+      "recorded_scoring_versions": {
+        "lenient-v3-option-reference": 1000
+      },
+      "lenient_accuracy_percent": 27.0
+    },
+    "VisualPuzzles": {
+      "stored_flag_mismatch_count": 0,
+      "stored_flag_mismatches": [],
+      "original_correct_fallback_count": 0,
+      "original_correct_fallback_items": [],
+      "empty_predictions_accepted_by_historical_matcher": [],
+      "recomputed_match_methods": {
+        "no_match": 762,
+        "legacy_match": 406
+      },
+      "unique_records": 1168,
+      "expected_records": 1168,
+      "count_matches": true,
+      "duplicate_lines_removed": 0,
+      "error_records": 0,
+      "missing_references": 0,
+      "row_budget_counts": {
+        "32": 1167,
+        "512": 1
+      },
+      "summary_budget": null,
+      "recorded_scoring_versions": {
+        "lenient-v3-option-reference": 1168
+      },
+      "lenient_accuracy_percent": 34.76027397260274
+    }
+  },
+  "special_metrics": {
+    "HallusionBench": {
+      "aAcc": 63.30178759200841,
+      "fAcc": 32.369942196531795,
+      "qAcc": 38.46153846153846,
+      "leaderboard_Avg": 44.711089416692886,
+      "figures": 346,
+      "question_pairs": 455
+    },
+    "MMEval-Pro": {
+      "triplets": 2138,
+      "incomplete_triplets": 0,
+      "by_source": {
+        "MMMU": {
+          "genuine_accuracy_score": 17.9941,
+          "average_score": 53.884,
+          "origin_score": 48.3776,
+          "perception_score": 60.472,
+          "knowledge_score": 52.8024
+        },
+        "MathVista": {
+          "genuine_accuracy_score": 21.4815,
+          "average_score": 57.5926,
+          "origin_score": 68.1481,
+          "perception_score": 50.7407,
+          "knowledge_score": 53.8889
+        },
+        "ScienceQA": {
+          "genuine_accuracy_score": 34.3924,
+          "average_score": 69.2613,
+          "origin_score": 63.2248,
+          "perception_score": 75.4567,
+          "knowledge_score": 69.1025
+        }
+      },
+      "Macro_Average": {
+        "genuine_accuracy_score": 24.6227,
+        "average_score": 60.246,
+        "origin_score": 59.9168,
+        "perception_score": 62.2231,
+        "knowledge_score": 58.5979
+      },
+      "Micro_Average": {
+        "genuine_accuracy_score": 28.5313,
+        "average_score": 63.8759,
+        "origin_score": 62.1141,
+        "perception_score": 66.8382,
+        "knowledge_score": 62.6754
+      }
+    },
+    "POPE": {
+      "by_category": {
+        "adversarial": {
+          "total": 3000,
+          "valid": 3000,
+          "invalid": 0,
+          "tp": 1388,
+          "tn": 1219,
+          "fp": 281,
+          "fn": 112,
+          "accuracy": 0.869,
+          "precision": 0.8316357100059916,
+          "recall": 0.9253333333333333,
+          "f1": 0.8759861154938466,
+          "yes_ratio": 0.5563333333333333
+        },
+        "popular": {
+          "total": 3000,
+          "valid": 3000,
+          "invalid": 0,
+          "tp": 1388,
+          "tn": 1368,
+          "fp": 132,
+          "fn": 112,
+          "accuracy": 0.9186666666666666,
+          "precision": 0.9131578947368421,
+          "recall": 0.9253333333333333,
+          "f1": 0.9192052980132449,
+          "yes_ratio": 0.5066666666666667
+        },
+        "random": {
+          "total": 3000,
+          "valid": 3000,
+          "invalid": 0,
+          "tp": 1388,
+          "tn": 1396,
+          "fp": 104,
+          "fn": 112,
+          "accuracy": 0.928,
+          "precision": 0.9302949061662198,
+          "recall": 0.9253333333333333,
+          "f1": 0.927807486631016,
+          "yes_ratio": 0.49733333333333335
+        }
+      },
+      "pooled": {
+        "total": 9000,
+        "valid": 9000,
+        "invalid": 0,
+        "tp": 4164,
+        "tn": 3983,
+        "fp": 517,
+        "fn": 336,
+        "accuracy": 0.9052222222222223,
+        "precision": 0.8895535142063662,
+        "recall": 0.9253333333333333,
+        "f1": 0.9070907308572052,
+        "yes_ratio": 0.5201111111111111
+      }
+    },
+    "MMK12": {
+      "biology": {
+        "count": 500,
+        "correct": 231,
+        "accuracy_percent": 46.2
+      },
+      "chemistry": {
+        "count": 500,
+        "correct": 240,
+        "accuracy_percent": 48.0
+      },
+      "math": {
+        "count": 500,
+        "correct": 308,
+        "accuracy_percent": 61.6
+      },
+      "physics": {
+        "count": 500,
+        "correct": 214,
+        "accuracy_percent": 42.8
+      }
+    }
+  },
+  "inputs": {
+    "AI2D_TEST": {
+      "path": "benchmarks/reference_results/AI2D_TEST/predictions.jsonl",
+      "sha256": "5e26bbda19accfff36af3007c54c914c4a6730ceea76530f5d0c3f1f47edadb6"
+    },
+    "BabyVision": {
+      "path": "benchmarks/reference_results/BabyVision/predictions.jsonl",
+      "sha256": "3681b938302fe7d325636db23854665363a1414ef191e76bc4f77b2d04fc512b"
+    },
+    "ChartQA_TEST": {
+      "path": "benchmarks/reference_results/ChartQA_TEST/predictions.jsonl",
+      "sha256": "7927962a79780132dd2f0423b6175eb8ae5247390d10b80a5234a526b2f3adce"
+    },
+    "HallusionBench": {
+      "path": "benchmarks/reference_results/HallusionBench/predictions.jsonl",
+      "sha256": "9c9ae2b6a434b12deb8975984c55830b223d46997496bb1361f2d76c4a137d70"
+    },
+    "LogicVista": {
+      "path": "benchmarks/reference_results/LogicVista/predictions.jsonl",
+      "sha256": "0cb18e2b58d330c0a9337247ce46c0759bb949565c7e1eadaa7671e53b5ca934"
+    },
+    "MMEval-Pro": {
+      "path": "benchmarks/reference_results/MMEval-Pro/predictions.jsonl",
+      "sha256": "5cc68503727010b0d4a7540917cf3a43d560158539aedd981eb45d98062bb433"
+    },
+    "MMK12": {
+      "path": "benchmarks/reference_results/MMK12/predictions.jsonl",
+      "sha256": "97d2d9f216cf9e354598bdc4284c9266465219faf06d8ad031b28126d639b39a"
+    },
+    "MMMU-Pro": {
+      "path": "benchmarks/reference_results/MMMU-Pro/predictions.jsonl",
+      "sha256": "f1cfdd5bbf562ae86cfc293eb78a3bb0209b6c1be82ece37352598ab60a3355e"
+    },
+    "MMStar": {
+      "path": "benchmarks/reference_results/MMStar/predictions.jsonl",
+      "sha256": "1260e47cdc40605b27274c26405fe601d791e381d0b09fae736fa632cdd48551"
+    },
+    "MathVision": {
+      "path": "benchmarks/reference_results/MathVision/predictions.jsonl",
+      "sha256": "0e0fccf418ac9a7c0cdc8a1b2e4a70a985e6d7fcbdbcd9b73b8e484036a711e9"
+    },
+    "MathVision-WildPhoto": {
+      "path": "benchmarks/reference_results/MathVision-WildPhoto/predictions.jsonl",
+      "sha256": "7c23cd7219022bfa27d551d02d2c84b5a805d3957cdd42b0febfe5c2aa6be001"
+    },
+    "POPE": {
+      "path": "benchmarks/reference_results/POPE/predictions.jsonl",
+      "sha256": "9f6eb9a841e5950ca0f9b0ff97b586b90fd1efa86f3e525d08aa070d6d7588db"
+    },
+    "RealWorldQA": {
+      "path": "benchmarks/reference_results/RealWorldQA/predictions.jsonl",
+      "sha256": "c7bc06015df56ae9a732e4e2950380c346c2fef230275e6282f6ea63117ed1ed"
+    },
+    "VMCBench_DEV": {
+      "path": "benchmarks/reference_results/VMCBench_DEV/predictions.jsonl",
+      "sha256": "2e76075263e3b447a373353b14bebb118f762a682a1930f81da6e3e791d4ee76"
+    },
+    "VisuLogic": {
+      "path": "benchmarks/reference_results/VisuLogic/predictions.jsonl",
+      "sha256": "57bdc5eada91e8998dde59651925d028dcdab20b96408c1266b086a5d703ef85"
+    },
+    "VisualPuzzles": {
+      "path": "benchmarks/reference_results/VisualPuzzles/predictions.jsonl",
+      "sha256": "b14e0f2864b9908acad8bf827f65f5c1269004601d7a09bd4b3de67a0c1dc806"
+    }
+  },
+  "limitations": [
+    "This verifies scores from archived predictions; it does not establish identical fresh GPU inference.",
+    "The archived lenient matcher can accept an empty prediction against reference A after article normalization.",
+    "Historical token-repair scripts used correctness to select some truncated failures; see row budgets and provenance."
+  ],
+  "screenshot_score_match_required": true,
+  "verification_passed": true
+}

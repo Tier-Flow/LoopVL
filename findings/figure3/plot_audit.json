@@ -1,0 +1,120 @@
+{
+  "source_sha256": "a53e808725c9efa4e8088c0117098faa65ed3afbb98d6fba52cc5a089949eabe",
+  "conditions": [
+    "normal",
+    "blocked",
+    "frozen"
+  ],
+  "labels": [
+    "Normal",
+    "Block L visual updates",
+    "Freeze visual states"
+  ],
+  "panels": [
+    {
+      "benchmark": "LogicVista",
+      "scores_percent": [
+        44.97,
+        36.47,
+        31.54
+      ],
+      "bar_count": 3,
+      "bar_width": 0.44,
+      "y_limits": [
+        0.0,
+        80.0
+      ],
+      "axes_bounds": [
+        0.0592747114411357,
+        0.2441860465116279,
+        0.2044940331895855,
+        0.5581395348837209
+      ]
+    },
+    {
+      "benchmark": "RealWorldQA",
+      "scores_percent": [
+        71.63,
+        53.07,
+        37.91
+      ],
+      "bar_count": 3,
+      "bar_width": 0.44,
+      "y_limits": [
+        0.0,
+        80.0
+      ],
+      "axes_bounds": [
+        0.30417123852781813,
+        0.2441860465116279,
+        0.2044940331895855,
+        0.5581395348837209
+      ]
+    },
+    {
+      "benchmark": "VMCBench-DEV",
+      "scores_percent": [
+        67.7,
+        61.9,
+        42.6
+      ],
+      "bar_count": 3,
+      "bar_width": 0.44,
+      "y_limits": [
+        0.0,
+        80.0
+      ],
+      "axes_bounds": [
+        0.5490677656145005,
+        0.2441860465116279,
+        0.2044940331895855,
+        0.5581395348837209
+      ]
+    },
+    {
+      "benchmark": "MMStar",
+      "scores_percent": [
+        64.87,
+        51.07,
+        44.87
+      ],
+      "bar_count": 3,
+      "bar_width": 0.44,
+      "y_limits": [
+        0.0,
+        80.0
+      ],
+      "axes_bounds": [
+        0.7939642927011832,
+        0.2441860465116279,
+        0.2044940331895855,
+        0.5581395348837209
+      ]
+    }
+  ],
+  "bar_colors": [
+    "#A8C3E5",
+    "#D3E3F5",
+    "#EFF5FC"
+  ],
+  "font_sizes_pt": {
+    "title": 10.5,
+    "panel": 9.0,
+    "label": 8.5,
+    "legend": 7.5,
+    "tick": 7.0
+  },
+  "figure_size_pt": [
+    470.268,
+    172
+  ],
+  "font_family": "DejaVu Sans",
+  "layout": "one row, four panels",
+  "shared_legend": true,
+  "horizontal_alignment": "y-label and last spine at manuscript edges",
+  "panel_gap_pt": 19,
+  "visible_x_tick_labels": false,
+  "visible_result_annotations": false,
+  "inference_rerun": false,
+  "legacy_400_sample_scores_used": false
+}

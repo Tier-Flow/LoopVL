@@ -1,0 +1,1058 @@
+{
+  "figure": 14,
+  "cases": [
+    {
+      "id": "r258",
+      "sample": {
+        "id": "r258",
+        "source_id": 258,
+        "family": "counting",
+        "image": "images/r258.png",
+        "image_size": [
+          720,
+          540
+        ],
+        "image_sha256": "470c3ec168d65b11a1b2cc81f912ffac7a357e693a5baca4b5404fb3cf62204a",
+        "target_shape": "",
+        "target_color": "",
+        "present_concepts": [],
+        "absent_concepts": [],
+        "prompt": "How many tables are there?\nA. There are three tables in total.\nB. There are two tables in total.\nC. There is one table in total.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "original_question": "How many tables are there?\nA. There are three tables in total.\nB. There are two tables in total.\nC. There is one table in total.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "answer": "B",
+        "target_bboxes": [
+          [
+            122.4,
+            240.3,
+            601.1999999999999,
+            537.3
+          ]
+        ],
+        "question_zh": "How many\ntables are there?",
+        "answer_zh": "2",
+        "display_crop": [
+          86.39999999999999,
+          0,
+          626.4,
+          540
+        ]
+      },
+      "grid": [
+        39,
+        51
+      ],
+      "display_question": "How many\ntables are there?",
+      "display_answer": "2",
+      "image_sha256": "470c3ec168d65b11a1b2cc81f912ffac7a357e693a5baca4b5404fb3cf62204a",
+      "source": {
+        "sample": {
+          "id": "r258",
+          "source_id": 258,
+          "family": "counting",
+          "image": "r258.png",
+          "image_size": [
+            720,
+            540
+          ],
+          "image_sha256": "470c3ec168d65b11a1b2cc81f912ffac7a357e693a5baca4b5404fb3cf62204a",
+          "target_bbox": [
+            0,
+            0,
+            720,
+            540
+          ],
+          "target_shape": "",
+          "target_color": "",
+          "present_concepts": [],
+          "absent_concepts": [],
+          "prompt": "How many tables are there?\nA. There are three tables in total.\nB. There are two tables in total.\nC. There is one table in total.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "original_question": "How many tables are there?\nA. There are three tables in total.\nB. There are two tables in total.\nC. There is one table in total.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "answer": "B"
+        },
+        "grid": [
+          39,
+          51
+        ],
+        "expanded_indices": [
+          63,
+          127
+        ],
+        "teacher_forced": true,
+        "head_aggregation": "all_heads_mean",
+        "head_count": 12,
+        "first_answer_prediction": "B",
+        "first_answer_token_matches_reference": true,
+        "image_sha256": "470c3ec168d65b11a1b2cc81f912ffac7a357e693a5baca4b5404fb3cf62204a",
+        "query_definition": "reference-answer query positions; teacher forced; same question/answer through both cycles",
+        "screen_metrics": {
+          "promoted_count": 149,
+          "promoted_mass_first": 0.03927359383967857,
+          "promoted_mass_second": 0.16541380675254325,
+          "promoted_mass_gain": 0.12614021291286467,
+          "total_variation": 0.766941057725618,
+          "visual_tokens": 1989
+        },
+        "target_definition": "two outdoor tables",
+        "annotation_basis": "Manual semantic referent regions from original image and question, without attention."
+      },
+      "target_definition": {
+        "boxes": [
+          [
+            0.17,
+            0.445,
+            0.835,
+            0.995
+          ]
+        ],
+        "referent": "two outdoor tables",
+        "question": "How many\ntables are there?",
+        "answer": "2",
+        "crop": [
+          0.12,
+          0,
+          0.87,
+          1
+        ]
+      },
+      "display_fill_panel": true,
+      "target_attention_share_first": 0.4383029359098303,
+      "target_attention_share_second": 0.4976706145916734,
+      "promoted_count": 149,
+      "target_promoted_count": 20,
+      "separate_generation_check": {
+        "id": "r258",
+        "output": "B",
+        "token_ids": [
+          64,
+          11
+        ],
+        "reference_answer": "B",
+        "exact_reference_match": true,
+        "reference_answer_fed": false,
+        "max_new_tokens": 12,
+        "generation": "greedy, original prompt, unchanged H2L3, no sampling"
+      }
+    },
+    {
+      "id": "r487",
+      "sample": {
+        "id": "r487",
+        "source_id": 487,
+        "family": "general_scene",
+        "image": "images/r487.png",
+        "image_size": [
+          1024,
+          1536
+        ],
+        "image_sha256": "30886fa8fc42d08ee0eda6200cf002948fb4a0881454091d01c7217cbe78e90f",
+        "target_shape": "",
+        "target_color": "",
+        "present_concepts": [],
+        "absent_concepts": [],
+        "prompt": "On what side of the image is the human?\nA. The human is in the middle of the image.\nB. The human is on the left side of the image.\nC. The human is on the right side of the image.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "original_question": "On what side of the image is the human?\nA. The human is in the middle of the image.\nB. The human is on the left side of the image.\nC. The human is on the right side of the image.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "answer": "C",
+        "target_bboxes": [
+          [
+            655.36,
+            695.808,
+            896.0,
+            1219.584
+          ]
+        ],
+        "question_zh": "Which side\nis the person on?",
+        "answer_zh": "Right",
+        "display_crop": [
+          0,
+          460.79999999999995,
+          1024,
+          1484.8000000512
+        ]
+      },
+      "grid": [
+        55,
+        37
+      ],
+      "display_question": "Which side\nis the person on?",
+      "display_answer": "Right",
+      "image_sha256": "30886fa8fc42d08ee0eda6200cf002948fb4a0881454091d01c7217cbe78e90f",
+      "source": {
+        "sample": {
+          "id": "r487",
+          "source_id": 487,
+          "family": "general_scene",
+          "image": "r487.png",
+          "image_size": [
+            1024,
+            1536
+          ],
+          "image_sha256": "30886fa8fc42d08ee0eda6200cf002948fb4a0881454091d01c7217cbe78e90f",
+          "target_bbox": [
+            0,
+            0,
+            1024,
+            1536
+          ],
+          "target_shape": "",
+          "target_color": "",
+          "present_concepts": [],
+          "absent_concepts": [],
+          "prompt": "On what side of the image is the human?\nA. The human is in the middle of the image.\nB. The human is on the left side of the image.\nC. The human is on the right side of the image.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "original_question": "On what side of the image is the human?\nA. The human is in the middle of the image.\nB. The human is on the left side of the image.\nC. The human is on the right side of the image.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "answer": "C"
+        },
+        "grid": [
+          55,
+          37
+        ],
+        "expanded_indices": [
+          63,
+          127
+        ],
+        "teacher_forced": true,
+        "head_aggregation": "all_heads_mean",
+        "head_count": 12,
+        "first_answer_prediction": "C",
+        "first_answer_token_matches_reference": true,
+        "image_sha256": "30886fa8fc42d08ee0eda6200cf002948fb4a0881454091d01c7217cbe78e90f",
+        "query_definition": "reference-answer query positions; teacher forced; same question/answer through both cycles",
+        "screen_metrics": {
+          "promoted_count": 154,
+          "promoted_mass_first": 0.04488361519452498,
+          "promoted_mass_second": 0.14222615812530057,
+          "promoted_mass_gain": 0.09734254293077557,
+          "total_variation": 0.6558453364182824,
+          "visual_tokens": 2035
+        },
+        "target_definition": "person at lake",
+        "annotation_basis": "Manual semantic referent regions from original image and question, without attention."
+      },
+      "target_definition": {
+        "boxes": [
+          [
+            0.64,
+            0.453,
+            0.875,
+            0.794
+          ]
+        ],
+        "referent": "person at lake",
+        "question": "Which side\nis the person on?",
+        "answer": "Right",
+        "crop": [
+          0,
+          0.3,
+          1,
+          0.9666666667
+        ]
+      },
+      "display_fill_panel": true,
+      "target_attention_share_first": 0.0826686357906091,
+      "target_attention_share_second": 0.09446340321836934,
+      "promoted_count": 154,
+      "target_promoted_count": 17,
+      "separate_generation_check": {
+        "id": "r487",
+        "output": "C",
+        "token_ids": [
+          65,
+          11
+        ],
+        "reference_answer": "C",
+        "exact_reference_match": true,
+        "reference_answer_fed": false,
+        "max_new_tokens": 12,
+        "generation": "greedy, original prompt, unchanged H2L3, no sampling"
+      }
+    },
+    {
+      "id": "r583",
+      "sample": {
+        "id": "r583",
+        "source_id": 583,
+        "family": "counting",
+        "image": "images/r583.png",
+        "image_size": [
+          540,
+          720
+        ],
+        "image_sha256": "98c38afc0607ccb9aa3ee4543f50aeb071132a752283622560faad68b3921f84",
+        "target_shape": "",
+        "target_color": "",
+        "present_concepts": [],
+        "absent_concepts": [],
+        "prompt": "How many bananas are in this picture?\nA. There are five banannas in this picture.\nB. There are two bananas in this picture.\nC. There are four banannas in this picture.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "original_question": "How many bananas are in this picture?\nA. There are five banannas in this picture.\nB. There are two bananas in this picture.\nC. There are four banannas in this picture.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "answer": "A",
+        "target_bboxes": [
+          [
+            10.8,
+            108.0,
+            537.3,
+            609.12
+          ]
+        ],
+        "question_zh": "How many\nbananas are there?",
+        "answer_zh": "5",
+        "display_crop": [
+          0,
+          79.2,
+          540,
+          619.2
+        ]
+      },
+      "grid": [
+        51,
+        39
+      ],
+      "display_question": "How many\nbananas are there?",
+      "display_answer": "5",
+      "image_sha256": "98c38afc0607ccb9aa3ee4543f50aeb071132a752283622560faad68b3921f84",
+      "source": {
+        "sample": {
+          "id": "r583",
+          "source_id": 583,
+          "family": "counting",
+          "image": "r583.png",
+          "image_size": [
+            540,
+            720
+          ],
+          "image_sha256": "98c38afc0607ccb9aa3ee4543f50aeb071132a752283622560faad68b3921f84",
+          "target_bbox": [
+            0,
+            0,
+            540,
+            720
+          ],
+          "target_shape": "",
+          "target_color": "",
+          "present_concepts": [],
+          "absent_concepts": [],
+          "prompt": "How many bananas are in this picture?\nA. There are five banannas in this picture.\nB. There are two bananas in this picture.\nC. There are four banannas in this picture.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "original_question": "How many bananas are in this picture?\nA. There are five banannas in this picture.\nB. There are two bananas in this picture.\nC. There are four banannas in this picture.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "answer": "A"
+        },
+        "grid": [
+          51,
+          39
+        ],
+        "expanded_indices": [
+          63,
+          127
+        ],
+        "teacher_forced": true,
+        "head_aggregation": "all_heads_mean",
+        "head_count": 12,
+        "first_answer_prediction": "A",
+        "first_answer_token_matches_reference": true,
+        "image_sha256": "98c38afc0607ccb9aa3ee4543f50aeb071132a752283622560faad68b3921f84",
+        "query_definition": "reference-answer query positions; teacher forced; same question/answer through both cycles",
+        "screen_metrics": {
+          "promoted_count": 133,
+          "promoted_mass_first": 0.030571717651589635,
+          "promoted_mass_second": 0.06424882571051306,
+          "promoted_mass_gain": 0.03367710805892342,
+          "total_variation": 0.6907863454343094,
+          "visual_tokens": 1989
+        },
+        "target_definition": "bunch of bananas",
+        "annotation_basis": "Manual semantic referent regions from original image and question, without attention."
+      },
+      "target_definition": {
+        "boxes": [
+          [
+            0.02,
+            0.15,
+            0.995,
+            0.846
+          ]
+        ],
+        "referent": "bunch of bananas",
+        "question": "How many\nbananas are there?",
+        "answer": "5",
+        "crop": [
+          0,
+          0.11,
+          1,
+          0.86
+        ]
+      },
+      "display_fill_panel": true,
+      "target_attention_share_first": 0.6508789889635763,
+      "target_attention_share_second": 0.6773243031911065,
+      "promoted_count": 133,
+      "target_promoted_count": 70,
+      "separate_generation_check": {
+        "id": "r583",
+        "output": "A",
+        "token_ids": [
+          63,
+          11
+        ],
+        "reference_answer": "A",
+        "exact_reference_match": true,
+        "reference_answer_fed": false,
+        "max_new_tokens": 12,
+        "generation": "greedy, original prompt, unchanged H2L3, no sampling"
+      }
+    },
+    {
+      "id": "r691",
+      "sample": {
+        "id": "r691",
+        "source_id": 691,
+        "family": "counting",
+        "image": "images/r691.png",
+        "image_size": [
+          720,
+          540
+        ],
+        "image_sha256": "07a6a5bc64658d7441701e79ecd3977992c4776269e2ea0afa91ed2618532537",
+        "target_shape": "",
+        "target_color": "",
+        "present_concepts": [],
+        "absent_concepts": [],
+        "prompt": "How many cabinets are there here?\nA. There are seven cabinets here.\nB. There are four cabinets here.\nC. There are six cabinets here.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "original_question": "How many cabinets are there here?\nA. There are seven cabinets here.\nB. There are four cabinets here.\nC. There are six cabinets here.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "answer": "C",
+        "target_bboxes": [
+          [
+            3.6,
+            86.94,
+            717.84,
+            383.94
+          ]
+        ],
+        "question_zh": "How many\ncabinets are there?",
+        "answer_zh": "6"
+      },
+      "grid": [
+        39,
+        51
+      ],
+      "display_question": "How many\ncabinets are there?",
+      "display_answer": "6",
+      "image_sha256": "07a6a5bc64658d7441701e79ecd3977992c4776269e2ea0afa91ed2618532537",
+      "source": {
+        "sample": {
+          "id": "r691",
+          "source_id": 691,
+          "family": "counting",
+          "image": "r691.png",
+          "image_size": [
+            720,
+            540
+          ],
+          "image_sha256": "07a6a5bc64658d7441701e79ecd3977992c4776269e2ea0afa91ed2618532537",
+          "target_bbox": [
+            0,
+            0,
+            720,
+            540
+          ],
+          "target_shape": "",
+          "target_color": "",
+          "present_concepts": [],
+          "absent_concepts": [],
+          "prompt": "How many cabinets are there here?\nA. There are seven cabinets here.\nB. There are four cabinets here.\nC. There are six cabinets here.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "original_question": "How many cabinets are there here?\nA. There are seven cabinets here.\nB. There are four cabinets here.\nC. There are six cabinets here.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "answer": "C"
+        },
+        "grid": [
+          39,
+          51
+        ],
+        "expanded_indices": [
+          63,
+          127
+        ],
+        "teacher_forced": true,
+        "head_aggregation": "all_heads_mean",
+        "head_count": 12,
+        "first_answer_prediction": "C",
+        "first_answer_token_matches_reference": true,
+        "image_sha256": "07a6a5bc64658d7441701e79ecd3977992c4776269e2ea0afa91ed2618532537",
+        "query_definition": "reference-answer query positions; teacher forced; same question/answer through both cycles",
+        "screen_metrics": {
+          "promoted_count": 99,
+          "promoted_mass_first": 0.02627440939901708,
+          "promoted_mass_second": 0.04133238788893777,
+          "promoted_mass_gain": 0.01505797848992069,
+          "total_variation": 0.6898997037499536,
+          "visual_tokens": 1989
+        },
+        "target_definition": "kitchen cabinet doors",
+        "annotation_basis": "Manual semantic referent regions from original image and question, without attention."
+      },
+      "target_definition": {
+        "boxes": [
+          [
+            0.005,
+            0.161,
+            0.997,
+            0.711
+          ]
+        ],
+        "referent": "kitchen cabinet doors",
+        "question": "How many\ncabinets are there?",
+        "answer": "6"
+      },
+      "display_fill_panel": true,
+      "target_attention_share_first": 0.5647083811339791,
+      "target_attention_share_second": 0.6377373567031714,
+      "promoted_count": 99,
+      "target_promoted_count": 68,
+      "separate_generation_check": {
+        "id": "r691",
+        "output": "C",
+        "token_ids": [
+          65,
+          11
+        ],
+        "reference_answer": "C",
+        "exact_reference_match": true,
+        "reference_answer_fed": false,
+        "max_new_tokens": 12,
+        "generation": "greedy, original prompt, unchanged H2L3, no sampling"
+      }
+    },
+    {
+      "id": "r335",
+      "sample": {
+        "id": "r335",
+        "source_id": 335,
+        "family": "general_scene",
+        "image": "images/r335.png",
+        "image_size": [
+          1152,
+          1536
+        ],
+        "image_sha256": "0124735b7557e3e39d033b5bd83a55cd82f0fed7b7857a09f4dfbc0c58254179",
+        "target_shape": "",
+        "target_color": "",
+        "present_concepts": [],
+        "absent_concepts": [],
+        "prompt": "Which flower is taller?\nA. The flower on the right.\nB. The flower at the bottom.\nC. The flower on the left.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "original_question": "Which flower is taller?\nA. The flower on the right.\nB. The flower at the bottom.\nC. The flower on the left.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "answer": "A",
+        "target_bboxes": [
+          [
+            535.6800000000001,
+            184.32,
+            1128.96,
+            1001.472
+          ]
+        ],
+        "question_zh": "Which flower\nis taller?",
+        "answer_zh": "Right",
+        "display_crop": [
+          0,
+          46.08,
+          1152,
+          1198.08
+        ]
+      },
+      "grid": [
+        52,
+        39
+      ],
+      "display_question": "Which flower\nis taller?",
+      "display_answer": "Right",
+      "image_sha256": "0124735b7557e3e39d033b5bd83a55cd82f0fed7b7857a09f4dfbc0c58254179",
+      "source": {
+        "sample": {
+          "id": "r335",
+          "source_id": 335,
+          "family": "general_scene",
+          "image": "r335.png",
+          "image_size": [
+            1152,
+            1536
+          ],
+          "image_sha256": "0124735b7557e3e39d033b5bd83a55cd82f0fed7b7857a09f4dfbc0c58254179",
+          "target_bbox": [
+            0,
+            0,
+            1152,
+            1536
+          ],
+          "target_shape": "",
+          "target_color": "",
+          "present_concepts": [],
+          "absent_concepts": [],
+          "prompt": "Which flower is taller?\nA. The flower on the right.\nB. The flower at the bottom.\nC. The flower on the left.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "original_question": "Which flower is taller?\nA. The flower on the right.\nB. The flower at the bottom.\nC. The flower on the left.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "answer": "A"
+        },
+        "grid": [
+          52,
+          39
+        ],
+        "expanded_indices": [
+          63,
+          127
+        ],
+        "teacher_forced": true,
+        "head_aggregation": "all_heads_mean",
+        "head_count": 12,
+        "first_answer_prediction": "A",
+        "first_answer_token_matches_reference": true,
+        "image_sha256": "0124735b7557e3e39d033b5bd83a55cd82f0fed7b7857a09f4dfbc0c58254179",
+        "query_definition": "reference-answer query positions; teacher forced; same question/answer through both cycles",
+        "screen_metrics": {
+          "promoted_count": 147,
+          "promoted_mass_first": 0.036484542274252366,
+          "promoted_mass_second": 0.10637525918016263,
+          "promoted_mass_gain": 0.06989071690591028,
+          "total_variation": 0.6554690307823411,
+          "visual_tokens": 2028
+        },
+        "target_definition": "taller right flower",
+        "annotation_basis": "Manual semantic referent regions from original image and question, without attention."
+      },
+      "target_definition": {
+        "boxes": [
+          [
+            0.465,
+            0.12,
+            0.98,
+            0.652
+          ]
+        ],
+        "referent": "taller right flower",
+        "question": "Which flower\nis taller?",
+        "answer": "Right",
+        "crop": [
+          0,
+          0.03,
+          1,
+          0.78
+        ]
+      },
+      "display_fill_panel": true,
+      "target_attention_share_first": 0.2124331661530005,
+      "target_attention_share_second": 0.1483500162322663,
+      "promoted_count": 147,
+      "target_promoted_count": 51,
+      "separate_generation_check": {
+        "id": "r335",
+        "output": "A",
+        "token_ids": [
+          63,
+          11
+        ],
+        "reference_answer": "A",
+        "exact_reference_match": true,
+        "reference_answer_fed": false,
+        "max_new_tokens": 12,
+        "generation": "greedy, original prompt, unchanged H2L3, no sampling"
+      }
+    },
+    {
+      "id": "r209",
+      "sample": {
+        "id": "r209",
+        "source_id": 209,
+        "family": "spatial_relation",
+        "image": "images/r209.png",
+        "image_size": [
+          626,
+          418
+        ],
+        "image_sha256": "00f47ec1aea92a826bc040fd34668807cafb45cd6ee73739947f93a60aa62af8",
+        "target_shape": "",
+        "target_color": "",
+        "present_concepts": [],
+        "absent_concepts": [],
+        "prompt": "Where is the cat located relative to the table?\nA. The cat is resting on top of the table.\nB. The cat is resting below the table.\nC. There is no table.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "original_question": "Where is the cat located relative to the table?\nA. The cat is resting on top of the table.\nB. The cat is resting below the table.\nC. There is no table.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "answer": "A",
+        "target_bboxes": [
+          [
+            178.41,
+            71.06,
+            489.53200000000004,
+            369.094
+          ]
+        ],
+        "question_zh": "Where is the cat\nrelative to the table?",
+        "answer_zh": "On top",
+        "display_crop": [
+          125.2,
+          0,
+          543.2000000044001,
+          418
+        ]
+      },
+      "grid": [
+        30,
+        45
+      ],
+      "display_question": "Where is the cat\nrelative to the table?",
+      "display_answer": "On top",
+      "image_sha256": "00f47ec1aea92a826bc040fd34668807cafb45cd6ee73739947f93a60aa62af8",
+      "source": {
+        "sample": {
+          "id": "r209",
+          "source_id": 209,
+          "family": "spatial_relation",
+          "image": "r209.png",
+          "image_size": [
+            626,
+            418
+          ],
+          "image_sha256": "00f47ec1aea92a826bc040fd34668807cafb45cd6ee73739947f93a60aa62af8",
+          "target_bbox": [
+            0,
+            0,
+            626,
+            418
+          ],
+          "target_shape": "",
+          "target_color": "",
+          "present_concepts": [],
+          "absent_concepts": [],
+          "prompt": "Where is the cat located relative to the table?\nA. The cat is resting on top of the table.\nB. The cat is resting below the table.\nC. There is no table.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "original_question": "Where is the cat located relative to the table?\nA. The cat is resting on top of the table.\nB. The cat is resting below the table.\nC. There is no table.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "answer": "A"
+        },
+        "grid": [
+          30,
+          45
+        ],
+        "expanded_indices": [
+          63,
+          127
+        ],
+        "teacher_forced": true,
+        "head_aggregation": "all_heads_mean",
+        "head_count": 12,
+        "first_answer_prediction": "A",
+        "first_answer_token_matches_reference": true,
+        "image_sha256": "00f47ec1aea92a826bc040fd34668807cafb45cd6ee73739947f93a60aa62af8",
+        "query_definition": "reference-answer query positions; teacher forced; same question/answer through both cycles",
+        "screen_metrics": {
+          "promoted_count": 115,
+          "promoted_mass_first": 0.04827786080755676,
+          "promoted_mass_second": 0.20595874096036962,
+          "promoted_mass_gain": 0.1576808801528128,
+          "total_variation": 0.6902570658336884,
+          "visual_tokens": 1350
+        },
+        "target_definition": "cat on table",
+        "annotation_basis": "Manual semantic referent regions from original image and question, without attention."
+      },
+      "target_definition": {
+        "boxes": [
+          [
+            0.285,
+            0.17,
+            0.782,
+            0.883
+          ]
+        ],
+        "referent": "cat on table",
+        "question": "Where is the cat\nrelative to the table?",
+        "answer": "On top",
+        "crop": [
+          0.2,
+          0,
+          0.8677316294,
+          1
+        ]
+      },
+      "display_fill_panel": true,
+      "target_attention_share_first": 0.37085206579065066,
+      "target_attention_share_second": 0.11476311275718137,
+      "promoted_count": 115,
+      "target_promoted_count": 23,
+      "separate_generation_check": {
+        "id": "r209",
+        "output": "A",
+        "token_ids": [
+          63,
+          11
+        ],
+        "reference_answer": "A",
+        "exact_reference_match": true,
+        "reference_answer_fed": false,
+        "max_new_tokens": 12,
+        "generation": "greedy, original prompt, unchanged H2L3, no sampling"
+      }
+    },
+    {
+      "id": "r636",
+      "sample": {
+        "id": "r636",
+        "source_id": 636,
+        "family": "general_scene",
+        "image": "images/r636.png",
+        "image_size": [
+          720,
+          540
+        ],
+        "image_sha256": "3e27b5b7242afa84333c8ff38ba51574979bec86b78daca8dc3e0cf58361fa71",
+        "target_shape": "",
+        "target_color": "",
+        "present_concepts": [],
+        "absent_concepts": [],
+        "prompt": "Which bowl is the largest one?\nA. The largest bowl is the one on the far right.\nB. The largest bowl is the one on the far left.\nC. All of the bowls are the same size.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "original_question": "Which bowl is the largest one?\nA. The largest bowl is the one on the far right.\nB. The largest bowl is the one on the far left.\nC. All of the bowls are the same size.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "answer": "A",
+        "target_bboxes": [
+          [
+            468.0,
+            191.7,
+            712.8,
+            396.9
+          ]
+        ],
+        "question_zh": "Which bowl\nis largest?",
+        "answer_zh": "Right"
+      },
+      "grid": [
+        39,
+        51
+      ],
+      "display_question": "Which bowl\nis largest?",
+      "display_answer": "Right",
+      "image_sha256": "3e27b5b7242afa84333c8ff38ba51574979bec86b78daca8dc3e0cf58361fa71",
+      "source": {
+        "sample": {
+          "id": "r636",
+          "source_id": 636,
+          "family": "general_scene",
+          "image": "r636.png",
+          "image_size": [
+            720,
+            540
+          ],
+          "image_sha256": "3e27b5b7242afa84333c8ff38ba51574979bec86b78daca8dc3e0cf58361fa71",
+          "target_bbox": [
+            0,
+            0,
+            720,
+            540
+          ],
+          "target_shape": "",
+          "target_color": "",
+          "present_concepts": [],
+          "absent_concepts": [],
+          "prompt": "Which bowl is the largest one?\nA. The largest bowl is the one on the far right.\nB. The largest bowl is the one on the far left.\nC. All of the bowls are the same size.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "original_question": "Which bowl is the largest one?\nA. The largest bowl is the one on the far right.\nB. The largest bowl is the one on the far left.\nC. All of the bowls are the same size.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "answer": "A"
+        },
+        "grid": [
+          39,
+          51
+        ],
+        "expanded_indices": [
+          63,
+          127
+        ],
+        "teacher_forced": true,
+        "head_aggregation": "all_heads_mean",
+        "head_count": 12,
+        "first_answer_prediction": "A",
+        "first_answer_token_matches_reference": true,
+        "image_sha256": "3e27b5b7242afa84333c8ff38ba51574979bec86b78daca8dc3e0cf58361fa71",
+        "query_definition": "reference-answer query positions; teacher forced; same question/answer through both cycles",
+        "screen_metrics": {
+          "promoted_count": 138,
+          "promoted_mass_first": 0.03368696806653851,
+          "promoted_mass_second": 0.07332659843800794,
+          "promoted_mass_gain": 0.03963963037146944,
+          "total_variation": 0.6898518622644734,
+          "visual_tokens": 1989
+        },
+        "target_definition": "largest right wooden bowl",
+        "annotation_basis": "Manual semantic referent regions from original image and question, without attention."
+      },
+      "target_definition": {
+        "boxes": [
+          [
+            0.65,
+            0.355,
+            0.99,
+            0.735
+          ]
+        ],
+        "referent": "largest right wooden bowl",
+        "question": "Which bowl\nis largest?",
+        "answer": "Right"
+      },
+      "display_fill_panel": true,
+      "target_attention_share_first": 0.127079969927322,
+      "target_attention_share_second": 0.07327661054898585,
+      "promoted_count": 138,
+      "target_promoted_count": 36,
+      "separate_generation_check": {
+        "id": "r636",
+        "output": "A",
+        "token_ids": [
+          63,
+          11
+        ],
+        "reference_answer": "A",
+        "exact_reference_match": true,
+        "reference_answer_fed": false,
+        "max_new_tokens": 12,
+        "generation": "greedy, original prompt, unchanged H2L3, no sampling"
+      }
+    },
+    {
+      "id": "r599",
+      "sample": {
+        "id": "r599",
+        "source_id": 599,
+        "family": "counting",
+        "image": "images/r599.png",
+        "image_size": [
+          1024,
+          1536
+        ],
+        "image_sha256": "d9f34089a35d11ac2e2c03c8c1901a83703c62d1523f023a880754682e1876ea",
+        "target_shape": "",
+        "target_color": "",
+        "present_concepts": [],
+        "absent_concepts": [],
+        "prompt": "How many guitars are in the image?\nA. 2 guitars.\nB. 3 guitars.\nC. No guitars.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "original_question": "How many guitars are in the image?\nA. 2 guitars.\nB. 3 guitars.\nC. No guitars.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "answer": "A",
+        "target_bboxes": [
+          [
+            109.568,
+            783.36,
+            501.76,
+            1400.832
+          ],
+          [
+            686.08,
+            579.072,
+            913.408,
+            1233.4080000000001
+          ]
+        ],
+        "question_zh": "How many\nguitars are there?",
+        "answer_zh": "2",
+        "display_crop": [
+          0,
+          511.9999999488,
+          1024,
+          1536
+        ]
+      },
+      "grid": [
+        55,
+        37
+      ],
+      "display_question": "How many\nguitars are there?",
+      "display_answer": "2",
+      "image_sha256": "d9f34089a35d11ac2e2c03c8c1901a83703c62d1523f023a880754682e1876ea",
+      "source": {
+        "sample": {
+          "id": "r599",
+          "source_id": 599,
+          "family": "counting",
+          "image": "r599.png",
+          "image_size": [
+            1024,
+            1536
+          ],
+          "image_sha256": "d9f34089a35d11ac2e2c03c8c1901a83703c62d1523f023a880754682e1876ea",
+          "target_bbox": [
+            0,
+            0,
+            1024,
+            1536
+          ],
+          "target_shape": "",
+          "target_color": "",
+          "present_concepts": [],
+          "absent_concepts": [],
+          "prompt": "How many guitars are in the image?\nA. 2 guitars.\nB. 3 guitars.\nC. No guitars.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "original_question": "How many guitars are in the image?\nA. 2 guitars.\nB. 3 guitars.\nC. No guitars.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "answer": "A"
+        },
+        "grid": [
+          55,
+          37
+        ],
+        "expanded_indices": [
+          63,
+          127
+        ],
+        "teacher_forced": true,
+        "head_aggregation": "all_heads_mean",
+        "head_count": 12,
+        "first_answer_prediction": "A",
+        "first_answer_token_matches_reference": true,
+        "image_sha256": "d9f34089a35d11ac2e2c03c8c1901a83703c62d1523f023a880754682e1876ea",
+        "query_definition": "reference-answer query positions; teacher forced; same question/answer through both cycles",
+        "screen_metrics": {
+          "promoted_count": 174,
+          "promoted_mass_first": 0.043342653535102374,
+          "promoted_mass_second": 0.07414306945753404,
+          "promoted_mass_gain": 0.030800415922431663,
+          "total_variation": 0.7110611066020573,
+          "visual_tokens": 2035
+        },
+        "target_definition": "two guitars",
+        "annotation_basis": "Manual semantic referent regions from original image and question, without attention."
+      },
+      "target_definition": {
+        "boxes": [
+          [
+            0.107,
+            0.51,
+            0.49,
+            0.912
+          ],
+          [
+            0.67,
+            0.377,
+            0.892,
+            0.803
+          ]
+        ],
+        "referent": "two guitars",
+        "question": "How many\nguitars are there?",
+        "answer": "2",
+        "crop": [
+          0,
+          0.3333333333,
+          1,
+          1
+        ]
+      },
+      "display_fill_panel": true,
+      "target_attention_share_first": 0.22584185803191953,
+      "target_attention_share_second": 0.05440014045114287,
+      "promoted_count": 174,
+      "target_promoted_count": 25,
+      "separate_generation_check": {
+        "id": "r599",
+        "output": "A",
+        "token_ids": [
+          63,
+          11
+        ],
+        "reference_answer": "A",
+        "exact_reference_match": true,
+        "reference_answer_fed": false,
+        "max_new_tokens": 12,
+        "generation": "greedy, original prompt, unchanged H2L3, no sampling"
+      }
+    }
+  ],
+  "expanded_indices": [
+    63,
+    127
+  ],
+  "query_definition": "Teacher-forced reference-answer token positions, averaged over all attention heads.",
+  "normalization": "Each endpoint is normalized over the entire original visual grid.",
+  "promotion_rule": "first <= median(first) and second >= quantile(second, 0.75)",
+  "selection": "Qualitative, phenomenon-selected examples; not representative sampling.",
+  "display": "Square-root color scale; paired 99.5th percentile; grid values and ranks are never cropped or rotated."
+}

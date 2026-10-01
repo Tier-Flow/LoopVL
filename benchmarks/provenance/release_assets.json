@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "repository": "Tier-Flow/LoopVL",
+  "tag": "benchmark-assets-v1",
+  "assets": {
+    "AI2D_TEST-images.tar.gz": {
+      "bytes": 233995277,
+      "sha256": "f14e3402f56bf5c8201929d53a70d8aa89ba59dcc4eccf4504532e7ca1118f5c"
+    },
+    "BabyVision-images.tar.gz": {
+      "bytes": 26681862,
+      "sha256": "951fd1a1af0f0d38ed677a24e4f6c3414fe1a96bb793c31a65cf0a7e3f5a06ad"
+    },
+    "ChartQA_TEST-images.tar.gz": {
+      "bytes": 287232590,
+      "sha256": "389ffbf22286dab00551ae266656680a0fa4f4ccda9d94bebb9b507b51193097"
+    },
+    "HallusionBench-images.tar.gz": {
+      "bytes": 129844092,
+      "sha256": "8c8cf0263ea3cbb48c8e56053c719e471c44b97f80a48df781a3651a26830058"
+    },
+    "LogicVista-images.tar.gz": {
+      "bytes": 21347479,
+      "sha256": "57f17a9bd5ad42241aa8e7e77282c3daba7be2dccfe79708d131299b45e7c3d5"
+    },
+    "MMEval-Pro-images.tar.gz": {
+      "bytes": 270069635,
+      "sha256": "fc00e9d09e1f1f5a24c02f701793e81b625f42aa5996c150a3ae6a2994c219a4"
+    },
+    "MMK12-images.tar.gz": {
+      "bytes": 52634611,
+      "sha256": "c7496ec062822ac44bd6c7e810c98e13805097a8a40edcca80271465e2d3b697"
+    },
+    "MMMU-Pro-images.tar.gz": {
+      "bytes": 197036643,
+      "sha256": "18d5d7c654a56cedcb4d6978e0bf2cb9093ccdfd2474b99b9b7a14c48d7b9421"
+    },
+    "MMStar-images.tar.gz": {
+      "bytes": 280332018,
+      "sha256": "b625efb2766afb8c41ddad56d64180597b1a4f5672750efd65e8ffda1ec79147"
+    },
+    "MathVision-images.tar.gz": {
+      "bytes": 230760089,
+      "sha256": "a576b9197d02d5bf66c86a4589c82c2fca063de1c2da7d38b1ca081805a4a9e9"
+    },
+    "MathVision-WildPhoto-images.tar.gz": {
+      "bytes": 420722734,
+      "sha256": "ced46075462f1e5c2f359b4291dd657c8b75e352ff43078f8fe474586f66f93b"
+    },
+    "POPE-images.tar.gz": {
+      "bytes": 248948128,
+      "sha256": "b1f85cb15d26ad8e07b7a2246d8da58131330b808e6fc69267c99449e4451085"
+    },
+    "VMCBench_DEV-images.tar.gz": {
+      "bytes": 667247256,
+      "sha256": "9821180687469319f8b2a7371e3cfcae2bc3a6461f3df5f3199b4fe531fe6b39"
+    },
+    "VisuLogic-images.tar.gz": {
+      "bytes": 33011137,
+      "sha256": "d00fbc3eae56d2e32085877d93a8a2485effe25c303e664267628b790ff6f0c4"
+    },
+    "VisualPuzzles-images.tar.gz": {
+      "bytes": 140187671,
+      "sha256": "45c2e2d86a61641c4176d9762f61e7c7ebc4b392ec425b585ee65380a00f383c"
+    },
+    "RealWorldQA-test-00000-of-00002.parquet": {
+      "bytes": 337443936,
+      "sha256": "2cf29e308a34e0255f23520796fc04445a01b8baab18686f1a4b3c3943f695b2"
+    },
+    "RealWorldQA-test-00001-of-00002.parquet": {
+      "bytes": 340887239,
+      "sha256": "dac5b9f7cfb947a4865ea3424abfbdb3449d09e0a0b911a787cdc930cefefdc0"
+    },
+    "AI2D_TEST.tsv": {
+      "bytes": 167443652,
+      "sha256": "3b16aa83c6809149df6978c7d5a6ee830b75f0010a60b26d33c004c47d575c4a"
+    },
+    "ChartQA_TEST.tsv": {
+      "bytes": 129773428,
+      "sha256": "943c5155752e39984f8af928f551207703e5a8561f6ac89aaf5557305f9be7be"
+    },
+    "MMStar.tsv": {
+      "bytes": 59552082,
+      "sha256": "5b581d485fcfbb0f4c8fc0440fc4ecea17fb4ba1750c6446fd20833070552e95"
+    },
+    "VMCBench_DEV.tsv": {
+      "bytes": 212772664,
+      "sha256": "52471da2e155851d9fb1815bd39ebffc000854cded2070b612daa8938fe51eea"
+    }
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "stage": "smoke",
+  "n": 100,
+  "cohort": "SHA-sorted fixed RealWorldQA candidate subset; not a representative or official full benchmark",
+  "accuracy_definition": "direct unchanged greedy generation, 48-token cap, strict text equality with reference",
+  "logp_definition": "sum of teacher-forced reference-answer token log-probabilities",
+  "ranking_definition": "teacher-forced reference-answer query attention captured before intervention at both H-module endpoints, physical layer 16",
+  "hook_inactive_bit_equal": 100,
+  "hook_inactive_generation_equal": 100,
+  "common_mask_count": {
+    "mean": 160.49,
+    "min": 115,
+    "max": 187,
+    "zero_count": 0
+  },
+  "groups": {
+    "normal": {
+      "accuracy": 0.7,
+      "correct": 70,
+      "accuracy_delta_vs_normal_pp": 0.0,
+      "accuracy_delta_bootstrap95_pp": [
+        0.0,
+        0.0
+      ],
+      "normal_correct_to_wrong": 0,
+      "normal_wrong_to_correct": 0,
+      "prediction_changes": 0,
+      "mean_delta_logp_correct": 0.0,
+      "delta_logp_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "median_delta_logp_correct": 0.0
+    },
+    "blocked": {
+      "accuracy": 0.52,
+      "correct": 52,
+      "accuracy_delta_vs_normal_pp": -18.0,
+      "accuracy_delta_bootstrap95_pp": [
+        -28.999999999999996,
+        -8.0
+      ],
+      "normal_correct_to_wrong": 25,
+      "normal_wrong_to_correct": 7,
+      "prediction_changes": 37,
+      "mean_delta_logp_correct": -0.2535060638911091,
+      "delta_logp_bootstrap95": [
+        -0.483369352718164,
+        -0.007841366286436833
+      ],
+      "median_delta_logp_correct": -0.2566585425956873
+    },
+    "random": {
+      "accuracy": 0.68,
+      "correct": 68,
+      "accuracy_delta_vs_normal_pp": -2.0,
+      "accuracy_delta_bootstrap95_pp": [
+        -5.0,
+        0.0
+      ],
+      "normal_correct_to_wrong": 2,
+      "normal_wrong_to_correct": 0,
+      "prediction_changes": 2,
+      "mean_delta_logp_correct": 0.0012056236018543132,
+      "delta_logp_bootstrap95": [
+        -0.0038697531581619845,
+        0.0062394769122129205
+      ],
+      "median_delta_logp_correct": 1.1175507097505033e-07
+    },
+    "stable_high": {
+      "accuracy": 0.68,
+      "correct": 68,
+      "accuracy_delta_vs_normal_pp": -2.0,
+      "accuracy_delta_bootstrap95_pp": [
+        -5.0,
+        0.0
+      ],
+      "normal_correct_to_wrong": 2,
+      "normal_wrong_to_correct": 0,
+      "prediction_changes": 2,
+      "mean_delta_logp_correct": -7.675921486224979e-05,
+      "delta_logp_bootstrap95": [
+        -0.008538958388517131,
+        0.008259777403900442
+      ],
+      "median_delta_logp_correct": -1.0430423571961e-05
+    },
+    "promoted": {
+      "accuracy": 0.68,
+      "correct": 68,
+      "accuracy_delta_vs_normal_pp": -2.0,
+      "accuracy_delta_bootstrap95_pp": [
+        -5.0,
+        0.0
+      ],
+      "normal_correct_to_wrong": 2,
+      "normal_wrong_to_correct": 0,
+      "prediction_changes": 2,
+      "mean_delta_logp_correct": 0.004927549622952938,
+      "delta_logp_bootstrap95": [
+        0.0002964241990812301,
+        0.009623999941763026
+      ],
+      "median_delta_logp_correct": 6.202608346939087e-07
+    }
+  }
+}

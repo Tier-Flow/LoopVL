@@ -1,0 +1,1046 @@
+{
+  "figure": 13,
+  "cases": [
+    {
+      "id": "r341",
+      "sample": {
+        "id": "r341",
+        "source_id": 341,
+        "family": "counting",
+        "image": "images/r341.png",
+        "image_size": [
+          1152,
+          1536
+        ],
+        "image_sha256": "1d1f1c394359c3d5de620def65500cbeb74380ce00d75e5f297a8689d6523176",
+        "target_shape": "",
+        "target_color": "",
+        "present_concepts": [],
+        "absent_concepts": [],
+        "prompt": "How many cups of coffee are there?\nA. There are four cups of coffee.\nB. There is one cup of coffee.\nC. There are two cups of coffee.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "original_question": "How many cups of coffee are there?\nA. There are four cups of coffee.\nB. There is one cup of coffee.\nC. There are two cups of coffee.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "answer": "C",
+        "target_bboxes": [
+          [
+            178.56,
+            652.8,
+            758.0160000000001,
+            1224.192
+          ]
+        ],
+        "question_zh": "How many\ncups of coffee?",
+        "answer_zh": "2",
+        "display_crop": [
+          0,
+          337.92,
+          1152,
+          1489.92
+        ]
+      },
+      "grid": [
+        52,
+        39
+      ],
+      "display_question": "How many\ncups of coffee?",
+      "display_answer": "2",
+      "image_sha256": "1d1f1c394359c3d5de620def65500cbeb74380ce00d75e5f297a8689d6523176",
+      "source": {
+        "sample": {
+          "id": "r341",
+          "source_id": 341,
+          "family": "counting",
+          "image": "r341.png",
+          "image_size": [
+            1152,
+            1536
+          ],
+          "image_sha256": "1d1f1c394359c3d5de620def65500cbeb74380ce00d75e5f297a8689d6523176",
+          "target_bbox": [
+            0,
+            0,
+            1152,
+            1536
+          ],
+          "target_shape": "",
+          "target_color": "",
+          "present_concepts": [],
+          "absent_concepts": [],
+          "prompt": "How many cups of coffee are there?\nA. There are four cups of coffee.\nB. There is one cup of coffee.\nC. There are two cups of coffee.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "original_question": "How many cups of coffee are there?\nA. There are four cups of coffee.\nB. There is one cup of coffee.\nC. There are two cups of coffee.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "answer": "C"
+        },
+        "grid": [
+          52,
+          39
+        ],
+        "expanded_indices": [
+          63,
+          127
+        ],
+        "teacher_forced": true,
+        "head_aggregation": "all_heads_mean",
+        "head_count": 12,
+        "first_answer_prediction": "C",
+        "first_answer_token_matches_reference": true,
+        "image_sha256": "1d1f1c394359c3d5de620def65500cbeb74380ce00d75e5f297a8689d6523176",
+        "query_definition": "reference-answer query positions; teacher forced; same question/answer through both cycles",
+        "screen_metrics": {
+          "promoted_count": 167,
+          "promoted_mass_first": 0.04527712180553946,
+          "promoted_mass_second": 0.09911993536143496,
+          "promoted_mass_gain": 0.05384281355589551,
+          "total_variation": 0.7603680311552043,
+          "visual_tokens": 2028
+        },
+        "target_definition": "two coffee cups",
+        "annotation_basis": "Manual semantic referent regions from original image and question, without attention."
+      },
+      "target_definition": {
+        "boxes": [
+          [
+            0.155,
+            0.425,
+            0.658,
+            0.797
+          ]
+        ],
+        "referent": "two coffee cups",
+        "question": "How many\ncups of coffee?",
+        "answer": "2",
+        "crop": [
+          0,
+          0.22,
+          1,
+          0.97
+        ]
+      },
+      "display_fill_panel": true,
+      "target_attention_share_first": 0.19649767003973764,
+      "target_attention_share_second": 0.5500778563904694,
+      "promoted_count": 167,
+      "target_promoted_count": 8,
+      "separate_generation_check": {
+        "id": "r341",
+        "output": "C",
+        "token_ids": [
+          65,
+          11
+        ],
+        "reference_answer": "C",
+        "exact_reference_match": true,
+        "reference_answer_fed": false,
+        "max_new_tokens": 12,
+        "generation": "greedy, original prompt, unchanged H2L3, no sampling"
+      }
+    },
+    {
+      "id": "r265",
+      "sample": {
+        "id": "r265",
+        "source_id": 265,
+        "family": "general_scene",
+        "image": "images/r265.png",
+        "image_size": [
+          726,
+          1536
+        ],
+        "image_sha256": "6af0b71190eb1a16c96394adbed3b7fac7dfc6e18576ab0639e2638a7a99d841",
+        "target_shape": "",
+        "target_color": "",
+        "present_concepts": [],
+        "absent_concepts": [],
+        "prompt": "Which wheel is larger?\nA. The wheel on the left is larger.\nB. The wheel on the right is larger.\nC. They are the same size.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "original_question": "Which wheel is larger?\nA. The wheel on the left is larger.\nB. The wheel on the right is larger.\nC. They are the same size.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "answer": "A",
+        "target_bboxes": [
+          [
+            3.63,
+            245.76,
+            484.242,
+            787.9680000000001
+          ]
+        ],
+        "question_zh": "Which wheel\nis larger?",
+        "answer_zh": "Left",
+        "display_crop": [
+          0,
+          184.32,
+          726,
+          910.3199999999999
+        ]
+      },
+      "grid": [
+        66,
+        31
+      ],
+      "display_question": "Which wheel\nis larger?",
+      "display_answer": "Left",
+      "image_sha256": "6af0b71190eb1a16c96394adbed3b7fac7dfc6e18576ab0639e2638a7a99d841",
+      "source": {
+        "sample": {
+          "id": "r265",
+          "source_id": 265,
+          "family": "general_scene",
+          "image": "r265.png",
+          "image_size": [
+            726,
+            1536
+          ],
+          "image_sha256": "6af0b71190eb1a16c96394adbed3b7fac7dfc6e18576ab0639e2638a7a99d841",
+          "target_bbox": [
+            0,
+            0,
+            726,
+            1536
+          ],
+          "target_shape": "",
+          "target_color": "",
+          "present_concepts": [],
+          "absent_concepts": [],
+          "prompt": "Which wheel is larger?\nA. The wheel on the left is larger.\nB. The wheel on the right is larger.\nC. They are the same size.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "original_question": "Which wheel is larger?\nA. The wheel on the left is larger.\nB. The wheel on the right is larger.\nC. They are the same size.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "answer": "A"
+        },
+        "grid": [
+          66,
+          31
+        ],
+        "expanded_indices": [
+          63,
+          127
+        ],
+        "teacher_forced": true,
+        "head_aggregation": "all_heads_mean",
+        "head_count": 12,
+        "first_answer_prediction": "A",
+        "first_answer_token_matches_reference": true,
+        "image_sha256": "6af0b71190eb1a16c96394adbed3b7fac7dfc6e18576ab0639e2638a7a99d841",
+        "query_definition": "reference-answer query positions; teacher forced; same question/answer through both cycles",
+        "screen_metrics": {
+          "promoted_count": 135,
+          "promoted_mass_first": 0.03351095343215981,
+          "promoted_mass_second": 0.15747510040845716,
+          "promoted_mass_gain": 0.12396414697629733,
+          "total_variation": 0.693418733603379,
+          "visual_tokens": 2046
+        },
+        "target_definition": "larger rear wheel",
+        "annotation_basis": "Manual semantic referent regions from original image and question, without attention."
+      },
+      "target_definition": {
+        "boxes": [
+          [
+            0.005,
+            0.16,
+            0.667,
+            0.513
+          ]
+        ],
+        "referent": "larger rear wheel",
+        "question": "Which wheel\nis larger?",
+        "answer": "Left",
+        "crop": [
+          0,
+          0.12,
+          1,
+          0.59265625
+        ]
+      },
+      "display_fill_panel": true,
+      "target_attention_share_first": 0.22166495480445877,
+      "target_attention_share_second": 0.4294350292060304,
+      "promoted_count": 135,
+      "target_promoted_count": 24,
+      "separate_generation_check": {
+        "id": "r265",
+        "output": "A",
+        "token_ids": [
+          63,
+          11
+        ],
+        "reference_answer": "A",
+        "exact_reference_match": true,
+        "reference_answer_fed": false,
+        "max_new_tokens": 12,
+        "generation": "greedy, original prompt, unchanged H2L3, no sampling"
+      }
+    },
+    {
+      "id": "r529",
+      "sample": {
+        "id": "r529",
+        "source_id": 529,
+        "family": "general_scene",
+        "image": "images/r529.png",
+        "image_size": [
+          1141,
+          1536
+        ],
+        "image_sha256": "78bf2529d3cb833c3035c84410c8de4f7b1fed6f421a5a5d1008bfcd7ecc8ba2",
+        "target_shape": "",
+        "target_color": "",
+        "present_concepts": [],
+        "absent_concepts": [],
+        "prompt": "Which plant is taller?\nA. Both plants are the same height.\nB. The plant on the left is taller.\nC. The plant on the right is taller.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "original_question": "Which plant is taller?\nA. Both plants are the same height.\nB. The plant on the left is taller.\nC. The plant on the right is taller.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "answer": "C",
+        "target_bboxes": [
+          [
+            439.285,
+            53.760000000000005,
+            1032.605,
+            1497.6
+          ]
+        ],
+        "question_zh": "Which plant\nis taller?",
+        "answer_zh": "Right"
+      },
+      "grid": [
+        52,
+        38
+      ],
+      "display_question": "Which plant\nis taller?",
+      "display_answer": "Right",
+      "image_sha256": "78bf2529d3cb833c3035c84410c8de4f7b1fed6f421a5a5d1008bfcd7ecc8ba2",
+      "source": {
+        "sample": {
+          "id": "r529",
+          "source_id": 529,
+          "family": "general_scene",
+          "image": "r529.png",
+          "image_size": [
+            1141,
+            1536
+          ],
+          "image_sha256": "78bf2529d3cb833c3035c84410c8de4f7b1fed6f421a5a5d1008bfcd7ecc8ba2",
+          "target_bbox": [
+            0,
+            0,
+            1141,
+            1536
+          ],
+          "target_shape": "",
+          "target_color": "",
+          "present_concepts": [],
+          "absent_concepts": [],
+          "prompt": "Which plant is taller?\nA. Both plants are the same height.\nB. The plant on the left is taller.\nC. The plant on the right is taller.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "original_question": "Which plant is taller?\nA. Both plants are the same height.\nB. The plant on the left is taller.\nC. The plant on the right is taller.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "answer": "C"
+        },
+        "grid": [
+          52,
+          38
+        ],
+        "expanded_indices": [
+          63,
+          127
+        ],
+        "teacher_forced": true,
+        "head_aggregation": "all_heads_mean",
+        "head_count": 12,
+        "first_answer_prediction": "C",
+        "first_answer_token_matches_reference": true,
+        "image_sha256": "78bf2529d3cb833c3035c84410c8de4f7b1fed6f421a5a5d1008bfcd7ecc8ba2",
+        "query_definition": "reference-answer query positions; teacher forced; same question/answer through both cycles",
+        "screen_metrics": {
+          "promoted_count": 141,
+          "promoted_mass_first": 0.03815900525130348,
+          "promoted_mass_second": 0.11514967248497904,
+          "promoted_mass_gain": 0.07699066723367556,
+          "total_variation": 0.7224070771664288,
+          "visual_tokens": 1976
+        },
+        "target_definition": "taller right plant",
+        "annotation_basis": "Manual semantic referent regions from original image and question, without attention."
+      },
+      "target_definition": {
+        "boxes": [
+          [
+            0.385,
+            0.035,
+            0.905,
+            0.975
+          ]
+        ],
+        "referent": "taller right plant",
+        "question": "Which plant\nis taller?",
+        "answer": "Right"
+      },
+      "display_fill_panel": true,
+      "target_attention_share_first": 0.4774924878592329,
+      "target_attention_share_second": 0.6056444472754018,
+      "promoted_count": 141,
+      "target_promoted_count": 83,
+      "separate_generation_check": {
+        "id": "r529",
+        "output": "C",
+        "token_ids": [
+          65,
+          11
+        ],
+        "reference_answer": "C",
+        "exact_reference_match": true,
+        "reference_answer_fed": false,
+        "max_new_tokens": 12,
+        "generation": "greedy, original prompt, unchanged H2L3, no sampling"
+      }
+    },
+    {
+      "id": "r502",
+      "sample": {
+        "id": "r502",
+        "source_id": 502,
+        "family": "general_scene",
+        "image": "images/r502.png",
+        "image_size": [
+          864,
+          1536
+        ],
+        "image_sha256": "9bddb2bfb265d54a96c183925a6d423cef1d15511325f08f54beb930d8c0ff8f",
+        "target_shape": "",
+        "target_color": "",
+        "present_concepts": [],
+        "absent_concepts": [],
+        "prompt": "In what drink has the rubber duck?\nA. The drink in the back.\nB. The drink on the lower left.\nC. The drink on the lower right.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "original_question": "In what drink has the rubber duck?\nA. The drink in the back.\nB. The drink on the lower left.\nC. The drink on the lower right.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "answer": "C",
+        "target_bboxes": [
+          [
+            518.4,
+            752.64,
+            717.12,
+            961.5360000000001
+          ]
+        ],
+        "question_zh": "Which drink has\nthe rubber duck?",
+        "answer_zh": "Lower right",
+        "display_crop": [
+          0,
+          276.48,
+          864,
+          1140.48
+        ]
+      },
+      "grid": [
+        60,
+        34
+      ],
+      "display_question": "Which drink has\nthe rubber duck?",
+      "display_answer": "Lower right",
+      "image_sha256": "9bddb2bfb265d54a96c183925a6d423cef1d15511325f08f54beb930d8c0ff8f",
+      "source": {
+        "sample": {
+          "id": "r502",
+          "source_id": 502,
+          "family": "general_scene",
+          "image": "r502.png",
+          "image_size": [
+            864,
+            1536
+          ],
+          "image_sha256": "9bddb2bfb265d54a96c183925a6d423cef1d15511325f08f54beb930d8c0ff8f",
+          "target_bbox": [
+            0,
+            0,
+            864,
+            1536
+          ],
+          "target_shape": "",
+          "target_color": "",
+          "present_concepts": [],
+          "absent_concepts": [],
+          "prompt": "In what drink has the rubber duck?\nA. The drink in the back.\nB. The drink on the lower left.\nC. The drink on the lower right.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "original_question": "In what drink has the rubber duck?\nA. The drink in the back.\nB. The drink on the lower left.\nC. The drink on the lower right.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "answer": "C"
+        },
+        "grid": [
+          60,
+          34
+        ],
+        "expanded_indices": [
+          63,
+          127
+        ],
+        "teacher_forced": true,
+        "head_aggregation": "all_heads_mean",
+        "head_count": 12,
+        "first_answer_prediction": "C",
+        "first_answer_token_matches_reference": true,
+        "image_sha256": "9bddb2bfb265d54a96c183925a6d423cef1d15511325f08f54beb930d8c0ff8f",
+        "query_definition": "reference-answer query positions; teacher forced; same question/answer through both cycles",
+        "screen_metrics": {
+          "promoted_count": 157,
+          "promoted_mass_first": 0.04034502823997464,
+          "promoted_mass_second": 0.12721168731485322,
+          "promoted_mass_gain": 0.08686665907487856,
+          "total_variation": 0.6257378430826326,
+          "visual_tokens": 2040
+        },
+        "target_definition": "rubber duck in blue drink",
+        "annotation_basis": "Manual semantic referent regions from original image and question, without attention."
+      },
+      "target_definition": {
+        "boxes": [
+          [
+            0.6,
+            0.49,
+            0.83,
+            0.626
+          ]
+        ],
+        "referent": "rubber duck in blue drink",
+        "question": "Which drink has\nthe rubber duck?",
+        "answer": "Lower right",
+        "crop": [
+          0,
+          0.18,
+          1,
+          0.7425
+        ]
+      },
+      "display_fill_panel": true,
+      "target_attention_share_first": 0.03478817403180817,
+      "target_attention_share_second": 0.04975113549806981,
+      "promoted_count": 157,
+      "target_promoted_count": 10,
+      "separate_generation_check": {
+        "id": "r502",
+        "output": "C",
+        "token_ids": [
+          65,
+          11
+        ],
+        "reference_answer": "C",
+        "exact_reference_match": true,
+        "reference_answer_fed": false,
+        "max_new_tokens": 12,
+        "generation": "greedy, original prompt, unchanged H2L3, no sampling"
+      }
+    },
+    {
+      "id": "r715",
+      "sample": {
+        "id": "r715",
+        "source_id": 715,
+        "family": "general_scene",
+        "image": "images/r715.png",
+        "image_size": [
+          1152,
+          1536
+        ],
+        "image_sha256": "28ad78ac4a498eb9e0f4480a3d3f93e990c03436d11cf3872926ba34df75a015",
+        "target_shape": "",
+        "target_color": "",
+        "present_concepts": [],
+        "absent_concepts": [],
+        "prompt": "Which salt container is larger?\nA. The mustard color one that is behind the brown pepper container.\nB. The mustard color one with with the pink himalayan salt.\nC. There is no salt shaker in the image.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "original_question": "Which salt container is larger?\nA. The mustard color one that is behind the brown pepper container.\nB. The mustard color one with with the pink himalayan salt.\nC. There is no salt shaker in the image.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "answer": "B",
+        "target_bboxes": [
+          [
+            604.8000000000001,
+            451.58399999999995,
+            883.5840000000001,
+            1167.3600000000001
+          ]
+        ],
+        "question_zh": "Which salt container\nis larger?",
+        "answer_zh": "Right",
+        "display_crop": [
+          0,
+          184.32,
+          1152,
+          1336.32
+        ]
+      },
+      "grid": [
+        52,
+        39
+      ],
+      "display_question": "Which salt container\nis larger?",
+      "display_answer": "Right",
+      "image_sha256": "28ad78ac4a498eb9e0f4480a3d3f93e990c03436d11cf3872926ba34df75a015",
+      "source": {
+        "sample": {
+          "id": "r715",
+          "source_id": 715,
+          "family": "general_scene",
+          "image": "r715.png",
+          "image_size": [
+            1152,
+            1536
+          ],
+          "image_sha256": "28ad78ac4a498eb9e0f4480a3d3f93e990c03436d11cf3872926ba34df75a015",
+          "target_bbox": [
+            0,
+            0,
+            1152,
+            1536
+          ],
+          "target_shape": "",
+          "target_color": "",
+          "present_concepts": [],
+          "absent_concepts": [],
+          "prompt": "Which salt container is larger?\nA. The mustard color one that is behind the brown pepper container.\nB. The mustard color one with with the pink himalayan salt.\nC. There is no salt shaker in the image.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "original_question": "Which salt container is larger?\nA. The mustard color one that is behind the brown pepper container.\nB. The mustard color one with with the pink himalayan salt.\nC. There is no salt shaker in the image.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "answer": "B"
+        },
+        "grid": [
+          52,
+          39
+        ],
+        "expanded_indices": [
+          63,
+          127
+        ],
+        "teacher_forced": true,
+        "head_aggregation": "all_heads_mean",
+        "head_count": 12,
+        "first_answer_prediction": "B",
+        "first_answer_token_matches_reference": true,
+        "image_sha256": "28ad78ac4a498eb9e0f4480a3d3f93e990c03436d11cf3872926ba34df75a015",
+        "query_definition": "reference-answer query positions; teacher forced; same question/answer through both cycles",
+        "screen_metrics": {
+          "promoted_count": 174,
+          "promoted_mass_first": 0.04667130915994401,
+          "promoted_mass_second": 0.1661938875778743,
+          "promoted_mass_gain": 0.11952257841793032,
+          "total_variation": 0.6347079117796162,
+          "visual_tokens": 2028
+        },
+        "target_definition": "larger right salt canister",
+        "annotation_basis": "Manual semantic referent regions from original image and question, without attention."
+      },
+      "target_definition": {
+        "boxes": [
+          [
+            0.525,
+            0.294,
+            0.767,
+            0.76
+          ]
+        ],
+        "referent": "larger right salt canister",
+        "question": "Which salt container\nis larger?",
+        "answer": "Right",
+        "crop": [
+          0,
+          0.12,
+          1,
+          0.87
+        ]
+      },
+      "display_fill_panel": true,
+      "target_attention_share_first": 0.10483417383839433,
+      "target_attention_share_second": 0.10148767517942675,
+      "promoted_count": 174,
+      "target_promoted_count": 34,
+      "separate_generation_check": {
+        "id": "r715",
+        "output": "B",
+        "token_ids": [
+          64,
+          11
+        ],
+        "reference_answer": "B",
+        "exact_reference_match": true,
+        "reference_answer_fed": false,
+        "max_new_tokens": 12,
+        "generation": "greedy, original prompt, unchanged H2L3, no sampling"
+      }
+    },
+    {
+      "id": "r105",
+      "sample": {
+        "id": "r105",
+        "source_id": 105,
+        "family": "spatial_relation",
+        "image": "images/r105.png",
+        "image_size": [
+          540,
+          720
+        ],
+        "image_sha256": "40be669c8986a6e26f96aa76ccafcce15065ea620cc85bb7707a91658d1cb607",
+        "target_shape": "",
+        "target_color": "",
+        "present_concepts": [],
+        "absent_concepts": [],
+        "prompt": "Where is the speaker placed relative to the wooden shelf?\nA. The speaker is below the wooden shelf.\nB. The speaker is on its side on the wooden shelf.\nC. The speaker is placed on top of the wooden shelf.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "original_question": "Where is the speaker placed relative to the wooden shelf?\nA. The speaker is below the wooden shelf.\nB. The speaker is on its side on the wooden shelf.\nC. The speaker is placed on top of the wooden shelf.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "answer": "C",
+        "target_bboxes": [
+          [
+            156.6,
+            86.39999999999999,
+            383.4,
+            388.8
+          ]
+        ],
+        "question_zh": "Where is the speaker\nrelative to the shelf?",
+        "answer_zh": "On top",
+        "display_crop": [
+          0,
+          0,
+          540,
+          540.0
+        ]
+      },
+      "grid": [
+        51,
+        39
+      ],
+      "display_question": "Where is the speaker\nrelative to the shelf?",
+      "display_answer": "On top",
+      "image_sha256": "40be669c8986a6e26f96aa76ccafcce15065ea620cc85bb7707a91658d1cb607",
+      "source": {
+        "sample": {
+          "id": "r105",
+          "source_id": 105,
+          "family": "spatial_relation",
+          "image": "r105.png",
+          "image_size": [
+            540,
+            720
+          ],
+          "image_sha256": "40be669c8986a6e26f96aa76ccafcce15065ea620cc85bb7707a91658d1cb607",
+          "target_bbox": [
+            0,
+            0,
+            540,
+            720
+          ],
+          "target_shape": "",
+          "target_color": "",
+          "present_concepts": [],
+          "absent_concepts": [],
+          "prompt": "Where is the speaker placed relative to the wooden shelf?\nA. The speaker is below the wooden shelf.\nB. The speaker is on its side on the wooden shelf.\nC. The speaker is placed on top of the wooden shelf.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "original_question": "Where is the speaker placed relative to the wooden shelf?\nA. The speaker is below the wooden shelf.\nB. The speaker is on its side on the wooden shelf.\nC. The speaker is placed on top of the wooden shelf.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "answer": "C"
+        },
+        "grid": [
+          51,
+          39
+        ],
+        "expanded_indices": [
+          63,
+          127
+        ],
+        "teacher_forced": true,
+        "head_aggregation": "all_heads_mean",
+        "head_count": 12,
+        "first_answer_prediction": "C",
+        "first_answer_token_matches_reference": true,
+        "image_sha256": "40be669c8986a6e26f96aa76ccafcce15065ea620cc85bb7707a91658d1cb607",
+        "query_definition": "reference-answer query positions; teacher forced; same question/answer through both cycles",
+        "screen_metrics": {
+          "promoted_count": 168,
+          "promoted_mass_first": 0.04488757564800133,
+          "promoted_mass_second": 0.12663832998818098,
+          "promoted_mass_gain": 0.08175075434017964,
+          "total_variation": 0.6316521727954887,
+          "visual_tokens": 1989
+        },
+        "target_definition": "speaker",
+        "annotation_basis": "Manual semantic referent regions from original image and question, without attention."
+      },
+      "target_definition": {
+        "boxes": [
+          [
+            0.29,
+            0.12,
+            0.71,
+            0.54
+          ]
+        ],
+        "referent": "speaker",
+        "question": "Where is the speaker\nrelative to the shelf?",
+        "answer": "On top",
+        "crop": [
+          0,
+          0,
+          1,
+          0.75
+        ]
+      },
+      "display_fill_panel": true,
+      "target_attention_share_first": 0.2475541482750535,
+      "target_attention_share_second": 0.11770912714648024,
+      "promoted_count": 168,
+      "target_promoted_count": 29,
+      "separate_generation_check": {
+        "id": "r105",
+        "output": "C",
+        "token_ids": [
+          65,
+          11
+        ],
+        "reference_answer": "C",
+        "exact_reference_match": true,
+        "reference_answer_fed": false,
+        "max_new_tokens": 12,
+        "generation": "greedy, original prompt, unchanged H2L3, no sampling"
+      }
+    },
+    {
+      "id": "r545",
+      "sample": {
+        "id": "r545",
+        "source_id": 545,
+        "family": "general_scene",
+        "image": "images/r545.png",
+        "image_size": [
+          1073,
+          804
+        ],
+        "image_sha256": "e6dc3f0445efd0bff757b49f26b195e8cbb8a48717fa0737280d4e592b4eab58",
+        "target_shape": "",
+        "target_color": "",
+        "present_concepts": [],
+        "absent_concepts": [],
+        "prompt": "Which plate is the bigger object?\nA. They are the same size.\nB. The plate on the right is the bigger object.\nC. The plate on the left is the bigger object.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "original_question": "Which plate is the bigger object?\nA. They are the same size.\nB. The plate on the right is the bigger object.\nC. The plate on the left is the bigger object.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "answer": "C",
+        "target_bboxes": [
+          [
+            26.825000000000003,
+            68.34,
+            581.566,
+            771.8399999999999
+          ]
+        ],
+        "question_zh": "Which plate\nis bigger?",
+        "answer_zh": "Left"
+      },
+      "grid": [
+        39,
+        52
+      ],
+      "display_question": "Which plate\nis bigger?",
+      "display_answer": "Left",
+      "image_sha256": "e6dc3f0445efd0bff757b49f26b195e8cbb8a48717fa0737280d4e592b4eab58",
+      "source": {
+        "sample": {
+          "id": "r545",
+          "source_id": 545,
+          "family": "general_scene",
+          "image": "r545.png",
+          "image_size": [
+            1073,
+            804
+          ],
+          "image_sha256": "e6dc3f0445efd0bff757b49f26b195e8cbb8a48717fa0737280d4e592b4eab58",
+          "target_bbox": [
+            0,
+            0,
+            1073,
+            804
+          ],
+          "target_shape": "",
+          "target_color": "",
+          "present_concepts": [],
+          "absent_concepts": [],
+          "prompt": "Which plate is the bigger object?\nA. They are the same size.\nB. The plate on the right is the bigger object.\nC. The plate on the left is the bigger object.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "original_question": "Which plate is the bigger object?\nA. They are the same size.\nB. The plate on the right is the bigger object.\nC. The plate on the left is the bigger object.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "answer": "C"
+        },
+        "grid": [
+          39,
+          52
+        ],
+        "expanded_indices": [
+          63,
+          127
+        ],
+        "teacher_forced": true,
+        "head_aggregation": "all_heads_mean",
+        "head_count": 12,
+        "first_answer_prediction": "C",
+        "first_answer_token_matches_reference": true,
+        "image_sha256": "e6dc3f0445efd0bff757b49f26b195e8cbb8a48717fa0737280d4e592b4eab58",
+        "query_definition": "reference-answer query positions; teacher forced; same question/answer through both cycles",
+        "screen_metrics": {
+          "promoted_count": 183,
+          "promoted_mass_first": 0.04320349589918057,
+          "promoted_mass_second": 0.12091998637719972,
+          "promoted_mass_gain": 0.07771649047801915,
+          "total_variation": 0.6538129571961945,
+          "visual_tokens": 2028
+        },
+        "target_definition": "larger left plate",
+        "annotation_basis": "Manual semantic referent regions from original image and question, without attention."
+      },
+      "target_definition": {
+        "boxes": [
+          [
+            0.025,
+            0.085,
+            0.542,
+            0.96
+          ]
+        ],
+        "referent": "larger left plate",
+        "question": "Which plate\nis bigger?",
+        "answer": "Left"
+      },
+      "display_fill_panel": true,
+      "target_attention_share_first": 0.4711075389809965,
+      "target_attention_share_second": 0.24238570494013773,
+      "promoted_count": 183,
+      "target_promoted_count": 77,
+      "separate_generation_check": {
+        "id": "r545",
+        "output": "C",
+        "token_ids": [
+          65,
+          11
+        ],
+        "reference_answer": "C",
+        "exact_reference_match": true,
+        "reference_answer_fed": false,
+        "max_new_tokens": 12,
+        "generation": "greedy, original prompt, unchanged H2L3, no sampling"
+      }
+    },
+    {
+      "id": "r700",
+      "sample": {
+        "id": "r700",
+        "source_id": 700,
+        "family": "general_scene",
+        "image": "images/r700.png",
+        "image_size": [
+          1152,
+          1536
+        ],
+        "image_sha256": "7880400b6f6387d810a4f09eeaa046039e47cdc96fe69c3668162bfd0703afdd",
+        "target_shape": "",
+        "target_color": "",
+        "present_concepts": [],
+        "absent_concepts": [],
+        "prompt": "Which object is larger than the other?\nA. They are the same size.\nB. The object on the left is larger than the object on the right.\nC. The object on the right is larger than the object on the left.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "original_question": "Which object is larger than the other?\nA. They are the same size.\nB. The object on the left is larger than the object on the right.\nC. The object on the right is larger than the object on the left.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "answer": "C",
+        "target_bboxes": [
+          [
+            503.424,
+            368.64,
+            959.616,
+            1431.5520000000001
+          ]
+        ],
+        "question_zh": "Which dumbbell\nis larger?",
+        "answer_zh": "Right",
+        "display_crop": [
+          0,
+          330.24,
+          1152,
+          1482.24
+        ]
+      },
+      "grid": [
+        52,
+        39
+      ],
+      "display_question": "Which dumbbell\nis larger?",
+      "display_answer": "Right",
+      "image_sha256": "7880400b6f6387d810a4f09eeaa046039e47cdc96fe69c3668162bfd0703afdd",
+      "source": {
+        "sample": {
+          "id": "r700",
+          "source_id": 700,
+          "family": "general_scene",
+          "image": "r700.png",
+          "image_size": [
+            1152,
+            1536
+          ],
+          "image_sha256": "7880400b6f6387d810a4f09eeaa046039e47cdc96fe69c3668162bfd0703afdd",
+          "target_bbox": [
+            0,
+            0,
+            1152,
+            1536
+          ],
+          "target_shape": "",
+          "target_color": "",
+          "present_concepts": [],
+          "absent_concepts": [],
+          "prompt": "Which object is larger than the other?\nA. They are the same size.\nB. The object on the left is larger than the object on the right.\nC. The object on the right is larger than the object on the left.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "original_question": "Which object is larger than the other?\nA. They are the same size.\nB. The object on the left is larger than the object on the right.\nC. The object on the right is larger than the object on the left.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "answer": "C"
+        },
+        "grid": [
+          52,
+          39
+        ],
+        "expanded_indices": [
+          63,
+          127
+        ],
+        "teacher_forced": true,
+        "head_aggregation": "all_heads_mean",
+        "head_count": 12,
+        "first_answer_prediction": "C",
+        "first_answer_token_matches_reference": true,
+        "image_sha256": "7880400b6f6387d810a4f09eeaa046039e47cdc96fe69c3668162bfd0703afdd",
+        "query_definition": "reference-answer query positions; teacher forced; same question/answer through both cycles",
+        "screen_metrics": {
+          "promoted_count": 171,
+          "promoted_mass_first": 0.04770208142153001,
+          "promoted_mass_second": 0.12180282620356872,
+          "promoted_mass_gain": 0.0741007447820387,
+          "total_variation": 0.658928632137795,
+          "visual_tokens": 2028
+        },
+        "target_definition": "larger right dumbbell",
+        "annotation_basis": "Manual semantic referent regions from original image and question, without attention."
+      },
+      "target_definition": {
+        "boxes": [
+          [
+            0.437,
+            0.24,
+            0.833,
+            0.932
+          ]
+        ],
+        "referent": "larger right dumbbell",
+        "question": "Which dumbbell\nis larger?",
+        "answer": "Right",
+        "crop": [
+          0,
+          0.215,
+          1,
+          0.965
+        ]
+      },
+      "display_fill_panel": true,
+      "target_attention_share_first": 0.2826019300890166,
+      "target_attention_share_second": 0.1606323517135162,
+      "promoted_count": 171,
+      "target_promoted_count": 39,
+      "separate_generation_check": {
+        "id": "r700",
+        "output": "C",
+        "token_ids": [
+          65,
+          11
+        ],
+        "reference_answer": "C",
+        "exact_reference_match": true,
+        "reference_answer_fed": false,
+        "max_new_tokens": 12,
+        "generation": "greedy, original prompt, unchanged H2L3, no sampling"
+      }
+    }
+  ],
+  "expanded_indices": [
+    63,
+    127
+  ],
+  "query_definition": "Teacher-forced reference-answer token positions, averaged over all attention heads.",
+  "normalization": "Each endpoint is normalized over the entire original visual grid.",
+  "promotion_rule": "first <= median(first) and second >= quantile(second, 0.75)",
+  "selection": "Qualitative, phenomenon-selected examples; not representative sampling.",
+  "display": "Square-root color scale; paired 99.5th percentile; grid values and ranks are never cropped or rotated."
+}

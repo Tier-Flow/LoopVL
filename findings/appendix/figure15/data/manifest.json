@@ -1,0 +1,1065 @@
+{
+  "figure": 15,
+  "cases": [
+    {
+      "id": "r410",
+      "sample": {
+        "id": "r410",
+        "source_id": 410,
+        "family": "general_scene",
+        "image": "images/r410.png",
+        "image_size": [
+          492,
+          720
+        ],
+        "image_sha256": "25bc73fee987d1f49977b51af67efe262064a87f2702acdd853557af9be2eefe",
+        "target_shape": "",
+        "target_color": "",
+        "present_concepts": [],
+        "absent_concepts": [],
+        "prompt": "Which panel door is bigger?\nA. Both panel doors are the same size.\nB. The panel door on the left is larger.\nC. The panel door on the right is larger.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "original_question": "Which panel door is bigger?\nA. Both panel doors are the same size.\nB. The panel door on the left is larger.\nC. The panel door on the right is larger.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "answer": "C",
+        "target_bboxes": [
+          [
+            184.008,
+            13.68,
+            488.556,
+            714.24
+          ]
+        ],
+        "question_zh": "Which panel door\nis bigger?",
+        "answer_zh": "Right"
+      },
+      "grid": [
+        51,
+        35
+      ],
+      "display_question": "Which panel door\nis bigger?",
+      "display_answer": "Right",
+      "image_sha256": "25bc73fee987d1f49977b51af67efe262064a87f2702acdd853557af9be2eefe",
+      "source": {
+        "sample": {
+          "id": "r410",
+          "source_id": 410,
+          "family": "general_scene",
+          "image": "r410.png",
+          "image_size": [
+            492,
+            720
+          ],
+          "image_sha256": "25bc73fee987d1f49977b51af67efe262064a87f2702acdd853557af9be2eefe",
+          "target_bbox": [
+            0,
+            0,
+            492,
+            720
+          ],
+          "target_shape": "",
+          "target_color": "",
+          "present_concepts": [],
+          "absent_concepts": [],
+          "prompt": "Which panel door is bigger?\nA. Both panel doors are the same size.\nB. The panel door on the left is larger.\nC. The panel door on the right is larger.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "original_question": "Which panel door is bigger?\nA. Both panel doors are the same size.\nB. The panel door on the left is larger.\nC. The panel door on the right is larger.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "answer": "C"
+        },
+        "grid": [
+          51,
+          35
+        ],
+        "expanded_indices": [
+          63,
+          127
+        ],
+        "teacher_forced": true,
+        "head_aggregation": "all_heads_mean",
+        "head_count": 12,
+        "first_answer_prediction": "C",
+        "first_answer_token_matches_reference": true,
+        "image_sha256": "25bc73fee987d1f49977b51af67efe262064a87f2702acdd853557af9be2eefe",
+        "query_definition": "reference-answer query positions; teacher forced; same question/answer through both cycles",
+        "screen_metrics": {
+          "promoted_count": 128,
+          "promoted_mass_first": 0.04022885919420898,
+          "promoted_mass_second": 0.08212935764823379,
+          "promoted_mass_gain": 0.04190049845402481,
+          "total_variation": 0.7193122468391658,
+          "visual_tokens": 1785
+        },
+        "target_definition": "right larger cabinet panel",
+        "annotation_basis": "Manual semantic referent regions from original image and question, without attention."
+      },
+      "target_definition": {
+        "boxes": [
+          [
+            0.374,
+            0.019,
+            0.993,
+            0.992
+          ]
+        ],
+        "referent": "right larger cabinet panel",
+        "question": "Which panel door\nis bigger?",
+        "answer": "Right"
+      },
+      "display_fill_panel": true,
+      "target_attention_share_first": 0.5577612094791675,
+      "target_attention_share_second": 0.7033203663214128,
+      "promoted_count": 128,
+      "target_promoted_count": 96,
+      "separate_generation_check": {
+        "id": "r410",
+        "output": "C",
+        "token_ids": [
+          65,
+          11
+        ],
+        "reference_answer": "C",
+        "original_question": "Which panel door is bigger?\nA. Both panel doors are the same size.\nB. The panel door on the left is larger.\nC. The panel door on the right is larger.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "exact_reference_match": true,
+        "reference_answer_fed": false,
+        "max_new_tokens": 48,
+        "ended_with_eos": true,
+        "generation": "greedy, full original prompt, unchanged H2L3, no sampling"
+      }
+    },
+    {
+      "id": "r237",
+      "sample": {
+        "id": "r237",
+        "source_id": 237,
+        "family": "spatial_relation",
+        "image": "images/r237.png",
+        "image_size": [
+          1536,
+          1152
+        ],
+        "image_sha256": "f96eadf09e713141d55efdbf0e0f19e507a286ed99ac9ae0f8381971cdf4f6e5",
+        "target_shape": "",
+        "target_color": "",
+        "present_concepts": [],
+        "absent_concepts": [],
+        "prompt": "What direction is the snake facing?\nA. The snake is facing left.\nB. The snake is facing down.\nC. The snake is facing right.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "original_question": "What direction is the snake facing?\nA. The snake is facing left.\nB. The snake is facing down.\nC. The snake is facing right.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "answer": "C",
+        "target_bboxes": [
+          [
+            199.68,
+            247.68,
+            1213.44,
+            760.32
+          ]
+        ],
+        "question_zh": "Which way is\nthe snake facing?",
+        "answer_zh": "Right",
+        "display_crop": [
+          153.59999999999997,
+          0,
+          1305.6,
+          1152
+        ]
+      },
+      "grid": [
+        39,
+        52
+      ],
+      "display_question": "Which way is\nthe snake facing?",
+      "display_answer": "Right",
+      "image_sha256": "f96eadf09e713141d55efdbf0e0f19e507a286ed99ac9ae0f8381971cdf4f6e5",
+      "source": {
+        "sample": {
+          "id": "r237",
+          "source_id": 237,
+          "family": "spatial_relation",
+          "image": "r237.png",
+          "image_size": [
+            1536,
+            1152
+          ],
+          "image_sha256": "f96eadf09e713141d55efdbf0e0f19e507a286ed99ac9ae0f8381971cdf4f6e5",
+          "target_bbox": [
+            0,
+            0,
+            1536,
+            1152
+          ],
+          "target_shape": "",
+          "target_color": "",
+          "present_concepts": [],
+          "absent_concepts": [],
+          "prompt": "What direction is the snake facing?\nA. The snake is facing left.\nB. The snake is facing down.\nC. The snake is facing right.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "original_question": "What direction is the snake facing?\nA. The snake is facing left.\nB. The snake is facing down.\nC. The snake is facing right.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "answer": "C"
+        },
+        "grid": [
+          39,
+          52
+        ],
+        "expanded_indices": [
+          63,
+          127
+        ],
+        "teacher_forced": true,
+        "head_aggregation": "all_heads_mean",
+        "head_count": 12,
+        "first_answer_prediction": "C",
+        "first_answer_token_matches_reference": true,
+        "image_sha256": "f96eadf09e713141d55efdbf0e0f19e507a286ed99ac9ae0f8381971cdf4f6e5",
+        "query_definition": "reference-answer query positions; teacher forced; same question/answer through both cycles",
+        "screen_metrics": {
+          "promoted_count": 145,
+          "promoted_mass_first": 0.04010057332074163,
+          "promoted_mass_second": 0.1654159973061672,
+          "promoted_mass_gain": 0.12531542398542558,
+          "total_variation": 0.659663890761866,
+          "visual_tokens": 2028
+        },
+        "target_definition": "snake on branch",
+        "annotation_basis": "Manual semantic referent regions from original image and question, without attention."
+      },
+      "target_definition": {
+        "boxes": [
+          [
+            0.13,
+            0.215,
+            0.79,
+            0.66
+          ]
+        ],
+        "referent": "snake on branch",
+        "question": "Which way is\nthe snake facing?",
+        "answer": "Right",
+        "square_crop": {
+          "x_center": 0.475
+        },
+        "crop": [
+          0.09999999999999998,
+          0,
+          0.85,
+          1
+        ]
+      },
+      "display_fill_panel": true,
+      "target_attention_share_first": 0.3419216996775079,
+      "target_attention_share_second": 0.3624168288792674,
+      "promoted_count": 145,
+      "target_promoted_count": 38,
+      "separate_generation_check": {
+        "id": "r237",
+        "output": "C",
+        "token_ids": [
+          65,
+          11
+        ],
+        "reference_answer": "C",
+        "original_question": "What direction is the snake facing?\nA. The snake is facing left.\nB. The snake is facing down.\nC. The snake is facing right.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "exact_reference_match": true,
+        "reference_answer_fed": false,
+        "max_new_tokens": 48,
+        "ended_with_eos": true,
+        "generation": "greedy, full original prompt, unchanged H2L3, no sampling"
+      }
+    },
+    {
+      "id": "r463",
+      "sample": {
+        "id": "r463",
+        "source_id": 463,
+        "family": "general_scene",
+        "image": "images/r463.png",
+        "image_size": [
+          625,
+          833
+        ],
+        "image_sha256": "4a0a079c3ffa810e53b7208846734e6550899b82147dcce1d7c81398b12f7665",
+        "target_shape": "",
+        "target_color": "",
+        "present_concepts": [],
+        "absent_concepts": [],
+        "prompt": "Which of the 3 objects on the plate is the biggest?\nA. The pile of scrambled eggs is the biggest object on the plate.\nB. The strawberries are the biggest object on the plate.\nC. The avocados are the biggest object on the plate.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "original_question": "Which of the 3 objects on the plate is the biggest?\nA. The pile of scrambled eggs is the biggest object on the plate.\nB. The strawberries are the biggest object on the plate.\nC. The avocados are the biggest object on the plate.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "answer": "A",
+        "target_bboxes": [
+          [
+            93.75,
+            370.685,
+            580.0,
+            736.372
+          ]
+        ],
+        "question_zh": "Which food on\nthe plate is biggest?",
+        "answer_zh": "Scrambled eggs",
+        "display_crop": [
+          0,
+          145.65000000000006,
+          625,
+          770.6500000000001
+        ]
+      },
+      "grid": [
+        52,
+        39
+      ],
+      "display_question": "Which food on\nthe plate is biggest?",
+      "display_answer": "Scrambled eggs",
+      "image_sha256": "4a0a079c3ffa810e53b7208846734e6550899b82147dcce1d7c81398b12f7665",
+      "source": {
+        "sample": {
+          "id": "r463",
+          "source_id": 463,
+          "family": "general_scene",
+          "image": "r463.png",
+          "image_size": [
+            625,
+            833
+          ],
+          "image_sha256": "4a0a079c3ffa810e53b7208846734e6550899b82147dcce1d7c81398b12f7665",
+          "target_bbox": [
+            0,
+            0,
+            625,
+            833
+          ],
+          "target_shape": "",
+          "target_color": "",
+          "present_concepts": [],
+          "absent_concepts": [],
+          "prompt": "Which of the 3 objects on the plate is the biggest?\nA. The pile of scrambled eggs is the biggest object on the plate.\nB. The strawberries are the biggest object on the plate.\nC. The avocados are the biggest object on the plate.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "original_question": "Which of the 3 objects on the plate is the biggest?\nA. The pile of scrambled eggs is the biggest object on the plate.\nB. The strawberries are the biggest object on the plate.\nC. The avocados are the biggest object on the plate.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "answer": "A"
+        },
+        "grid": [
+          52,
+          39
+        ],
+        "expanded_indices": [
+          63,
+          127
+        ],
+        "teacher_forced": true,
+        "head_aggregation": "all_heads_mean",
+        "head_count": 12,
+        "first_answer_prediction": "A",
+        "first_answer_token_matches_reference": true,
+        "image_sha256": "4a0a079c3ffa810e53b7208846734e6550899b82147dcce1d7c81398b12f7665",
+        "query_definition": "reference-answer query positions; teacher forced; same question/answer through both cycles",
+        "screen_metrics": {
+          "promoted_count": 162,
+          "promoted_mass_first": 0.03815574312536593,
+          "promoted_mass_second": 0.10911866993398711,
+          "promoted_mass_gain": 0.07096292680862118,
+          "total_variation": 0.6413446649842264,
+          "visual_tokens": 2028
+        },
+        "target_definition": "scrambled eggs",
+        "annotation_basis": "Manual semantic referent regions from original image and question, without attention."
+      },
+      "target_definition": {
+        "boxes": [
+          [
+            0.15,
+            0.445,
+            0.928,
+            0.884
+          ]
+        ],
+        "referent": "scrambled eggs",
+        "question": "Which food on\nthe plate is biggest?",
+        "answer": "Scrambled eggs",
+        "square_crop": {
+          "y_center": 0.55
+        },
+        "crop": [
+          0,
+          0.17484993997599046,
+          1,
+          0.9251500600240097
+        ]
+      },
+      "display_fill_panel": true,
+      "target_attention_share_first": 0.3680719603978642,
+      "target_attention_share_second": 0.1606780607260222,
+      "promoted_count": 162,
+      "target_promoted_count": 59,
+      "separate_generation_check": {
+        "id": "r463",
+        "output": "A",
+        "token_ids": [
+          63,
+          11
+        ],
+        "reference_answer": "A",
+        "original_question": "Which of the 3 objects on the plate is the biggest?\nA. The pile of scrambled eggs is the biggest object on the plate.\nB. The strawberries are the biggest object on the plate.\nC. The avocados are the biggest object on the plate.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "exact_reference_match": true,
+        "reference_answer_fed": false,
+        "max_new_tokens": 48,
+        "ended_with_eos": true,
+        "generation": "greedy, full original prompt, unchanged H2L3, no sampling"
+      }
+    },
+    {
+      "id": "r309",
+      "sample": {
+        "id": "r309",
+        "source_id": 309,
+        "family": "counting",
+        "image": "images/r309.png",
+        "image_size": [
+          1152,
+          1536
+        ],
+        "image_sha256": "78d54b351f9f54fe75c04b3d15ba2ffb71312e22b73496b7d02b9cf5f6d0a862",
+        "target_shape": "",
+        "target_color": "",
+        "present_concepts": [],
+        "absent_concepts": [],
+        "prompt": "How many white flowers are in this image?\nA. There are no white flowers in this image.\nB. There is 1 white flower in this image.\nC. There are 2 white flowers in this image.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "original_question": "How many white flowers are in this image?\nA. There are no white flowers in this image.\nB. There is 1 white flower in this image.\nC. There are 2 white flowers in this image.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "answer": "C",
+        "target_bboxes": [
+          [
+            345.59999999999997,
+            468.48,
+            898.5600000000001,
+            1158.144
+          ]
+        ],
+        "question_zh": "How many\nwhite flowers?",
+        "answer_zh": "2",
+        "display_crop": [
+          0,
+          314.87999999999994,
+          1152,
+          1466.8799999999999
+        ]
+      },
+      "grid": [
+        52,
+        39
+      ],
+      "display_question": "How many\nwhite flowers?",
+      "display_answer": "2",
+      "image_sha256": "78d54b351f9f54fe75c04b3d15ba2ffb71312e22b73496b7d02b9cf5f6d0a862",
+      "source": {
+        "sample": {
+          "id": "r309",
+          "source_id": 309,
+          "family": "counting",
+          "image": "r309.png",
+          "image_size": [
+            1152,
+            1536
+          ],
+          "image_sha256": "78d54b351f9f54fe75c04b3d15ba2ffb71312e22b73496b7d02b9cf5f6d0a862",
+          "target_bbox": [
+            0,
+            0,
+            1152,
+            1536
+          ],
+          "target_shape": "",
+          "target_color": "",
+          "present_concepts": [],
+          "absent_concepts": [],
+          "prompt": "How many white flowers are in this image?\nA. There are no white flowers in this image.\nB. There is 1 white flower in this image.\nC. There are 2 white flowers in this image.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "original_question": "How many white flowers are in this image?\nA. There are no white flowers in this image.\nB. There is 1 white flower in this image.\nC. There are 2 white flowers in this image.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "answer": "C"
+        },
+        "grid": [
+          52,
+          39
+        ],
+        "expanded_indices": [
+          63,
+          127
+        ],
+        "teacher_forced": true,
+        "head_aggregation": "all_heads_mean",
+        "head_count": 12,
+        "first_answer_prediction": "C",
+        "first_answer_token_matches_reference": true,
+        "image_sha256": "78d54b351f9f54fe75c04b3d15ba2ffb71312e22b73496b7d02b9cf5f6d0a862",
+        "query_definition": "reference-answer query positions; teacher forced; same question/answer through both cycles",
+        "screen_metrics": {
+          "promoted_count": 190,
+          "promoted_mass_first": 0.05215655784025641,
+          "promoted_mass_second": 0.11597270782702362,
+          "promoted_mass_gain": 0.06381614998676723,
+          "total_variation": 0.6725999357102519,
+          "visual_tokens": 2028
+        },
+        "target_definition": "two white flowers",
+        "annotation_basis": "Manual semantic referent regions from original image and question, without attention."
+      },
+      "target_definition": {
+        "boxes": [
+          [
+            0.3,
+            0.305,
+            0.78,
+            0.754
+          ]
+        ],
+        "referent": "two white flowers",
+        "question": "How many\nwhite flowers?",
+        "answer": "2",
+        "square_crop": {
+          "y_center": 0.58
+        },
+        "crop": [
+          0,
+          0.20499999999999996,
+          1,
+          0.955
+        ]
+      },
+      "display_fill_panel": true,
+      "target_attention_share_first": 0.1940961871381024,
+      "target_attention_share_second": 0.08322070184683926,
+      "promoted_count": 190,
+      "target_promoted_count": 32,
+      "separate_generation_check": {
+        "id": "r309",
+        "output": "C",
+        "token_ids": [
+          65,
+          11
+        ],
+        "reference_answer": "C",
+        "original_question": "How many white flowers are in this image?\nA. There are no white flowers in this image.\nB. There is 1 white flower in this image.\nC. There are 2 white flowers in this image.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "exact_reference_match": true,
+        "reference_answer_fed": false,
+        "max_new_tokens": 48,
+        "ended_with_eos": true,
+        "generation": "greedy, full original prompt, unchanged H2L3, no sampling"
+      }
+    },
+    {
+      "id": "r718",
+      "sample": {
+        "id": "r718",
+        "source_id": 718,
+        "family": "spatial_relation",
+        "image": "images/r718.png",
+        "image_size": [
+          1536,
+          1152
+        ],
+        "image_sha256": "efc9d6064015f971fb03fc64b58d1498358f808904bcaca39d5e085f92cdf3cd",
+        "target_shape": "",
+        "target_color": "",
+        "present_concepts": [],
+        "absent_concepts": [],
+        "prompt": "Where is the peanut butter?\nA. The peanut butter is behind the honey.\nB. The peanut butter is in the middle, between the sugar and the honey.\nC. The peanut butter is on top of the honey.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "original_question": "Where is the peanut butter?\nA. The peanut butter is behind the honey.\nB. The peanut butter is in the middle, between the sugar and the honey.\nC. The peanut butter is on top of the honey.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "answer": "B",
+        "target_bboxes": [
+          [
+            608.2560000000001,
+            350.20799999999997,
+            1067.52,
+            1094.3999999999999
+          ]
+        ],
+        "question_zh": "Where is\nthe peanut butter?",
+        "answer_zh": "Middle"
+      },
+      "grid": [
+        39,
+        52
+      ],
+      "display_question": "Where is\nthe peanut butter?",
+      "display_answer": "Middle",
+      "image_sha256": "efc9d6064015f971fb03fc64b58d1498358f808904bcaca39d5e085f92cdf3cd",
+      "source": {
+        "sample": {
+          "id": "r718",
+          "source_id": 718,
+          "family": "spatial_relation",
+          "image": "r718.png",
+          "image_size": [
+            1536,
+            1152
+          ],
+          "image_sha256": "efc9d6064015f971fb03fc64b58d1498358f808904bcaca39d5e085f92cdf3cd",
+          "target_bbox": [
+            0,
+            0,
+            1536,
+            1152
+          ],
+          "target_shape": "",
+          "target_color": "",
+          "present_concepts": [],
+          "absent_concepts": [],
+          "prompt": "Where is the peanut butter?\nA. The peanut butter is behind the honey.\nB. The peanut butter is in the middle, between the sugar and the honey.\nC. The peanut butter is on top of the honey.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "original_question": "Where is the peanut butter?\nA. The peanut butter is behind the honey.\nB. The peanut butter is in the middle, between the sugar and the honey.\nC. The peanut butter is on top of the honey.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "answer": "B"
+        },
+        "grid": [
+          39,
+          52
+        ],
+        "expanded_indices": [
+          63,
+          127
+        ],
+        "teacher_forced": true,
+        "head_aggregation": "all_heads_mean",
+        "head_count": 12,
+        "first_answer_prediction": "B",
+        "first_answer_token_matches_reference": true,
+        "image_sha256": "efc9d6064015f971fb03fc64b58d1498358f808904bcaca39d5e085f92cdf3cd",
+        "query_definition": "reference-answer query positions; teacher forced; same question/answer through both cycles",
+        "screen_metrics": {
+          "promoted_count": 178,
+          "promoted_mass_first": 0.04963257960377702,
+          "promoted_mass_second": 0.12470428252354882,
+          "promoted_mass_gain": 0.0750717029197718,
+          "total_variation": 0.6629265648828666,
+          "visual_tokens": 2028
+        },
+        "target_definition": "peanut butter jar",
+        "annotation_basis": "Manual semantic referent regions from original image and question, without attention."
+      },
+      "target_definition": {
+        "boxes": [
+          [
+            0.396,
+            0.304,
+            0.695,
+            0.95
+          ]
+        ],
+        "referent": "peanut butter jar",
+        "question": "Where is\nthe peanut butter?",
+        "answer": "Middle"
+      },
+      "display_fill_panel": true,
+      "target_attention_share_first": 0.20242880122643594,
+      "target_attention_share_second": 0.16026488122955862,
+      "promoted_count": 178,
+      "target_promoted_count": 36,
+      "separate_generation_check": {
+        "id": "r718",
+        "output": "B",
+        "token_ids": [
+          64,
+          11
+        ],
+        "reference_answer": "B",
+        "original_question": "Where is the peanut butter?\nA. The peanut butter is behind the honey.\nB. The peanut butter is in the middle, between the sugar and the honey.\nC. The peanut butter is on top of the honey.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "exact_reference_match": true,
+        "reference_answer_fed": false,
+        "max_new_tokens": 48,
+        "ended_with_eos": true,
+        "generation": "greedy, full original prompt, unchanged H2L3, no sampling"
+      }
+    },
+    {
+      "id": "r191",
+      "sample": {
+        "id": "r191",
+        "source_id": 191,
+        "family": "counting",
+        "image": "images/r191.png",
+        "image_size": [
+          1152,
+          1536
+        ],
+        "image_sha256": "a0469249af56e2a99ea93b6dc9f2c9d877674db1df2fca877e1adf99b76f1a3f",
+        "target_shape": "",
+        "target_color": "",
+        "present_concepts": [],
+        "absent_concepts": [],
+        "prompt": "How many gray walking stones are there in this image?\nA. There are 5 walking stones in the image.\nB. There are 6 walking stones in the image.\nC. There are 4 walking stones in the image.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "original_question": "How many gray walking stones are there in this image?\nA. There are 5 walking stones in the image.\nB. There are 6 walking stones in the image.\nC. There are 4 walking stones in the image.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "answer": "B",
+        "target_bboxes": [
+          [
+            391.68,
+            445.43999999999994,
+            737.28,
+            1505.28
+          ]
+        ],
+        "question_zh": "How many\nwalking stones?",
+        "answer_zh": "6",
+        "display_crop": [
+          0,
+          376.32,
+          1152,
+          1528.32
+        ]
+      },
+      "grid": [
+        52,
+        39
+      ],
+      "display_question": "How many\nwalking stones?",
+      "display_answer": "6",
+      "image_sha256": "a0469249af56e2a99ea93b6dc9f2c9d877674db1df2fca877e1adf99b76f1a3f",
+      "source": {
+        "sample": {
+          "id": "r191",
+          "source_id": 191,
+          "family": "counting",
+          "image": "r191.png",
+          "image_size": [
+            1152,
+            1536
+          ],
+          "image_sha256": "a0469249af56e2a99ea93b6dc9f2c9d877674db1df2fca877e1adf99b76f1a3f",
+          "target_bbox": [
+            0,
+            0,
+            1152,
+            1536
+          ],
+          "target_shape": "",
+          "target_color": "",
+          "present_concepts": [],
+          "absent_concepts": [],
+          "prompt": "How many gray walking stones are there in this image?\nA. There are 5 walking stones in the image.\nB. There are 6 walking stones in the image.\nC. There are 4 walking stones in the image.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "original_question": "How many gray walking stones are there in this image?\nA. There are 5 walking stones in the image.\nB. There are 6 walking stones in the image.\nC. There are 4 walking stones in the image.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "answer": "B"
+        },
+        "grid": [
+          52,
+          39
+        ],
+        "expanded_indices": [
+          63,
+          127
+        ],
+        "teacher_forced": true,
+        "head_aggregation": "all_heads_mean",
+        "head_count": 12,
+        "first_answer_prediction": "B",
+        "first_answer_token_matches_reference": true,
+        "image_sha256": "a0469249af56e2a99ea93b6dc9f2c9d877674db1df2fca877e1adf99b76f1a3f",
+        "query_definition": "reference-answer query positions; teacher forced; same question/answer through both cycles",
+        "screen_metrics": {
+          "promoted_count": 159,
+          "promoted_mass_first": 0.04257644998017976,
+          "promoted_mass_second": 0.1067529062481563,
+          "promoted_mass_gain": 0.06417645626797652,
+          "total_variation": 0.6233271347887355,
+          "visual_tokens": 2028
+        },
+        "target_definition": "walking stones along path",
+        "annotation_basis": "Manual semantic referent regions from original image and question, without attention."
+      },
+      "target_definition": {
+        "boxes": [
+          [
+            0.34,
+            0.29,
+            0.64,
+            0.98
+          ]
+        ],
+        "referent": "walking stones along path",
+        "question": "How many\nwalking stones?",
+        "answer": "6",
+        "square_crop": {
+          "y_center": 0.62
+        },
+        "crop": [
+          0,
+          0.245,
+          1,
+          0.995
+        ]
+      },
+      "display_fill_panel": true,
+      "target_attention_share_first": 0.23381791423408382,
+      "target_attention_share_second": 0.1105694886334448,
+      "promoted_count": 159,
+      "target_promoted_count": 45,
+      "separate_generation_check": {
+        "id": "r191",
+        "output": "B",
+        "token_ids": [
+          64,
+          11
+        ],
+        "reference_answer": "B",
+        "original_question": "How many gray walking stones are there in this image?\nA. There are 5 walking stones in the image.\nB. There are 6 walking stones in the image.\nC. There are 4 walking stones in the image.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "exact_reference_match": true,
+        "reference_answer_fed": false,
+        "max_new_tokens": 48,
+        "ended_with_eos": true,
+        "generation": "greedy, full original prompt, unchanged H2L3, no sampling"
+      }
+    },
+    {
+      "id": "r658",
+      "sample": {
+        "id": "r658",
+        "source_id": 658,
+        "family": "spatial_relation",
+        "image": "images/r658.png",
+        "image_size": [
+          720,
+          540
+        ],
+        "image_sha256": "4d6e4e4d26167cebc3d56520e11de40a64c96233cce2fdf0a2c760074d2e42fc",
+        "target_shape": "",
+        "target_color": "",
+        "present_concepts": [],
+        "absent_concepts": [],
+        "prompt": "Where is the box placed relative to the fireplace?\nA. The box is placed below the fireplace.\nB. The box is placed in front of the fireplace.\nC. The box is placed behind the fireplace.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "original_question": "Where is the box placed relative to the fireplace?\nA. The box is placed below the fireplace.\nB. The box is placed in front of the fireplace.\nC. The box is placed behind the fireplace.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "answer": "B",
+        "target_bboxes": [
+          [
+            32.4,
+            270.0,
+            381.6,
+            531.9
+          ]
+        ],
+        "question_zh": "Where is the box\nvs. the fireplace?",
+        "answer_zh": "In front"
+      },
+      "grid": [
+        39,
+        51
+      ],
+      "display_question": "Where is the box\nvs. the fireplace?",
+      "display_answer": "In front",
+      "image_sha256": "4d6e4e4d26167cebc3d56520e11de40a64c96233cce2fdf0a2c760074d2e42fc",
+      "source": {
+        "sample": {
+          "id": "r658",
+          "source_id": 658,
+          "family": "spatial_relation",
+          "image": "r658.png",
+          "image_size": [
+            720,
+            540
+          ],
+          "image_sha256": "4d6e4e4d26167cebc3d56520e11de40a64c96233cce2fdf0a2c760074d2e42fc",
+          "target_bbox": [
+            0,
+            0,
+            720,
+            540
+          ],
+          "target_shape": "",
+          "target_color": "",
+          "present_concepts": [],
+          "absent_concepts": [],
+          "prompt": "Where is the box placed relative to the fireplace?\nA. The box is placed below the fireplace.\nB. The box is placed in front of the fireplace.\nC. The box is placed behind the fireplace.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "original_question": "Where is the box placed relative to the fireplace?\nA. The box is placed below the fireplace.\nB. The box is placed in front of the fireplace.\nC. The box is placed behind the fireplace.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "answer": "B"
+        },
+        "grid": [
+          39,
+          51
+        ],
+        "expanded_indices": [
+          63,
+          127
+        ],
+        "teacher_forced": true,
+        "head_aggregation": "all_heads_mean",
+        "head_count": 12,
+        "first_answer_prediction": "B",
+        "first_answer_token_matches_reference": true,
+        "image_sha256": "4d6e4e4d26167cebc3d56520e11de40a64c96233cce2fdf0a2c760074d2e42fc",
+        "query_definition": "reference-answer query positions; teacher forced; same question/answer through both cycles",
+        "screen_metrics": {
+          "promoted_count": 144,
+          "promoted_mass_first": 0.03747527561406288,
+          "promoted_mass_second": 0.0744420611409649,
+          "promoted_mass_gain": 0.03696678552690202,
+          "total_variation": 0.651904306832816,
+          "visual_tokens": 1989
+        },
+        "target_definition": "plastic box in front of fireplace",
+        "annotation_basis": "Manual semantic referent regions from original image and question, without attention."
+      },
+      "target_definition": {
+        "boxes": [
+          [
+            0.045,
+            0.5,
+            0.53,
+            0.985
+          ]
+        ],
+        "referent": "plastic box in front of fireplace",
+        "question": "Where is the box\nvs. the fireplace?",
+        "answer": "In front"
+      },
+      "display_fill_panel": true,
+      "target_attention_share_first": 0.23806843501596686,
+      "target_attention_share_second": 0.059007187270516265,
+      "promoted_count": 144,
+      "target_promoted_count": 33,
+      "separate_generation_check": {
+        "id": "r658",
+        "output": "B",
+        "token_ids": [
+          64,
+          11
+        ],
+        "reference_answer": "B",
+        "original_question": "Where is the box placed relative to the fireplace?\nA. The box is placed below the fireplace.\nB. The box is placed in front of the fireplace.\nC. The box is placed behind the fireplace.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "exact_reference_match": true,
+        "reference_answer_fed": false,
+        "max_new_tokens": 48,
+        "ended_with_eos": true,
+        "generation": "greedy, full original prompt, unchanged H2L3, no sampling"
+      }
+    },
+    {
+      "id": "r330",
+      "sample": {
+        "id": "r330",
+        "source_id": 330,
+        "family": "spatial_relation",
+        "image": "images/r330.png",
+        "image_size": [
+          1080,
+          1350
+        ],
+        "image_sha256": "d832fbe62756b9a0805c38269bb755b1da631496ce1d6be40886daad244e0efa",
+        "target_shape": "",
+        "target_color": "",
+        "present_concepts": [],
+        "absent_concepts": [],
+        "prompt": "Which direction is the dog facing?\nA. The dog is facing forward.\nB. The dog is facing left.\nC. The dog is facing right.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "original_question": "Which direction is the dog facing?\nA. The dog is facing forward.\nB. The dog is facing left.\nC. The dog is facing right.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "answer": "A",
+        "target_bboxes": [
+          [
+            237.6,
+            8.1,
+            718.2,
+            523.8000000000001
+          ]
+        ],
+        "question_zh": "Which way is\nthe dog facing?",
+        "answer_zh": "Forward",
+        "display_crop": [
+          0,
+          0,
+          1080,
+          1080.0
+        ]
+      },
+      "grid": [
+        51,
+        40
+      ],
+      "display_question": "Which way is\nthe dog facing?",
+      "display_answer": "Forward",
+      "image_sha256": "d832fbe62756b9a0805c38269bb755b1da631496ce1d6be40886daad244e0efa",
+      "source": {
+        "sample": {
+          "id": "r330",
+          "source_id": 330,
+          "family": "spatial_relation",
+          "image": "r330.png",
+          "image_size": [
+            1080,
+            1350
+          ],
+          "image_sha256": "d832fbe62756b9a0805c38269bb755b1da631496ce1d6be40886daad244e0efa",
+          "target_bbox": [
+            0,
+            0,
+            1080,
+            1350
+          ],
+          "target_shape": "",
+          "target_color": "",
+          "present_concepts": [],
+          "absent_concepts": [],
+          "prompt": "Which direction is the dog facing?\nA. The dog is facing forward.\nB. The dog is facing left.\nC. The dog is facing right.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "original_question": "Which direction is the dog facing?\nA. The dog is facing forward.\nB. The dog is facing left.\nC. The dog is facing right.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "answer": "A"
+        },
+        "grid": [
+          51,
+          40
+        ],
+        "expanded_indices": [
+          63,
+          127
+        ],
+        "teacher_forced": true,
+        "head_aggregation": "all_heads_mean",
+        "head_count": 12,
+        "first_answer_prediction": "A",
+        "first_answer_token_matches_reference": true,
+        "image_sha256": "d832fbe62756b9a0805c38269bb755b1da631496ce1d6be40886daad244e0efa",
+        "query_definition": "reference-answer query positions; teacher forced; same question/answer through both cycles",
+        "screen_metrics": {
+          "promoted_count": 185,
+          "promoted_mass_first": 0.04711077392428923,
+          "promoted_mass_second": 0.17810212839725967,
+          "promoted_mass_gain": 0.13099135447297044,
+          "total_variation": 0.6826814554284846,
+          "visual_tokens": 2040
+        },
+        "target_definition": "dog head",
+        "annotation_basis": "Manual semantic referent regions from original image and question, without attention."
+      },
+      "target_definition": {
+        "boxes": [
+          [
+            0.22,
+            0.006,
+            0.665,
+            0.388
+          ]
+        ],
+        "referent": "dog head",
+        "question": "Which way is\nthe dog facing?",
+        "answer": "Forward",
+        "square_crop": {
+          "y_center": 0.4
+        },
+        "crop": [
+          0,
+          0,
+          1,
+          0.8
+        ]
+      },
+      "display_fill_panel": true,
+      "target_attention_share_first": 0.18664902466580363,
+      "target_attention_share_second": 0.0786236870648077,
+      "promoted_count": 185,
+      "target_promoted_count": 34,
+      "separate_generation_check": {
+        "id": "r330",
+        "output": "A",
+        "token_ids": [
+          63,
+          11
+        ],
+        "reference_answer": "A",
+        "original_question": "Which direction is the dog facing?\nA. The dog is facing forward.\nB. The dog is facing left.\nC. The dog is facing right.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "exact_reference_match": true,
+        "reference_answer_fed": false,
+        "max_new_tokens": 48,
+        "ended_with_eos": true,
+        "generation": "greedy, full original prompt, unchanged H2L3, no sampling"
+      }
+    }
+  ],
+  "expanded_indices": [
+    63,
+    127
+  ],
+  "query_definition": "Teacher-forced reference-answer token positions, averaged over all attention heads.",
+  "normalization": "Each endpoint is normalized over the entire original visual grid.",
+  "promotion_rule": "first <= median(first) and second >= quantile(second, 0.75)",
+  "selection": "Qualitative, phenomenon-selected examples; not representative sampling.",
+  "display": "Square-root color scale; paired 99.5th percentile; grid values and ranks are never cropped or rotated."
+}

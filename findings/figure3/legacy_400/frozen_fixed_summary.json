@@ -1,0 +1,68 @@
+{
+  "stage": "fixed",
+  "n": 400,
+  "normal_reused_same_cohort": true,
+  "inactive_hook_bit_equal": null,
+  "inactive_hook_generation_equal": null,
+  "first_round_H1_bit_equal": null,
+  "cycle2_entrance_visual_bit_equal": null,
+  "all_frozen_teacher_layer_restore_counts_correct": true,
+  "all_frozen_generation_EOS": true,
+  "accuracy_definition": "strict text equality, direct greedy up to 48 tokens, not official full benchmark score",
+  "groups": {
+    "Normal": {
+      "correct": 280,
+      "accuracy": 0.7,
+      "delta_accuracy_vs_normal_pp": 0.0,
+      "delta_accuracy_bootstrap95_pp": [
+        0.0,
+        0.0
+      ],
+      "prediction_changes_vs_normal": 0,
+      "mean_delta_logp_correct": 0.0,
+      "delta_logp_bootstrap95": [
+        0.0,
+        0.0
+      ]
+    },
+    "Blocked L-Visual Carry": {
+      "correct": 223,
+      "accuracy": 0.5575,
+      "delta_accuracy_vs_normal_pp": -14.249999999999998,
+      "delta_accuracy_bootstrap95_pp": [
+        -19.25,
+        -9.25
+      ],
+      "prediction_changes_vs_normal": 131,
+      "mean_delta_logp_correct": -0.22150098907321308,
+      "delta_logp_bootstrap95": [
+        -0.342395992326929,
+        -0.09902480435872886
+      ]
+    },
+    "Frozen Cycle-2 Visual State": {
+      "correct": 175,
+      "accuracy": 0.4375,
+      "delta_accuracy_vs_normal_pp": -26.25,
+      "delta_accuracy_bootstrap95_pp": [
+        -32.25,
+        -20.5
+      ],
+      "prediction_changes_vs_normal": 196,
+      "mean_delta_logp_correct": -0.5577701761774029,
+      "delta_logp_bootstrap95": [
+        -0.7048349035705346,
+        -0.4096250456060176
+      ]
+    }
+  },
+  "frozen_minus_blocked_pp": -12.0,
+  "frozen_minus_blocked_bootstrap95_pp": [
+    -17.5,
+    -6.5
+  ],
+  "frozen_vs_blocked_discordant": {
+    "blocked_correct_frozen_wrong": 88,
+    "blocked_wrong_frozen_correct": 40
+  }
+}

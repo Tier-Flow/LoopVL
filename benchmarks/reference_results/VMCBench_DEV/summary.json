@@ -1,0 +1,24 @@
+{
+  "dataset": "VMCBench_DEV",
+  "model": "hrm-penguin-v2",
+  "total": 1000,
+  "completed": 1000,
+  "errors_this_run": 0,
+  "scored": 1000,
+  "correct": 709,
+  "normalized_exact_accuracy": 0.709,
+  "source_tsv_md5": null,
+  "build_seconds": 2.064,
+  "inference_seconds_this_run": 596.731,
+  "prediction_jsonl": "data/server_snapshot_20260906/hrm_bench_results/v2/VMCBench_DEV/predictions.jsonl",
+  "vlmeval_table": "data/server_snapshot_20260906/hrm_bench_results/v2/VMCBench_DEV/predictions.xlsx",
+  "original_correct": 709,
+  "original_accuracy": 0.709,
+  "lenient_accuracy": 0.709,
+  "scoring_version": "lenient-v3-option-reference",
+  "match_methods": {
+    "legacy_match": 704,
+    "no_match": 291,
+    "original_match": 5
+  }
+}

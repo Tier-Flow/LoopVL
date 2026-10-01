@@ -1,0 +1,1410 @@
+[
+  {
+    "sample": {
+      "id": "s01",
+      "family": "color",
+      "image": "samples/images/s01.png",
+      "prompt": "What color is the large circle? Answer with one color word.",
+      "answer": "red",
+      "target_bbox": [
+        34,
+        34,
+        126,
+        126
+      ],
+      "target_shape": "circle",
+      "target_color": "red",
+      "target_position": "top left",
+      "present_concepts": [
+        "red",
+        "circle",
+        "gray"
+      ],
+      "absent_concepts": [
+        "orange",
+        "purple"
+      ],
+      "alternate_prompts": [
+        "Where is the red circle? Answer with a corner position.",
+        "Is there a black hexagon? Answer yes or no."
+      ]
+    },
+    "head_count": 12,
+    "query_counts": {
+      "response": 1,
+      "instruction": 22,
+      "visual": 576,
+      "combined": 23
+    },
+    "seconds": 0.5589721202850342,
+    "image_sha256": "a550e3f8c0afba1b07693f3ec9f86f328bf332cb8dcefce641846b2c55edc3d6",
+    "layers": 128,
+    "teacher_forced": true,
+    "model_H_cycles": 2,
+    "model_L_cycles": 3
+  },
+  {
+    "sample": {
+      "id": "s02",
+      "family": "color",
+      "image": "samples/images/s02.png",
+      "prompt": "What color is the large triangle? Answer with one color word.",
+      "answer": "blue",
+      "target_bbox": [
+        210,
+        210,
+        302,
+        302
+      ],
+      "target_shape": "triangle",
+      "target_color": "blue",
+      "target_position": "bottom right",
+      "present_concepts": [
+        "blue",
+        "triangle",
+        "gray"
+      ],
+      "absent_concepts": [
+        "orange",
+        "purple"
+      ],
+      "alternate_prompts": [
+        "Where is the blue triangle? Answer with a corner position.",
+        "Is there a black hexagon? Answer yes or no."
+      ]
+    },
+    "head_count": 12,
+    "query_counts": {
+      "response": 1,
+      "instruction": 22,
+      "visual": 576,
+      "combined": 23
+    },
+    "seconds": 0.18291115760803223,
+    "image_sha256": "58dad713aa095e59161b594f0317f65cdc5a41c3abdb4803fa011281fc9b0f63",
+    "layers": 128,
+    "teacher_forced": true,
+    "model_H_cycles": 2,
+    "model_L_cycles": 3
+  },
+  {
+    "sample": {
+      "id": "s03",
+      "family": "color",
+      "image": "samples/images/s03.png",
+      "prompt": "What color is the large star? Answer with one color word.",
+      "answer": "green",
+      "target_bbox": [
+        34,
+        210,
+        126,
+        302
+      ],
+      "target_shape": "star",
+      "target_color": "green",
+      "target_position": "bottom left",
+      "present_concepts": [
+        "green",
+        "star",
+        "gray"
+      ],
+      "absent_concepts": [
+        "orange",
+        "purple"
+      ],
+      "alternate_prompts": [
+        "Where is the green star? Answer with a corner position.",
+        "Is there a black hexagon? Answer yes or no."
+      ]
+    },
+    "head_count": 12,
+    "query_counts": {
+      "response": 1,
+      "instruction": 22,
+      "visual": 576,
+      "combined": 23
+    },
+    "seconds": 0.18700671195983887,
+    "image_sha256": "add1c24790c6b36b9b5485bea2007796c9f9db1606282be9c68855f0b1508260",
+    "layers": 128,
+    "teacher_forced": true,
+    "model_H_cycles": 2,
+    "model_L_cycles": 3
+  },
+  {
+    "sample": {
+      "id": "s04",
+      "family": "color",
+      "image": "samples/images/s04.png",
+      "prompt": "What color is the large square? Answer with one color word.",
+      "answer": "yellow",
+      "target_bbox": [
+        210,
+        34,
+        302,
+        126
+      ],
+      "target_shape": "square",
+      "target_color": "yellow",
+      "target_position": "top right",
+      "present_concepts": [
+        "yellow",
+        "square",
+        "gray"
+      ],
+      "absent_concepts": [
+        "orange",
+        "purple"
+      ],
+      "alternate_prompts": [
+        "Where is the yellow square? Answer with a corner position.",
+        "Is there a black hexagon? Answer yes or no."
+      ]
+    },
+    "head_count": 12,
+    "query_counts": {
+      "response": 1,
+      "instruction": 22,
+      "visual": 576,
+      "combined": 23
+    },
+    "seconds": 0.1924130916595459,
+    "image_sha256": "021fe6404b591e83b108f8f0effda793802d425dfe80981d759ba002d9f8408e",
+    "layers": 128,
+    "teacher_forced": true,
+    "model_H_cycles": 2,
+    "model_L_cycles": 3
+  },
+  {
+    "sample": {
+      "id": "s05",
+      "family": "color",
+      "image": "samples/images/s05.png",
+      "prompt": "What color is the large circle? Answer with one color word.",
+      "answer": "purple",
+      "target_bbox": [
+        34,
+        34,
+        126,
+        126
+      ],
+      "target_shape": "circle",
+      "target_color": "purple",
+      "target_position": "top left",
+      "present_concepts": [
+        "purple",
+        "circle",
+        "gray"
+      ],
+      "absent_concepts": [
+        "green",
+        "pink"
+      ],
+      "alternate_prompts": [
+        "Where is the purple circle? Answer with a corner position.",
+        "Is there a black hexagon? Answer yes or no."
+      ]
+    },
+    "head_count": 12,
+    "query_counts": {
+      "response": 2,
+      "instruction": 22,
+      "visual": 576,
+      "combined": 24
+    },
+    "seconds": 0.18365740776062012,
+    "image_sha256": "7e4cff2e1d2701c5219acbd209fc5373b4e21db9fe193a7f74a98c42ed7090c1",
+    "layers": 128,
+    "teacher_forced": true,
+    "model_H_cycles": 2,
+    "model_L_cycles": 3
+  },
+  {
+    "sample": {
+      "id": "s06",
+      "family": "color",
+      "image": "samples/images/s06.png",
+      "prompt": "What color is the large triangle? Answer with one color word.",
+      "answer": "orange",
+      "target_bbox": [
+        210,
+        210,
+        302,
+        302
+      ],
+      "target_shape": "triangle",
+      "target_color": "orange",
+      "target_position": "bottom right",
+      "present_concepts": [
+        "orange",
+        "triangle",
+        "gray"
+      ],
+      "absent_concepts": [
+        "green",
+        "pink"
+      ],
+      "alternate_prompts": [
+        "Where is the orange triangle? Answer with a corner position.",
+        "Is there a black hexagon? Answer yes or no."
+      ]
+    },
+    "head_count": 12,
+    "query_counts": {
+      "response": 2,
+      "instruction": 22,
+      "visual": 576,
+      "combined": 24
+    },
+    "seconds": 0.18292999267578125,
+    "image_sha256": "535614cfcbf29f603e7ea613df6247f13721025d6cae261a3c34216582bf45e5",
+    "layers": 128,
+    "teacher_forced": true,
+    "model_H_cycles": 2,
+    "model_L_cycles": 3
+  },
+  {
+    "sample": {
+      "id": "s07",
+      "family": "color",
+      "image": "samples/images/s07.png",
+      "prompt": "What color is the large star? Answer with one color word.",
+      "answer": "cyan",
+      "target_bbox": [
+        34,
+        210,
+        126,
+        302
+      ],
+      "target_shape": "star",
+      "target_color": "cyan",
+      "target_position": "bottom left",
+      "present_concepts": [
+        "cyan",
+        "star",
+        "gray"
+      ],
+      "absent_concepts": [
+        "orange",
+        "purple"
+      ],
+      "alternate_prompts": [
+        "Where is the cyan star? Answer with a corner position.",
+        "Is there a black hexagon? Answer yes or no."
+      ]
+    },
+    "head_count": 12,
+    "query_counts": {
+      "response": 2,
+      "instruction": 22,
+      "visual": 576,
+      "combined": 24
+    },
+    "seconds": 0.18089628219604492,
+    "image_sha256": "d5ea52792590370afd8b9a3a9b8a4fa9c769240b2fb1452b00b51c6949eb5e7e",
+    "layers": 128,
+    "teacher_forced": true,
+    "model_H_cycles": 2,
+    "model_L_cycles": 3
+  },
+  {
+    "sample": {
+      "id": "s08",
+      "family": "color",
+      "image": "samples/images/s08.png",
+      "prompt": "What color is the large square? Answer with one color word.",
+      "answer": "pink",
+      "target_bbox": [
+        210,
+        34,
+        302,
+        126
+      ],
+      "target_shape": "square",
+      "target_color": "pink",
+      "target_position": "top right",
+      "present_concepts": [
+        "pink",
+        "square",
+        "gray"
+      ],
+      "absent_concepts": [
+        "orange",
+        "purple"
+      ],
+      "alternate_prompts": [
+        "Where is the pink square? Answer with a corner position.",
+        "Is there a black hexagon? Answer yes or no."
+      ]
+    },
+    "head_count": 12,
+    "query_counts": {
+      "response": 2,
+      "instruction": 22,
+      "visual": 576,
+      "combined": 24
+    },
+    "seconds": 0.1837470531463623,
+    "image_sha256": "f0e8e552af5f33a5f58a1c230593f8ee3f52998333710e2a20fc43c39ebca75b",
+    "layers": 128,
+    "teacher_forced": true,
+    "model_H_cycles": 2,
+    "model_L_cycles": 3
+  },
+  {
+    "sample": {
+      "id": "s09",
+      "family": "position",
+      "image": "samples/images/s09.png",
+      "prompt": "Where is the purple circle? Answer with one of: top left, top right, bottom left, bottom right.",
+      "answer": "top left",
+      "target_bbox": [
+        34,
+        34,
+        126,
+        126
+      ],
+      "target_shape": "circle",
+      "target_color": "purple",
+      "target_position": "top left",
+      "present_concepts": [
+        "purple",
+        "circle",
+        "gray"
+      ],
+      "absent_concepts": [
+        "black",
+        "hexagon"
+      ],
+      "alternate_prompts": [
+        "What color is the circle away from the center? Answer one word.",
+        "Is the colored object at the center? Answer yes or no."
+      ]
+    },
+    "head_count": 12,
+    "query_counts": {
+      "response": 2,
+      "instruction": 32,
+      "visual": 576,
+      "combined": 34
+    },
+    "seconds": 0.18146061897277832,
+    "image_sha256": "64659f2192f03007fdb76be85776d567d399246e333fbe72986beb4a232ee611",
+    "layers": 128,
+    "teacher_forced": true,
+    "model_H_cycles": 2,
+    "model_L_cycles": 3
+  },
+  {
+    "sample": {
+      "id": "s10",
+      "family": "position",
+      "image": "samples/images/s10.png",
+      "prompt": "Where is the orange star? Answer with one of: top left, top right, bottom left, bottom right.",
+      "answer": "top right",
+      "target_bbox": [
+        210,
+        34,
+        302,
+        126
+      ],
+      "target_shape": "star",
+      "target_color": "orange",
+      "target_position": "top right",
+      "present_concepts": [
+        "orange",
+        "star",
+        "gray"
+      ],
+      "absent_concepts": [
+        "black",
+        "hexagon"
+      ],
+      "alternate_prompts": [
+        "What color is the star away from the center? Answer one word.",
+        "Is the colored object at the center? Answer yes or no."
+      ]
+    },
+    "head_count": 12,
+    "query_counts": {
+      "response": 2,
+      "instruction": 32,
+      "visual": 576,
+      "combined": 34
+    },
+    "seconds": 0.1855621337890625,
+    "image_sha256": "980ab46f33de88dd213cbd141efc82273ac66d9d8870be54073e80f403b3eeea",
+    "layers": 128,
+    "teacher_forced": true,
+    "model_H_cycles": 2,
+    "model_L_cycles": 3
+  },
+  {
+    "sample": {
+      "id": "s11",
+      "family": "position",
+      "image": "samples/images/s11.png",
+      "prompt": "Where is the red circle? Answer with one of: top left, top right, bottom left, bottom right.",
+      "answer": "bottom left",
+      "target_bbox": [
+        34,
+        210,
+        126,
+        302
+      ],
+      "target_shape": "circle",
+      "target_color": "red",
+      "target_position": "bottom left",
+      "present_concepts": [
+        "red",
+        "circle",
+        "gray"
+      ],
+      "absent_concepts": [
+        "black",
+        "hexagon"
+      ],
+      "alternate_prompts": [
+        "What color is the circle away from the center? Answer one word.",
+        "Is the colored object at the center? Answer yes or no."
+      ]
+    },
+    "head_count": 12,
+    "query_counts": {
+      "response": 2,
+      "instruction": 32,
+      "visual": 576,
+      "combined": 34
+    },
+    "seconds": 0.19782066345214844,
+    "image_sha256": "4b5dd80adceb63b17fcd4da3d74ae311d20c95b4abed9a880b2b3c47ae23e77e",
+    "layers": 128,
+    "teacher_forced": true,
+    "model_H_cycles": 2,
+    "model_L_cycles": 3
+  },
+  {
+    "sample": {
+      "id": "s12",
+      "family": "position",
+      "image": "samples/images/s12.png",
+      "prompt": "Where is the blue star? Answer with one of: top left, top right, bottom left, bottom right.",
+      "answer": "bottom right",
+      "target_bbox": [
+        210,
+        210,
+        302,
+        302
+      ],
+      "target_shape": "star",
+      "target_color": "blue",
+      "target_position": "bottom right",
+      "present_concepts": [
+        "blue",
+        "star",
+        "gray"
+      ],
+      "absent_concepts": [
+        "black",
+        "hexagon"
+      ],
+      "alternate_prompts": [
+        "What color is the star away from the center? Answer one word.",
+        "Is the colored object at the center? Answer yes or no."
+      ]
+    },
+    "head_count": 12,
+    "query_counts": {
+      "response": 2,
+      "instruction": 32,
+      "visual": 576,
+      "combined": 34
+    },
+    "seconds": 0.18309640884399414,
+    "image_sha256": "ff34bb42d3824129b58b0471a933799d9471e998ba65e0beee764affd248abe4",
+    "layers": 128,
+    "teacher_forced": true,
+    "model_H_cycles": 2,
+    "model_L_cycles": 3
+  },
+  {
+    "sample": {
+      "id": "s13",
+      "family": "position",
+      "image": "samples/images/s13.png",
+      "prompt": "Where is the green circle? Answer with one of: top left, top right, bottom left, bottom right.",
+      "answer": "top left",
+      "target_bbox": [
+        34,
+        34,
+        126,
+        126
+      ],
+      "target_shape": "circle",
+      "target_color": "green",
+      "target_position": "top left",
+      "present_concepts": [
+        "green",
+        "circle",
+        "gray"
+      ],
+      "absent_concepts": [
+        "black",
+        "hexagon"
+      ],
+      "alternate_prompts": [
+        "What color is the circle away from the center? Answer one word.",
+        "Is the colored object at the center? Answer yes or no."
+      ]
+    },
+    "head_count": 12,
+    "query_counts": {
+      "response": 2,
+      "instruction": 32,
+      "visual": 576,
+      "combined": 34
+    },
+    "seconds": 0.18059015274047852,
+    "image_sha256": "7db8889c791f2e9440058674e432ac4b045f782f4d1586f3052f453803949141",
+    "layers": 128,
+    "teacher_forced": true,
+    "model_H_cycles": 2,
+    "model_L_cycles": 3
+  },
+  {
+    "sample": {
+      "id": "s14",
+      "family": "position",
+      "image": "samples/images/s14.png",
+      "prompt": "Where is the yellow star? Answer with one of: top left, top right, bottom left, bottom right.",
+      "answer": "top right",
+      "target_bbox": [
+        210,
+        34,
+        302,
+        126
+      ],
+      "target_shape": "star",
+      "target_color": "yellow",
+      "target_position": "top right",
+      "present_concepts": [
+        "yellow",
+        "star",
+        "gray"
+      ],
+      "absent_concepts": [
+        "black",
+        "hexagon"
+      ],
+      "alternate_prompts": [
+        "What color is the star away from the center? Answer one word.",
+        "Is the colored object at the center? Answer yes or no."
+      ]
+    },
+    "head_count": 12,
+    "query_counts": {
+      "response": 2,
+      "instruction": 32,
+      "visual": 576,
+      "combined": 34
+    },
+    "seconds": 0.18048429489135742,
+    "image_sha256": "5398f4ed25695f5943792b3d69fb5d3956fea26b97b1a0759f89ff7f1ce0dff5",
+    "layers": 128,
+    "teacher_forced": true,
+    "model_H_cycles": 2,
+    "model_L_cycles": 3
+  },
+  {
+    "sample": {
+      "id": "s15",
+      "family": "position",
+      "image": "samples/images/s15.png",
+      "prompt": "Where is the pink circle? Answer with one of: top left, top right, bottom left, bottom right.",
+      "answer": "bottom left",
+      "target_bbox": [
+        34,
+        210,
+        126,
+        302
+      ],
+      "target_shape": "circle",
+      "target_color": "pink",
+      "target_position": "bottom left",
+      "present_concepts": [
+        "pink",
+        "circle",
+        "gray"
+      ],
+      "absent_concepts": [
+        "black",
+        "hexagon"
+      ],
+      "alternate_prompts": [
+        "What color is the circle away from the center? Answer one word.",
+        "Is the colored object at the center? Answer yes or no."
+      ]
+    },
+    "head_count": 12,
+    "query_counts": {
+      "response": 2,
+      "instruction": 32,
+      "visual": 576,
+      "combined": 34
+    },
+    "seconds": 0.1826159954071045,
+    "image_sha256": "46eed3b8c3242767999e47947c9dd7ed298595b3eb8a399a87909ec45e79c77b",
+    "layers": 128,
+    "teacher_forced": true,
+    "model_H_cycles": 2,
+    "model_L_cycles": 3
+  },
+  {
+    "sample": {
+      "id": "s16",
+      "family": "position",
+      "image": "samples/images/s16.png",
+      "prompt": "Where is the cyan star? Answer with one of: top left, top right, bottom left, bottom right.",
+      "answer": "bottom right",
+      "target_bbox": [
+        210,
+        210,
+        302,
+        302
+      ],
+      "target_shape": "star",
+      "target_color": "cyan",
+      "target_position": "bottom right",
+      "present_concepts": [
+        "cyan",
+        "star",
+        "gray"
+      ],
+      "absent_concepts": [
+        "black",
+        "hexagon"
+      ],
+      "alternate_prompts": [
+        "What color is the star away from the center? Answer one word.",
+        "Is the colored object at the center? Answer yes or no."
+      ]
+    },
+    "head_count": 12,
+    "query_counts": {
+      "response": 2,
+      "instruction": 32,
+      "visual": 576,
+      "combined": 34
+    },
+    "seconds": 0.18087267875671387,
+    "image_sha256": "533b4ce07d0bacd52b8c655aba315d098b50e8dd1963c11d11f2137d8c44dc0b",
+    "layers": 128,
+    "teacher_forced": true,
+    "model_H_cycles": 2,
+    "model_L_cycles": 3
+  },
+  {
+    "sample": {
+      "id": "s17",
+      "family": "count",
+      "image": "samples/images/s17.png",
+      "prompt": "How many green circles are shown? Answer with a number only.",
+      "answer": "1",
+      "target_bbox": [
+        41,
+        41,
+        99,
+        99
+      ],
+      "target_shape": "circle",
+      "target_color": "green",
+      "target_position": "multiple",
+      "present_concepts": [
+        "green",
+        "circle",
+        "1"
+      ],
+      "absent_concepts": [
+        "black",
+        "hexagon"
+      ],
+      "alternate_prompts": [
+        "What color are the repeated circles? Answer one word.",
+        "Are there five green circles? Answer yes or no."
+      ]
+    },
+    "head_count": 12,
+    "query_counts": {
+      "response": 1,
+      "instruction": 20,
+      "visual": 576,
+      "combined": 21
+    },
+    "seconds": 0.18368935585021973,
+    "image_sha256": "9c886689d179d4486212687bc21dd74b760461471803e81bbe613ce8663bb89d",
+    "layers": 128,
+    "teacher_forced": true,
+    "model_H_cycles": 2,
+    "model_L_cycles": 3
+  },
+  {
+    "sample": {
+      "id": "s18",
+      "family": "count",
+      "image": "samples/images/s18.png",
+      "prompt": "How many red squares are shown? Answer with a number only.",
+      "answer": "2",
+      "target_bbox": [
+        41,
+        41,
+        197,
+        99
+      ],
+      "target_shape": "square",
+      "target_color": "red",
+      "target_position": "multiple",
+      "present_concepts": [
+        "red",
+        "square",
+        "2"
+      ],
+      "absent_concepts": [
+        "black",
+        "hexagon"
+      ],
+      "alternate_prompts": [
+        "What color are the repeated squares? Answer one word.",
+        "Are there five red squares? Answer yes or no."
+      ]
+    },
+    "head_count": 12,
+    "query_counts": {
+      "response": 1,
+      "instruction": 20,
+      "visual": 576,
+      "combined": 21
+    },
+    "seconds": 0.19311261177062988,
+    "image_sha256": "1d21de632e3790a0046b315905fef19b923d72c297491284b520f990a5b8f3bc",
+    "layers": 128,
+    "teacher_forced": true,
+    "model_H_cycles": 2,
+    "model_L_cycles": 3
+  },
+  {
+    "sample": {
+      "id": "s19",
+      "family": "count",
+      "image": "samples/images/s19.png",
+      "prompt": "How many blue triangles are shown? Answer with a number only.",
+      "answer": "3",
+      "target_bbox": [
+        41,
+        41,
+        295,
+        99
+      ],
+      "target_shape": "triangle",
+      "target_color": "blue",
+      "target_position": "multiple",
+      "present_concepts": [
+        "blue",
+        "triangle",
+        "3"
+      ],
+      "absent_concepts": [
+        "black",
+        "hexagon"
+      ],
+      "alternate_prompts": [
+        "What color are the repeated triangles? Answer one word.",
+        "Are there five blue triangles? Answer yes or no."
+      ]
+    },
+    "head_count": 12,
+    "query_counts": {
+      "response": 1,
+      "instruction": 20,
+      "visual": 576,
+      "combined": 21
+    },
+    "seconds": 0.18176913261413574,
+    "image_sha256": "c597aec13354d5c7db10d4d97a94feeb42e3e999933f8dc02c5f0e541cbef7b7",
+    "layers": 128,
+    "teacher_forced": true,
+    "model_H_cycles": 2,
+    "model_L_cycles": 3
+  },
+  {
+    "sample": {
+      "id": "s20",
+      "family": "count",
+      "image": "samples/images/s20.png",
+      "prompt": "How many purple stars are shown? Answer with a number only.",
+      "answer": "4",
+      "target_bbox": [
+        41,
+        41,
+        295,
+        197
+      ],
+      "target_shape": "star",
+      "target_color": "purple",
+      "target_position": "multiple",
+      "present_concepts": [
+        "purple",
+        "star",
+        "4"
+      ],
+      "absent_concepts": [
+        "black",
+        "hexagon"
+      ],
+      "alternate_prompts": [
+        "What color are the repeated stars? Answer one word.",
+        "Are there five purple stars? Answer yes or no."
+      ]
+    },
+    "head_count": 12,
+    "query_counts": {
+      "response": 1,
+      "instruction": 20,
+      "visual": 576,
+      "combined": 21
+    },
+    "seconds": 0.1795361042022705,
+    "image_sha256": "74a4d9648b1bbf8869fe2a217f0584cfcfe58bbdfd6032b98ccee70fec93710f",
+    "layers": 128,
+    "teacher_forced": true,
+    "model_H_cycles": 2,
+    "model_L_cycles": 3
+  },
+  {
+    "sample": {
+      "id": "s21",
+      "family": "count",
+      "image": "samples/images/s21.png",
+      "prompt": "How many orange circles are shown? Answer with a number only.",
+      "answer": "1",
+      "target_bbox": [
+        41,
+        41,
+        99,
+        99
+      ],
+      "target_shape": "circle",
+      "target_color": "orange",
+      "target_position": "multiple",
+      "present_concepts": [
+        "orange",
+        "circle",
+        "1"
+      ],
+      "absent_concepts": [
+        "black",
+        "hexagon"
+      ],
+      "alternate_prompts": [
+        "What color are the repeated circles? Answer one word.",
+        "Are there five orange circles? Answer yes or no."
+      ]
+    },
+    "head_count": 12,
+    "query_counts": {
+      "response": 1,
+      "instruction": 20,
+      "visual": 576,
+      "combined": 21
+    },
+    "seconds": 0.17921924591064453,
+    "image_sha256": "771572b202678d9972c306da696210e8bebed36e81cce0b56202f959a57edc28",
+    "layers": 128,
+    "teacher_forced": true,
+    "model_H_cycles": 2,
+    "model_L_cycles": 3
+  },
+  {
+    "sample": {
+      "id": "s22",
+      "family": "count",
+      "image": "samples/images/s22.png",
+      "prompt": "How many cyan squares are shown? Answer with a number only.",
+      "answer": "2",
+      "target_bbox": [
+        41,
+        41,
+        197,
+        99
+      ],
+      "target_shape": "square",
+      "target_color": "cyan",
+      "target_position": "multiple",
+      "present_concepts": [
+        "cyan",
+        "square",
+        "2"
+      ],
+      "absent_concepts": [
+        "black",
+        "hexagon"
+      ],
+      "alternate_prompts": [
+        "What color are the repeated squares? Answer one word.",
+        "Are there five cyan squares? Answer yes or no."
+      ]
+    },
+    "head_count": 12,
+    "query_counts": {
+      "response": 1,
+      "instruction": 20,
+      "visual": 576,
+      "combined": 21
+    },
+    "seconds": 0.18006634712219238,
+    "image_sha256": "846db4e8c0fa4350d97c962a702d5811cc85bdbc51c6229226612df901751488",
+    "layers": 128,
+    "teacher_forced": true,
+    "model_H_cycles": 2,
+    "model_L_cycles": 3
+  },
+  {
+    "sample": {
+      "id": "s23",
+      "family": "count",
+      "image": "samples/images/s23.png",
+      "prompt": "How many pink triangles are shown? Answer with a number only.",
+      "answer": "3",
+      "target_bbox": [
+        41,
+        41,
+        295,
+        99
+      ],
+      "target_shape": "triangle",
+      "target_color": "pink",
+      "target_position": "multiple",
+      "present_concepts": [
+        "pink",
+        "triangle",
+        "3"
+      ],
+      "absent_concepts": [
+        "black",
+        "hexagon"
+      ],
+      "alternate_prompts": [
+        "What color are the repeated triangles? Answer one word.",
+        "Are there five pink triangles? Answer yes or no."
+      ]
+    },
+    "head_count": 12,
+    "query_counts": {
+      "response": 1,
+      "instruction": 20,
+      "visual": 576,
+      "combined": 21
+    },
+    "seconds": 0.18176555633544922,
+    "image_sha256": "52ca33d930cd0671dd41bafba9ad37a3bc41465685beeb40af9aab66ad59ec09",
+    "layers": 128,
+    "teacher_forced": true,
+    "model_H_cycles": 2,
+    "model_L_cycles": 3
+  },
+  {
+    "sample": {
+      "id": "s24",
+      "family": "count",
+      "image": "samples/images/s24.png",
+      "prompt": "How many yellow stars are shown? Answer with a number only.",
+      "answer": "4",
+      "target_bbox": [
+        41,
+        41,
+        295,
+        197
+      ],
+      "target_shape": "star",
+      "target_color": "yellow",
+      "target_position": "multiple",
+      "present_concepts": [
+        "yellow",
+        "star",
+        "4"
+      ],
+      "absent_concepts": [
+        "black",
+        "hexagon"
+      ],
+      "alternate_prompts": [
+        "What color are the repeated stars? Answer one word.",
+        "Are there five yellow stars? Answer yes or no."
+      ]
+    },
+    "head_count": 12,
+    "query_counts": {
+      "response": 1,
+      "instruction": 20,
+      "visual": 576,
+      "combined": 21
+    },
+    "seconds": 0.18199658393859863,
+    "image_sha256": "0a9edd0680a194e001e26e28cd981b1118b66c2a1c4e97a851c0e4ce0c27929f",
+    "layers": 128,
+    "teacher_forced": true,
+    "model_H_cycles": 2,
+    "model_L_cycles": 3
+  },
+  {
+    "sample": {
+      "id": "s25",
+      "family": "ocr",
+      "image": "samples/images/s25.png",
+      "prompt": "What two-character code is shown in the bordered box? Answer with the code only.",
+      "answer": "K7",
+      "target_bbox": [
+        206,
+        46,
+        306,
+        114
+      ],
+      "target_shape": "code",
+      "target_color": "red",
+      "target_position": "top right",
+      "present_concepts": [
+        "K7",
+        "code",
+        "box"
+      ],
+      "absent_concepts": [
+        "Z0",
+        "blank"
+      ],
+      "alternate_prompts": [
+        "Where is the box containing K7? Answer with a corner position.",
+        "Is the code Z0? Answer yes or no."
+      ]
+    },
+    "head_count": 12,
+    "query_counts": {
+      "response": 2,
+      "instruction": 29,
+      "visual": 576,
+      "combined": 31
+    },
+    "seconds": 0.18473362922668457,
+    "image_sha256": "7a05a690d61cf4080954fb8bbac41f8fd651de60c0975d64315301ae7e3491be",
+    "layers": 128,
+    "teacher_forced": true,
+    "model_H_cycles": 2,
+    "model_L_cycles": 3
+  },
+  {
+    "sample": {
+      "id": "s26",
+      "family": "ocr",
+      "image": "samples/images/s26.png",
+      "prompt": "What two-character code is shown in the bordered box? Answer with the code only.",
+      "answer": "M2",
+      "target_bbox": [
+        30,
+        46,
+        130,
+        114
+      ],
+      "target_shape": "code",
+      "target_color": "blue",
+      "target_position": "top left",
+      "present_concepts": [
+        "M2",
+        "code",
+        "box"
+      ],
+      "absent_concepts": [
+        "Z0",
+        "blank"
+      ],
+      "alternate_prompts": [
+        "Where is the box containing M2? Answer with a corner position.",
+        "Is the code Z0? Answer yes or no."
+      ]
+    },
+    "head_count": 12,
+    "query_counts": {
+      "response": 2,
+      "instruction": 29,
+      "visual": 576,
+      "combined": 31
+    },
+    "seconds": 0.19026517868041992,
+    "image_sha256": "23d9225fd5c291f585eeed6877e24cb99bc2bf2c811d9179c1c60367b1d36233",
+    "layers": 128,
+    "teacher_forced": true,
+    "model_H_cycles": 2,
+    "model_L_cycles": 3
+  },
+  {
+    "sample": {
+      "id": "s27",
+      "family": "ocr",
+      "image": "samples/images/s27.png",
+      "prompt": "What two-character code is shown in the bordered box? Answer with the code only.",
+      "answer": "R9",
+      "target_bbox": [
+        206,
+        222,
+        306,
+        290
+      ],
+      "target_shape": "code",
+      "target_color": "green",
+      "target_position": "bottom right",
+      "present_concepts": [
+        "R9",
+        "code",
+        "box"
+      ],
+      "absent_concepts": [
+        "Z0",
+        "blank"
+      ],
+      "alternate_prompts": [
+        "Where is the box containing R9? Answer with a corner position.",
+        "Is the code Z0? Answer yes or no."
+      ]
+    },
+    "head_count": 12,
+    "query_counts": {
+      "response": 2,
+      "instruction": 29,
+      "visual": 576,
+      "combined": 31
+    },
+    "seconds": 0.1823275089263916,
+    "image_sha256": "24c01a3d227cbd660f4b54c1009f5cf5a8a4d3aef7065f07ca1f1653f412eb14",
+    "layers": 128,
+    "teacher_forced": true,
+    "model_H_cycles": 2,
+    "model_L_cycles": 3
+  },
+  {
+    "sample": {
+      "id": "s28",
+      "family": "ocr",
+      "image": "samples/images/s28.png",
+      "prompt": "What two-character code is shown in the bordered box? Answer with the code only.",
+      "answer": "T4",
+      "target_bbox": [
+        30,
+        222,
+        130,
+        290
+      ],
+      "target_shape": "code",
+      "target_color": "purple",
+      "target_position": "bottom left",
+      "present_concepts": [
+        "T4",
+        "code",
+        "box"
+      ],
+      "absent_concepts": [
+        "Z0",
+        "blank"
+      ],
+      "alternate_prompts": [
+        "Where is the box containing T4? Answer with a corner position.",
+        "Is the code Z0? Answer yes or no."
+      ]
+    },
+    "head_count": 12,
+    "query_counts": {
+      "response": 2,
+      "instruction": 29,
+      "visual": 576,
+      "combined": 31
+    },
+    "seconds": 0.17913436889648438,
+    "image_sha256": "b45437260e1810ca1a53983e2fa0fefcec93f75cb7c3518765012cefcea4d4b4",
+    "layers": 128,
+    "teacher_forced": true,
+    "model_H_cycles": 2,
+    "model_L_cycles": 3
+  },
+  {
+    "sample": {
+      "id": "s29",
+      "family": "ocr",
+      "image": "samples/images/s29.png",
+      "prompt": "What two-character code is shown in the bordered box? Answer with the code only.",
+      "answer": "B6",
+      "target_bbox": [
+        206,
+        46,
+        306,
+        114
+      ],
+      "target_shape": "code",
+      "target_color": "red",
+      "target_position": "top right",
+      "present_concepts": [
+        "B6",
+        "code",
+        "box"
+      ],
+      "absent_concepts": [
+        "Z0",
+        "blank"
+      ],
+      "alternate_prompts": [
+        "Where is the box containing B6? Answer with a corner position.",
+        "Is the code Z0? Answer yes or no."
+      ]
+    },
+    "head_count": 12,
+    "query_counts": {
+      "response": 2,
+      "instruction": 29,
+      "visual": 576,
+      "combined": 31
+    },
+    "seconds": 0.18054723739624023,
+    "image_sha256": "029cdf9c471b2d64d9e1a4a582ee8cb66a43417b2205eb04d8edfca26e529ebd",
+    "layers": 128,
+    "teacher_forced": true,
+    "model_H_cycles": 2,
+    "model_L_cycles": 3
+  },
+  {
+    "sample": {
+      "id": "s30",
+      "family": "ocr",
+      "image": "samples/images/s30.png",
+      "prompt": "What two-character code is shown in the bordered box? Answer with the code only.",
+      "answer": "Q3",
+      "target_bbox": [
+        30,
+        46,
+        130,
+        114
+      ],
+      "target_shape": "code",
+      "target_color": "blue",
+      "target_position": "top left",
+      "present_concepts": [
+        "Q3",
+        "code",
+        "box"
+      ],
+      "absent_concepts": [
+        "Z0",
+        "blank"
+      ],
+      "alternate_prompts": [
+        "Where is the box containing Q3? Answer with a corner position.",
+        "Is the code Z0? Answer yes or no."
+      ]
+    },
+    "head_count": 12,
+    "query_counts": {
+      "response": 2,
+      "instruction": 29,
+      "visual": 576,
+      "combined": 31
+    },
+    "seconds": 0.1799321174621582,
+    "image_sha256": "63a6d4e0577b12584aeb49086ab58b876f217787fd497e54ec3c31fa606c1dca",
+    "layers": 128,
+    "teacher_forced": true,
+    "model_H_cycles": 2,
+    "model_L_cycles": 3
+  },
+  {
+    "sample": {
+      "id": "s31",
+      "family": "ocr",
+      "image": "samples/images/s31.png",
+      "prompt": "What two-character code is shown in the bordered box? Answer with the code only.",
+      "answer": "X8",
+      "target_bbox": [
+        206,
+        222,
+        306,
+        290
+      ],
+      "target_shape": "code",
+      "target_color": "green",
+      "target_position": "bottom right",
+      "present_concepts": [
+        "X8",
+        "code",
+        "box"
+      ],
+      "absent_concepts": [
+        "Z0",
+        "blank"
+      ],
+      "alternate_prompts": [
+        "Where is the box containing X8? Answer with a corner position.",
+        "Is the code Z0? Answer yes or no."
+      ]
+    },
+    "head_count": 12,
+    "query_counts": {
+      "response": 2,
+      "instruction": 29,
+      "visual": 576,
+      "combined": 31
+    },
+    "seconds": 0.1784830093383789,
+    "image_sha256": "81aadd05d5631339399198171f91526bbf2e9794172238e035e0fac0a902a1fb",
+    "layers": 128,
+    "teacher_forced": true,
+    "model_H_cycles": 2,
+    "model_L_cycles": 3
+  },
+  {
+    "sample": {
+      "id": "s32",
+      "family": "ocr",
+      "image": "samples/images/s32.png",
+      "prompt": "What two-character code is shown in the bordered box? Answer with the code only.",
+      "answer": "P5",
+      "target_bbox": [
+        30,
+        222,
+        130,
+        290
+      ],
+      "target_shape": "code",
+      "target_color": "purple",
+      "target_position": "bottom left",
+      "present_concepts": [
+        "P5",
+        "code",
+        "box"
+      ],
+      "absent_concepts": [
+        "Z0",
+        "blank"
+      ],
+      "alternate_prompts": [
+        "Where is the box containing P5? Answer with a corner position.",
+        "Is the code Z0? Answer yes or no."
+      ]
+    },
+    "head_count": 12,
+    "query_counts": {
+      "response": 2,
+      "instruction": 29,
+      "visual": 576,
+      "combined": 31
+    },
+    "seconds": 0.18357157707214355,
+    "image_sha256": "3cb6470bf61c264f2346059e5a803a6d62be04c56defe4e2119f9001d550b662",
+    "layers": 128,
+    "teacher_forced": true,
+    "model_H_cycles": 2,
+    "model_L_cycles": 3
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "dataset": "MMMU-Pro",
+  "model": "hrm-penguin-v2",
+  "source": "data/server_snapshot_20260906/HFDatasets/MMMU-Pro",
+  "total_source_rows": 1730,
+  "completed": 1730,
+  "scored": 1730,
+  "correct": 669,
+  "normalized_exact_accuracy": 0.38670520231213873,
+  "lenient_accuracy": 0.38670520231213873,
+  "scoring_version": "lenient-v3-option-reference",
+  "seconds_this_run": 8.613,
+  "prediction_jsonl": "data/server_snapshot_20260906/hrm_bench_results/v2/MMMU-Pro/predictions.jsonl"
+}

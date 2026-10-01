@@ -1,0 +1,29 @@
+{
+  "dataset": "MathVision",
+  "model": "hrm-penguin-v2",
+  "total": 3040,
+  "completed": 3040,
+  "errors_this_run": 0,
+  "scored": 3040,
+  "correct": 1170,
+  "normalized_exact_accuracy": 0.3848684210526316,
+  "official_evaluation": null,
+  "official_evaluation_error": null,
+  "source_tsv_md5": null,
+  "build_seconds": 1.504,
+  "inference_seconds_this_run": 2323.078,
+  "prediction_jsonl": "data/server_snapshot_20260906/hrm_bench_results/v2/MathVision/predictions.jsonl",
+  "vlmeval_table": "data/server_snapshot_20260906/hrm_bench_results/v2/MathVision/predictions.xlsx",
+  "original_correct": 1158,
+  "original_accuracy": 0.38092105263157894,
+  "lenient_accuracy": 0.3848684210526316,
+  "scoring_version": "lenient-v3-option-reference",
+  "match_methods": {
+    "legacy_match": 1150,
+    "no_match": 1870,
+    "original_match": 8,
+    "numeric": 6,
+    "minor_text_variation": 2,
+    "reference_in_prediction": 4
+  }
+}

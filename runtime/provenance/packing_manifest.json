@@ -1,0 +1,6 @@
+{
+  "merged_weight_file": "model.safetensors",
+  "merged_weight_bytes": 3266699520,
+  "merged_weight_sha256": "4d34dac46592a2ea273556fa29a540de9af8d8e3cff39f6e3e0ba54cd799f72f",
+  "note": "Weight identity for benchmark compatibility. Full tensor-level conversion reports are maintained separately."
+}

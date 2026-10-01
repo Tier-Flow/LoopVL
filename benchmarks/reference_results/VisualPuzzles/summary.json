@@ -1,0 +1,19 @@
+{
+  "dataset": "VisualPuzzles",
+  "model": "hrm-penguin-v2",
+  "total": 1168,
+  "completed": 1168,
+  "errors_this_run": 0,
+  "scored": 1168,
+  "correct": 406,
+  "normalized_exact_accuracy": 0.3476027397260274,
+  "lenient_accuracy": 0.3476027397260274,
+  "scoring_version": "lenient-v3-option-reference",
+  "official_evaluation": null,
+  "official_evaluation_error": null,
+  "source_tsv_md5": "423b161f1c1b26194920cc46ee786e5f",
+  "build_seconds": 19.911,
+  "inference_seconds_this_run": 1.081,
+  "prediction_jsonl": "data/server_snapshot_20260906/hrm_bench_results/v2/VisualPuzzles/predictions.jsonl",
+  "vlmeval_table": "data/server_snapshot_20260906/hrm_bench_results/v2/VisualPuzzles/predictions.xlsx"
+}

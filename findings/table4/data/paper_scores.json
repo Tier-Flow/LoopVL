@@ -1,0 +1,25 @@
+{
+  "source": "Current manuscript tables/loopvl_hl_ablation.tex, author update 2026-09-11",
+  "unit": "percent",
+  "benchmarks": ["MMStar", "RealWorldQA", "VMCBench", "AI2D", "ChartQA"],
+  "rows": [
+    {"configuration":"H1L1","unrolled_layers":32,"scores":[0.47,0.00,0.50,1.62,0.00]},
+    {"configuration":"H1L2","unrolled_layers":48,"scores":[0.07,0.00,0.30,0.06,0.00]},
+    {"configuration":"H1L3","unrolled_layers":64,"scores":[0.07,0.00,0.10,0.45,0.04]},
+    {"configuration":"H2L1","unrolled_layers":64,"scores":[29.40,12.81,27.90,25.74,17.40]},
+    {"configuration":"H2L2","unrolled_layers":96,"scores":[51.33,58.95,63.10,65.38,63.28]},
+    {"configuration":"H2L3","unrolled_layers":128,"scores":[63.47,70.98,70.90,75.49,74.52]},
+    {"configuration":"H3L1","unrolled_layers":96,"scores":[34.27,29.67,30.00,32.90,16.44]},
+    {"configuration":"H3L2","unrolled_layers":144,"scores":[51.33,46.41,59.70,63.24,50.64]},
+    {"configuration":"H3L3","unrolled_layers":192,"scores":[58.20,60.13,65.70,67.78,56.80]},
+    {"configuration":"H4L1","unrolled_layers":128,"scores":[24.67,13.07,25.50,20.17,1.52]},
+    {"configuration":"H4L2","unrolled_layers":192,"scores":[32.13,9.28,32.60,32.84,14.68]},
+    {"configuration":"H4L3","unrolled_layers":256,"scores":[24.00,14.51,22.50,21.66,12.96]}
+  ],
+  "provenance_notes": [
+    "The H2L3 row was author-corrected to agree with the main benchmark table. ChartQA is 74.52 in this manuscript; the earlier conversation value 68.72 is not used.",
+    "Other rows are the historical direct-generation H/L sweep, not newly recomputed scores.",
+    "Raw per-sample historical sweep outputs are not bundled locally.",
+    "A new run of the released evaluation scripts is a fresh evaluation and must not be silently equated with the author-corrected H2L3 row."
+  ]
+}

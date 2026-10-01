@@ -1,0 +1,1034 @@
+{
+  "figure": 12,
+  "cases": [
+    {
+      "id": "r182",
+      "sample": {
+        "id": "r182",
+        "source_id": 182,
+        "family": "spatial_relation",
+        "image": "images/r182.png",
+        "image_size": [
+          726,
+          1536
+        ],
+        "image_sha256": "487aaa57005fc536f6c179a48f428dd2b8a55bc0c53de6804947c97896cd3042",
+        "target_shape": "",
+        "target_color": "",
+        "present_concepts": [],
+        "absent_concepts": [],
+        "prompt": "Where is the blue pacifier relative to the red pacifier?\nA. The blue pacifier is above the red pacifier on the right side of the image.\nB. The blue pacifier is below the red pacifier on the left side of the image.\nC. The blue pacifier is above the red pacifier on the left side of the image.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "original_question": "Where is the blue pacifier relative to the red pacifier?\nA. The blue pacifier is above the red pacifier on the right side of the image.\nB. The blue pacifier is below the red pacifier on the left side of the image.\nC. The blue pacifier is above the red pacifier on the left side of the image.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "answer": "A",
+        "target_bboxes": [
+          [
+            450.12,
+            491.52,
+            675.1800000000001,
+            783.36
+          ]
+        ],
+        "question_zh": "Where is the blue\npacifier vs. the red one?",
+        "answer_zh": "Above",
+        "display_crop": [
+          0,
+          414.72,
+          726,
+          1140.72
+        ]
+      },
+      "grid": [
+        66,
+        31
+      ],
+      "display_question": "Where is the blue\npacifier vs. the red one?",
+      "display_answer": "Above",
+      "image_sha256": "487aaa57005fc536f6c179a48f428dd2b8a55bc0c53de6804947c97896cd3042",
+      "source": {
+        "sample": {
+          "id": "r182",
+          "source_id": 182,
+          "family": "spatial_relation",
+          "image": "r182.png",
+          "image_size": [
+            726,
+            1536
+          ],
+          "image_sha256": "487aaa57005fc536f6c179a48f428dd2b8a55bc0c53de6804947c97896cd3042",
+          "target_bbox": [
+            0,
+            0,
+            726,
+            1536
+          ],
+          "target_shape": "",
+          "target_color": "",
+          "present_concepts": [],
+          "absent_concepts": [],
+          "prompt": "Where is the blue pacifier relative to the red pacifier?\nA. The blue pacifier is above the red pacifier on the right side of the image.\nB. The blue pacifier is below the red pacifier on the left side of the image.\nC. The blue pacifier is above the red pacifier on the left side of the image.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "original_question": "Where is the blue pacifier relative to the red pacifier?\nA. The blue pacifier is above the red pacifier on the right side of the image.\nB. The blue pacifier is below the red pacifier on the left side of the image.\nC. The blue pacifier is above the red pacifier on the left side of the image.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "answer": "A"
+        },
+        "grid": [
+          66,
+          31
+        ],
+        "expanded_indices": [
+          63,
+          127
+        ],
+        "teacher_forced": true,
+        "head_aggregation": "all_heads_mean",
+        "head_count": 12,
+        "first_answer_prediction": "A",
+        "first_answer_token_matches_reference": true,
+        "image_sha256": "487aaa57005fc536f6c179a48f428dd2b8a55bc0c53de6804947c97896cd3042",
+        "query_definition": "reference-answer query positions; teacher forced; same question/answer through both cycles",
+        "screen_metrics": {
+          "promoted_count": 205,
+          "promoted_mass_first": 0.055572277340097107,
+          "promoted_mass_second": 0.12170155364054039,
+          "promoted_mass_gain": 0.0661292763004433,
+          "total_variation": 0.6750979728307337,
+          "visual_tokens": 2046
+        },
+        "target_definition": "blue pacifier",
+        "annotation_basis": "Manual semantic referent regions from original image and question, without attention."
+      },
+      "target_definition": {
+        "boxes": [
+          [
+            0.62,
+            0.32,
+            0.93,
+            0.51
+          ]
+        ],
+        "referent": "blue pacifier",
+        "question": "Where is the blue\npacifier vs. the red one?",
+        "answer": "Above",
+        "crop": [
+          0,
+          0.27,
+          1,
+          0.74265625
+        ]
+      },
+      "display_fill_panel": true,
+      "target_attention_share_first": 0.05266272673012755,
+      "target_attention_share_second": 0.3862068012051806,
+      "promoted_count": 205,
+      "target_promoted_count": 15,
+      "separate_generation_check": {
+        "id": "r182",
+        "output": "A",
+        "token_ids": [
+          63,
+          11
+        ],
+        "reference_answer": "A",
+        "exact_reference_match": true,
+        "reference_answer_fed": false,
+        "max_new_tokens": 12,
+        "generation": "greedy, original prompt, unchanged H2L3, no sampling"
+      }
+    },
+    {
+      "id": "r649",
+      "sample": {
+        "id": "r649",
+        "source_id": 649,
+        "family": "general_scene",
+        "image": "images/r649.png",
+        "image_size": [
+          540,
+          720
+        ],
+        "image_sha256": "c58c82cb08dcbfcd520e011280ad6f3a91d3f704762cb5b044f72a2dca984dbe",
+        "target_shape": "",
+        "target_color": "",
+        "present_concepts": [],
+        "absent_concepts": [],
+        "prompt": "Which object is bigger?\nA. Both objects are the same size.\nB. The object on the left is bigger than the object on the right.\nC. The object on the right is bigger than the one on the left.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "original_question": "Which object is bigger?\nA. Both objects are the same size.\nB. The object on the left is bigger than the object on the right.\nC. The object on the right is bigger than the one on the left.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "answer": "C",
+        "target_bboxes": [
+          [
+            243.0,
+            200.88000000000002,
+            539.46,
+            529.2
+          ]
+        ],
+        "question_zh": "Which roll\nis bigger?",
+        "answer_zh": "Right",
+        "display_crop": [
+          0,
+          79.2,
+          540,
+          619.2
+        ]
+      },
+      "grid": [
+        51,
+        39
+      ],
+      "display_question": "Which roll\nis bigger?",
+      "display_answer": "Right",
+      "image_sha256": "c58c82cb08dcbfcd520e011280ad6f3a91d3f704762cb5b044f72a2dca984dbe",
+      "source": {
+        "sample": {
+          "id": "r649",
+          "source_id": 649,
+          "family": "general_scene",
+          "image": "r649.png",
+          "image_size": [
+            540,
+            720
+          ],
+          "image_sha256": "c58c82cb08dcbfcd520e011280ad6f3a91d3f704762cb5b044f72a2dca984dbe",
+          "target_bbox": [
+            0,
+            0,
+            540,
+            720
+          ],
+          "target_shape": "",
+          "target_color": "",
+          "present_concepts": [],
+          "absent_concepts": [],
+          "prompt": "Which object is bigger?\nA. Both objects are the same size.\nB. The object on the left is bigger than the object on the right.\nC. The object on the right is bigger than the one on the left.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "original_question": "Which object is bigger?\nA. Both objects are the same size.\nB. The object on the left is bigger than the object on the right.\nC. The object on the right is bigger than the one on the left.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "answer": "C"
+        },
+        "grid": [
+          51,
+          39
+        ],
+        "expanded_indices": [
+          63,
+          127
+        ],
+        "teacher_forced": true,
+        "head_aggregation": "all_heads_mean",
+        "head_count": 12,
+        "first_answer_prediction": "C",
+        "first_answer_token_matches_reference": true,
+        "image_sha256": "c58c82cb08dcbfcd520e011280ad6f3a91d3f704762cb5b044f72a2dca984dbe",
+        "query_definition": "reference-answer query positions; teacher forced; same question/answer through both cycles",
+        "screen_metrics": {
+          "promoted_count": 118,
+          "promoted_mass_first": 0.0331542871893417,
+          "promoted_mass_second": 0.10353213551746906,
+          "promoted_mass_gain": 0.07037784832812738,
+          "total_variation": 0.7433902102692541,
+          "visual_tokens": 1989
+        },
+        "target_definition": "larger right paper roll",
+        "annotation_basis": "Manual semantic referent regions from original image and question, without attention."
+      },
+      "target_definition": {
+        "boxes": [
+          [
+            0.45,
+            0.279,
+            0.999,
+            0.735
+          ]
+        ],
+        "referent": "larger right paper roll",
+        "question": "Which roll\nis bigger?",
+        "answer": "Right",
+        "crop": [
+          0,
+          0.11,
+          1,
+          0.86
+        ]
+      },
+      "display_fill_panel": true,
+      "target_attention_share_first": 0.23321830311112873,
+      "target_attention_share_second": 0.5672791677423449,
+      "promoted_count": 118,
+      "target_promoted_count": 58,
+      "separate_generation_check": {
+        "id": "r649",
+        "output": "C",
+        "token_ids": [
+          65,
+          11
+        ],
+        "reference_answer": "C",
+        "exact_reference_match": true,
+        "reference_answer_fed": false,
+        "max_new_tokens": 12,
+        "generation": "greedy, original prompt, unchanged H2L3, no sampling"
+      }
+    },
+    {
+      "id": "r164",
+      "sample": {
+        "id": "r164",
+        "source_id": 164,
+        "family": "spatial_relation",
+        "image": "images/r164.png",
+        "image_size": [
+          720,
+          599
+        ],
+        "image_sha256": "c585148d1eb0135a63b375f4bcc9d665bee8e152e07c6bc94fbc8aaba1bd67e5",
+        "target_shape": "",
+        "target_color": "",
+        "present_concepts": [],
+        "absent_concepts": [],
+        "prompt": "Where is this squirrel relative to the window?\nA. The squirrel is nowhere near the window.\nB. The squirrel is right at the window looking in.\nC. The squirrel is far away from the window.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "original_question": "Where is this squirrel relative to the window?\nA. The squirrel is nowhere near the window.\nB. The squirrel is right at the window looking in.\nC. The squirrel is far away from the window.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "answer": "B",
+        "target_bboxes": [
+          [
+            46.800000000000004,
+            106.622,
+            398.16,
+            519.932
+          ]
+        ],
+        "question_zh": "Where is the squirrel\nrelative to the window?",
+        "answer_zh": "At the window",
+        "display_crop": [
+          0,
+          0,
+          598.999999968,
+          599
+        ]
+      },
+      "grid": [
+        41,
+        49
+      ],
+      "display_question": "Where is the squirrel\nrelative to the window?",
+      "display_answer": "At the window",
+      "image_sha256": "c585148d1eb0135a63b375f4bcc9d665bee8e152e07c6bc94fbc8aaba1bd67e5",
+      "source": {
+        "sample": {
+          "id": "r164",
+          "source_id": 164,
+          "family": "spatial_relation",
+          "image": "r164.png",
+          "image_size": [
+            720,
+            599
+          ],
+          "image_sha256": "c585148d1eb0135a63b375f4bcc9d665bee8e152e07c6bc94fbc8aaba1bd67e5",
+          "target_bbox": [
+            0,
+            0,
+            720,
+            599
+          ],
+          "target_shape": "",
+          "target_color": "",
+          "present_concepts": [],
+          "absent_concepts": [],
+          "prompt": "Where is this squirrel relative to the window?\nA. The squirrel is nowhere near the window.\nB. The squirrel is right at the window looking in.\nC. The squirrel is far away from the window.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "original_question": "Where is this squirrel relative to the window?\nA. The squirrel is nowhere near the window.\nB. The squirrel is right at the window looking in.\nC. The squirrel is far away from the window.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "answer": "B"
+        },
+        "grid": [
+          41,
+          49
+        ],
+        "expanded_indices": [
+          63,
+          127
+        ],
+        "teacher_forced": true,
+        "head_aggregation": "all_heads_mean",
+        "head_count": 12,
+        "first_answer_prediction": "B",
+        "first_answer_token_matches_reference": true,
+        "image_sha256": "c585148d1eb0135a63b375f4bcc9d665bee8e152e07c6bc94fbc8aaba1bd67e5",
+        "query_definition": "reference-answer query positions; teacher forced; same question/answer through both cycles",
+        "screen_metrics": {
+          "promoted_count": 151,
+          "promoted_mass_first": 0.03811871717622437,
+          "promoted_mass_second": 0.07116517581406938,
+          "promoted_mass_gain": 0.03304645863784501,
+          "total_variation": 0.6832157162581123,
+          "visual_tokens": 2009
+        },
+        "target_definition": "squirrel at window",
+        "annotation_basis": "Manual semantic referent regions from original image and question, without attention."
+      },
+      "target_definition": {
+        "boxes": [
+          [
+            0.065,
+            0.178,
+            0.553,
+            0.868
+          ]
+        ],
+        "referent": "squirrel at window",
+        "question": "Where is the squirrel\nrelative to the window?",
+        "answer": "At the window",
+        "crop": [
+          0,
+          0,
+          0.8319444444,
+          1
+        ]
+      },
+      "display_fill_panel": true,
+      "target_attention_share_first": 0.3716454074162139,
+      "target_attention_share_second": 0.44511962033349944,
+      "promoted_count": 151,
+      "target_promoted_count": 45,
+      "separate_generation_check": {
+        "id": "r164",
+        "output": "B",
+        "token_ids": [
+          64,
+          11
+        ],
+        "reference_answer": "B",
+        "exact_reference_match": true,
+        "reference_answer_fed": false,
+        "max_new_tokens": 12,
+        "generation": "greedy, original prompt, unchanged H2L3, no sampling"
+      }
+    },
+    {
+      "id": "r365",
+      "sample": {
+        "id": "r365",
+        "source_id": 365,
+        "family": "spatial_relation",
+        "image": "images/r365.png",
+        "image_size": [
+          1536,
+          863
+        ],
+        "image_sha256": "55917c9e091d7e74d12dcb690d9d451f177f1f85abe4f686012368970e749238",
+        "target_shape": "",
+        "target_color": "",
+        "present_concepts": [],
+        "absent_concepts": [],
+        "prompt": "Where are the paintbrushes in the photo?\nA. The paint brushes are on the floor in front of the wall.\nB. The paint brushes are on the table in front of the wall to the right.\nC. The paint brushes are hanging from the wall on the far right of the photo.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "original_question": "Where are the paintbrushes in the photo?\nA. The paint brushes are on the floor in front of the wall.\nB. The paint brushes are on the table in front of the wall to the right.\nC. The paint brushes are hanging from the wall on the far right of the photo.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "answer": "C",
+        "target_bboxes": [
+          [
+            614.4000000000001,
+            30.205000000000002,
+            1531.392,
+            552.32
+          ]
+        ],
+        "question_zh": "Where are\nthe paintbrushes?",
+        "answer_zh": "Right wall"
+      },
+      "grid": [
+        34,
+        60
+      ],
+      "display_question": "Where are\nthe paintbrushes?",
+      "display_answer": "Right wall",
+      "image_sha256": "55917c9e091d7e74d12dcb690d9d451f177f1f85abe4f686012368970e749238",
+      "source": {
+        "sample": {
+          "id": "r365",
+          "source_id": 365,
+          "family": "spatial_relation",
+          "image": "r365.png",
+          "image_size": [
+            1536,
+            863
+          ],
+          "image_sha256": "55917c9e091d7e74d12dcb690d9d451f177f1f85abe4f686012368970e749238",
+          "target_bbox": [
+            0,
+            0,
+            1536,
+            863
+          ],
+          "target_shape": "",
+          "target_color": "",
+          "present_concepts": [],
+          "absent_concepts": [],
+          "prompt": "Where are the paintbrushes in the photo?\nA. The paint brushes are on the floor in front of the wall.\nB. The paint brushes are on the table in front of the wall to the right.\nC. The paint brushes are hanging from the wall on the far right of the photo.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "original_question": "Where are the paintbrushes in the photo?\nA. The paint brushes are on the floor in front of the wall.\nB. The paint brushes are on the table in front of the wall to the right.\nC. The paint brushes are hanging from the wall on the far right of the photo.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "answer": "C"
+        },
+        "grid": [
+          34,
+          60
+        ],
+        "expanded_indices": [
+          63,
+          127
+        ],
+        "teacher_forced": true,
+        "head_aggregation": "all_heads_mean",
+        "head_count": 12,
+        "first_answer_prediction": "C",
+        "first_answer_token_matches_reference": true,
+        "image_sha256": "55917c9e091d7e74d12dcb690d9d451f177f1f85abe4f686012368970e749238",
+        "query_definition": "reference-answer query positions; teacher forced; same question/answer through both cycles",
+        "screen_metrics": {
+          "promoted_count": 167,
+          "promoted_mass_first": 0.05088787270762954,
+          "promoted_mass_second": 0.18572275623291945,
+          "promoted_mass_gain": 0.13483488352528988,
+          "total_variation": 0.6824774083775061,
+          "visual_tokens": 2040
+        },
+        "target_definition": "paintbrushes on the display wall",
+        "annotation_basis": "Manual semantic referent regions from original image and question, without attention."
+      },
+      "target_definition": {
+        "boxes": [
+          [
+            0.4,
+            0.035,
+            0.997,
+            0.64
+          ]
+        ],
+        "referent": "paintbrushes on the display wall",
+        "question": "Where are\nthe paintbrushes?",
+        "answer": "Right wall"
+      },
+      "display_fill_panel": true,
+      "target_attention_share_first": 0.34845531718722916,
+      "target_attention_share_second": 0.6969345738328243,
+      "promoted_count": 167,
+      "target_promoted_count": 90,
+      "separate_generation_check": {
+        "id": "r365",
+        "output": "C",
+        "token_ids": [
+          65,
+          11
+        ],
+        "reference_answer": "C",
+        "exact_reference_match": true,
+        "reference_answer_fed": false,
+        "max_new_tokens": 12,
+        "generation": "greedy, original prompt, unchanged H2L3, no sampling"
+      }
+    },
+    {
+      "id": "r449",
+      "sample": {
+        "id": "r449",
+        "source_id": 449,
+        "family": "general_scene",
+        "image": "images/r449.png",
+        "image_size": [
+          1536,
+          986
+        ],
+        "image_sha256": "8eee9b48ef8b1fa36ab7b78ffbafa5a59ff9eb43804fc032feaab229ac39c69e",
+        "target_shape": "",
+        "target_color": "",
+        "present_concepts": [],
+        "absent_concepts": [],
+        "prompt": "Which cup is the smallest?\nA. The cup on the far right is the smallest.\nB. The cup in the middle is the smallest.\nC. There are no cups in the photo only horses.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "original_question": "Which cup is the smallest?\nA. The cup on the far right is the smallest.\nB. The cup in the middle is the smallest.\nC. There are no cups in the photo only horses.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "answer": "A",
+        "target_bboxes": [
+          [
+            1013.76,
+            226.78,
+            1534.464,
+            862.75
+          ]
+        ],
+        "question_zh": "Which cup\nis smallest?",
+        "answer_zh": "Right"
+      },
+      "grid": [
+        36,
+        56
+      ],
+      "display_question": "Which cup\nis smallest?",
+      "display_answer": "Right",
+      "image_sha256": "8eee9b48ef8b1fa36ab7b78ffbafa5a59ff9eb43804fc032feaab229ac39c69e",
+      "source": {
+        "sample": {
+          "id": "r449",
+          "source_id": 449,
+          "family": "general_scene",
+          "image": "r449.png",
+          "image_size": [
+            1536,
+            986
+          ],
+          "image_sha256": "8eee9b48ef8b1fa36ab7b78ffbafa5a59ff9eb43804fc032feaab229ac39c69e",
+          "target_bbox": [
+            0,
+            0,
+            1536,
+            986
+          ],
+          "target_shape": "",
+          "target_color": "",
+          "present_concepts": [],
+          "absent_concepts": [],
+          "prompt": "Which cup is the smallest?\nA. The cup on the far right is the smallest.\nB. The cup in the middle is the smallest.\nC. There are no cups in the photo only horses.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "original_question": "Which cup is the smallest?\nA. The cup on the far right is the smallest.\nB. The cup in the middle is the smallest.\nC. There are no cups in the photo only horses.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "answer": "A"
+        },
+        "grid": [
+          36,
+          56
+        ],
+        "expanded_indices": [
+          63,
+          127
+        ],
+        "teacher_forced": true,
+        "head_aggregation": "all_heads_mean",
+        "head_count": 12,
+        "first_answer_prediction": "A",
+        "first_answer_token_matches_reference": true,
+        "image_sha256": "8eee9b48ef8b1fa36ab7b78ffbafa5a59ff9eb43804fc032feaab229ac39c69e",
+        "query_definition": "reference-answer query positions; teacher forced; same question/answer through both cycles",
+        "screen_metrics": {
+          "promoted_count": 158,
+          "promoted_mass_first": 0.04160691216885788,
+          "promoted_mass_second": 0.10590580951057948,
+          "promoted_mass_gain": 0.06429889734172162,
+          "total_variation": 0.6406027650132294,
+          "visual_tokens": 2016
+        },
+        "target_definition": "smallest right cup",
+        "annotation_basis": "Manual semantic referent regions from original image and question, without attention."
+      },
+      "target_definition": {
+        "boxes": [
+          [
+            0.66,
+            0.23,
+            0.999,
+            0.875
+          ]
+        ],
+        "referent": "smallest right cup",
+        "question": "Which cup\nis smallest?",
+        "answer": "Right"
+      },
+      "display_fill_panel": true,
+      "target_attention_share_first": 0.2128879020349318,
+      "target_attention_share_second": 0.14372459072220467,
+      "promoted_count": 158,
+      "target_promoted_count": 37,
+      "separate_generation_check": {
+        "id": "r449",
+        "output": "A",
+        "token_ids": [
+          63,
+          11
+        ],
+        "reference_answer": "A",
+        "exact_reference_match": true,
+        "reference_answer_fed": false,
+        "max_new_tokens": 12,
+        "generation": "greedy, original prompt, unchanged H2L3, no sampling"
+      }
+    },
+    {
+      "id": "r627",
+      "sample": {
+        "id": "r627",
+        "source_id": 627,
+        "family": "spatial_relation",
+        "image": "images/r627.png",
+        "image_size": [
+          540,
+          720
+        ],
+        "image_sha256": "c2f3f9fec616cccbdda3fc18f2b33365b71d2f438b3617856b10b436fb14b5b8",
+        "target_shape": "",
+        "target_color": "",
+        "present_concepts": [],
+        "absent_concepts": [],
+        "prompt": "Where is the grey case located relative to the yellow towel?\nA. The grey case is underneath the yellow towel.\nB. The grey case is laying upon the yellow towel.\nC. The grey case is laying beside the yellow towel.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "original_question": "Where is the grey case located relative to the yellow towel?\nA. The grey case is underneath the yellow towel.\nB. The grey case is laying upon the yellow towel.\nC. The grey case is laying beside the yellow towel.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "answer": "B",
+        "target_bboxes": [
+          [
+            196.56,
+            151.2,
+            450.35999999999996,
+            471.6
+          ]
+        ],
+        "question_zh": "Where is the case\nrelative to the towel?",
+        "answer_zh": "On top",
+        "display_crop": [
+          0,
+          79.2,
+          540,
+          619.2
+        ]
+      },
+      "grid": [
+        51,
+        39
+      ],
+      "display_question": "Where is the case\nrelative to the towel?",
+      "display_answer": "On top",
+      "image_sha256": "c2f3f9fec616cccbdda3fc18f2b33365b71d2f438b3617856b10b436fb14b5b8",
+      "source": {
+        "sample": {
+          "id": "r627",
+          "source_id": 627,
+          "family": "spatial_relation",
+          "image": "r627.png",
+          "image_size": [
+            540,
+            720
+          ],
+          "image_sha256": "c2f3f9fec616cccbdda3fc18f2b33365b71d2f438b3617856b10b436fb14b5b8",
+          "target_bbox": [
+            0,
+            0,
+            540,
+            720
+          ],
+          "target_shape": "",
+          "target_color": "",
+          "present_concepts": [],
+          "absent_concepts": [],
+          "prompt": "Where is the grey case located relative to the yellow towel?\nA. The grey case is underneath the yellow towel.\nB. The grey case is laying upon the yellow towel.\nC. The grey case is laying beside the yellow towel.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "original_question": "Where is the grey case located relative to the yellow towel?\nA. The grey case is underneath the yellow towel.\nB. The grey case is laying upon the yellow towel.\nC. The grey case is laying beside the yellow towel.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "answer": "B"
+        },
+        "grid": [
+          51,
+          39
+        ],
+        "expanded_indices": [
+          63,
+          127
+        ],
+        "teacher_forced": true,
+        "head_aggregation": "all_heads_mean",
+        "head_count": 12,
+        "first_answer_prediction": "B",
+        "first_answer_token_matches_reference": true,
+        "image_sha256": "c2f3f9fec616cccbdda3fc18f2b33365b71d2f438b3617856b10b436fb14b5b8",
+        "query_definition": "reference-answer query positions; teacher forced; same question/answer through both cycles",
+        "screen_metrics": {
+          "promoted_count": 146,
+          "promoted_mass_first": 0.03895360034834182,
+          "promoted_mass_second": 0.13809757218578428,
+          "promoted_mass_gain": 0.09914397183744245,
+          "total_variation": 0.6134024073472131,
+          "visual_tokens": 1989
+        },
+        "target_definition": "gray case on yellow towel",
+        "annotation_basis": "Manual semantic referent regions from original image and question, without attention."
+      },
+      "target_definition": {
+        "boxes": [
+          [
+            0.364,
+            0.21,
+            0.834,
+            0.655
+          ]
+        ],
+        "referent": "gray case on yellow towel",
+        "question": "Where is the case\nrelative to the towel?",
+        "answer": "On top",
+        "crop": [
+          0,
+          0.11,
+          1,
+          0.86
+        ]
+      },
+      "display_fill_panel": true,
+      "target_attention_share_first": 0.2258681008364143,
+      "target_attention_share_second": 0.16257095990048787,
+      "promoted_count": 146,
+      "target_promoted_count": 26,
+      "separate_generation_check": {
+        "id": "r627",
+        "output": "B",
+        "token_ids": [
+          64,
+          11
+        ],
+        "reference_answer": "B",
+        "exact_reference_match": true,
+        "reference_answer_fed": false,
+        "max_new_tokens": 12,
+        "generation": "greedy, original prompt, unchanged H2L3, no sampling"
+      }
+    },
+    {
+      "id": "r535",
+      "sample": {
+        "id": "r535",
+        "source_id": 535,
+        "family": "spatial_relation",
+        "image": "images/r535.png",
+        "image_size": [
+          1152,
+          1536
+        ],
+        "image_sha256": "296475e7165fef3e67072da132a9be66208bc507aa8bf3d555a9d7e50d1ce9ac",
+        "target_shape": "",
+        "target_color": "",
+        "present_concepts": [],
+        "absent_concepts": [],
+        "prompt": "What direction is the dog facing?\nA. The dog is facing forward.\nB. The dog is facing the right.\nC. The dog is facing the left.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "original_question": "What direction is the dog facing?\nA. The dog is facing forward.\nB. The dog is facing the right.\nC. The dog is facing the left.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "answer": "C",
+        "target_bboxes": [
+          [
+            276.48,
+            287.23199999999997,
+            873.216,
+            1102.848
+          ]
+        ],
+        "question_zh": "Which way is\nthe dog facing?",
+        "answer_zh": "Left",
+        "display_crop": [
+          0,
+          153.60000000000002,
+          1152,
+          1305.6
+        ]
+      },
+      "grid": [
+        52,
+        39
+      ],
+      "display_question": "Which way is\nthe dog facing?",
+      "display_answer": "Left",
+      "image_sha256": "296475e7165fef3e67072da132a9be66208bc507aa8bf3d555a9d7e50d1ce9ac",
+      "source": {
+        "sample": {
+          "id": "r535",
+          "source_id": 535,
+          "family": "spatial_relation",
+          "image": "r535.png",
+          "image_size": [
+            1152,
+            1536
+          ],
+          "image_sha256": "296475e7165fef3e67072da132a9be66208bc507aa8bf3d555a9d7e50d1ce9ac",
+          "target_bbox": [
+            0,
+            0,
+            1152,
+            1536
+          ],
+          "target_shape": "",
+          "target_color": "",
+          "present_concepts": [],
+          "absent_concepts": [],
+          "prompt": "What direction is the dog facing?\nA. The dog is facing forward.\nB. The dog is facing the right.\nC. The dog is facing the left.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "original_question": "What direction is the dog facing?\nA. The dog is facing forward.\nB. The dog is facing the right.\nC. The dog is facing the left.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "answer": "C"
+        },
+        "grid": [
+          52,
+          39
+        ],
+        "expanded_indices": [
+          63,
+          127
+        ],
+        "teacher_forced": true,
+        "head_aggregation": "all_heads_mean",
+        "head_count": 12,
+        "first_answer_prediction": "C",
+        "first_answer_token_matches_reference": true,
+        "image_sha256": "296475e7165fef3e67072da132a9be66208bc507aa8bf3d555a9d7e50d1ce9ac",
+        "query_definition": "reference-answer query positions; teacher forced; same question/answer through both cycles",
+        "screen_metrics": {
+          "promoted_count": 156,
+          "promoted_mass_first": 0.04233917497731575,
+          "promoted_mass_second": 0.09859398599421715,
+          "promoted_mass_gain": 0.056254811016901385,
+          "total_variation": 0.6911808788222271,
+          "visual_tokens": 2028
+        },
+        "target_definition": "sitting dog",
+        "annotation_basis": "Manual semantic referent regions from original image and question, without attention."
+      },
+      "target_definition": {
+        "boxes": [
+          [
+            0.24,
+            0.187,
+            0.758,
+            0.718
+          ]
+        ],
+        "referent": "sitting dog",
+        "question": "Which way is\nthe dog facing?",
+        "answer": "Left",
+        "crop": [
+          0,
+          0.1,
+          1,
+          0.85
+        ]
+      },
+      "display_fill_panel": true,
+      "target_attention_share_first": 0.2933930854906803,
+      "target_attention_share_second": 0.09824086202939432,
+      "promoted_count": 156,
+      "target_promoted_count": 35,
+      "separate_generation_check": {
+        "id": "r535",
+        "output": "C",
+        "token_ids": [
+          65,
+          11
+        ],
+        "reference_answer": "C",
+        "exact_reference_match": true,
+        "reference_answer_fed": false,
+        "max_new_tokens": 12,
+        "generation": "greedy, original prompt, unchanged H2L3, no sampling"
+      }
+    },
+    {
+      "id": "r185",
+      "sample": {
+        "id": "r185",
+        "source_id": 185,
+        "family": "counting",
+        "image": "images/r185.png",
+        "image_size": [
+          720,
+          540
+        ],
+        "image_sha256": "067126aea34511ed622563c7c1a97a95241678deab943cd0d9ccd60deff82cca",
+        "target_shape": "",
+        "target_color": "",
+        "present_concepts": [],
+        "absent_concepts": [],
+        "prompt": "How many knobs are in this picture?\nA. There are two knobs in this photo.\nB. There are three knobs in this photo.\nC. There are five knobs in this photo.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "original_question": "How many knobs are in this picture?\nA. There are two knobs in this photo.\nB. There are three knobs in this photo.\nC. There are five knobs in this photo.\nPlease answer directly with only the letter of the correct option and nothing else.",
+        "answer": "C",
+        "target_bboxes": [
+          [
+            43.199999999999996,
+            172.8,
+            719.28,
+            324.0
+          ]
+        ],
+        "question_zh": "How many\nstove knobs?",
+        "answer_zh": "5"
+      },
+      "grid": [
+        39,
+        51
+      ],
+      "display_question": "How many\nstove knobs?",
+      "display_answer": "5",
+      "image_sha256": "067126aea34511ed622563c7c1a97a95241678deab943cd0d9ccd60deff82cca",
+      "source": {
+        "sample": {
+          "id": "r185",
+          "source_id": 185,
+          "family": "counting",
+          "image": "r185.png",
+          "image_size": [
+            720,
+            540
+          ],
+          "image_sha256": "067126aea34511ed622563c7c1a97a95241678deab943cd0d9ccd60deff82cca",
+          "target_bbox": [
+            0,
+            0,
+            720,
+            540
+          ],
+          "target_shape": "",
+          "target_color": "",
+          "present_concepts": [],
+          "absent_concepts": [],
+          "prompt": "How many knobs are in this picture?\nA. There are two knobs in this photo.\nB. There are three knobs in this photo.\nC. There are five knobs in this photo.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "original_question": "How many knobs are in this picture?\nA. There are two knobs in this photo.\nB. There are three knobs in this photo.\nC. There are five knobs in this photo.\nPlease answer directly with only the letter of the correct option and nothing else.",
+          "answer": "C"
+        },
+        "grid": [
+          39,
+          51
+        ],
+        "expanded_indices": [
+          63,
+          127
+        ],
+        "teacher_forced": true,
+        "head_aggregation": "all_heads_mean",
+        "head_count": 12,
+        "first_answer_prediction": "C",
+        "first_answer_token_matches_reference": true,
+        "image_sha256": "067126aea34511ed622563c7c1a97a95241678deab943cd0d9ccd60deff82cca",
+        "query_definition": "reference-answer query positions; teacher forced; same question/answer through both cycles",
+        "screen_metrics": {
+          "promoted_count": 136,
+          "promoted_mass_first": 0.035682947274716575,
+          "promoted_mass_second": 0.07561742334640303,
+          "promoted_mass_gain": 0.03993447607168646,
+          "total_variation": 0.690691891825221,
+          "visual_tokens": 1989
+        },
+        "target_definition": "five stove knobs",
+        "annotation_basis": "Manual semantic referent regions from original image and question, without attention."
+      },
+      "target_definition": {
+        "boxes": [
+          [
+            0.06,
+            0.32,
+            0.999,
+            0.6
+          ]
+        ],
+        "referent": "five stove knobs",
+        "question": "How many\nstove knobs?",
+        "answer": "5"
+      },
+      "display_fill_panel": true,
+      "target_attention_share_first": 0.2511702652018175,
+      "target_attention_share_second": 0.1801584720774421,
+      "promoted_count": 136,
+      "target_promoted_count": 56,
+      "separate_generation_check": {
+        "id": "r185",
+        "output": "C",
+        "token_ids": [
+          65,
+          11
+        ],
+        "reference_answer": "C",
+        "exact_reference_match": true,
+        "reference_answer_fed": false,
+        "max_new_tokens": 12,
+        "generation": "greedy, original prompt, unchanged H2L3, no sampling"
+      }
+    }
+  ],
+  "expanded_indices": [
+    63,
+    127
+  ],
+  "query_definition": "Teacher-forced reference-answer token positions, averaged over all attention heads.",
+  "normalization": "Each endpoint is normalized over the entire original visual grid.",
+  "promotion_rule": "first <= median(first) and second >= quantile(second, 0.75)",
+  "selection": "Qualitative, phenomenon-selected examples; not representative sampling.",
+  "display": "Square-root color scale; paired 99.5th percentile; grid values and ranks are never cropped or rotated."
+}

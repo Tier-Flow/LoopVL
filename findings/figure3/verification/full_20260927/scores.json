@@ -1,0 +1,50 @@
+{
+  "source": "Fresh full-benchmark inference; see run_contract.json and comparison.json",
+  "condition_order": [
+    "normal",
+    "blocked",
+    "frozen"
+  ],
+  "selected_benchmarks": [
+    "LogicVista",
+    "RealWorldQA",
+    "VMCBench-DEV",
+    "MMStar"
+  ],
+  "benchmarks": {
+    "LogicVista": {
+      "scores_percent": [
+        44.07158836689038,
+        34.00447427293065,
+        30.201342281879196
+      ],
+      "unit": "questions"
+    },
+    "RealWorldQA": {
+      "scores_percent": [
+        70.71895424836602,
+        54.11764705882353,
+        46.79738562091503
+      ],
+      "unit": "questions"
+    },
+    "VMCBench-DEV": {
+      "scores_percent": [
+        71.3,
+        62.5,
+        52.2
+      ],
+      "unit": "questions"
+    },
+    "MMStar": {
+      "scores_percent": [
+        62.6,
+        50.06666666666667,
+        39.8
+      ],
+      "unit": "questions"
+    }
+  },
+  "results_not_recomputed": false,
+  "historical_paper_protocol_identity_verified": false
+}

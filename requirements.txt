@@ -1,0 +1,3 @@
+# Install a CUDA-compatible torch/torchvision pair before these requirements.
+-r benchmarks/requirements-inference.txt
+-r findings/requirements-inference.txt

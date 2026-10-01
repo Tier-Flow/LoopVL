@@ -1,0 +1,17 @@
+{
+  "model": "hrm-penguin-v2",
+  "total": 765,
+  "correct": 543,
+  "accuracy": 0.7098039215686275,
+  "budget": 32,
+  "elapsed_seconds_this_run": 396.761,
+  "output": "data/server_snapshot_20260906/realworldqa_results/hrm-penguin-v2.jsonl",
+  "original_correct": 540,
+  "original_accuracy": 0.7058823529411765,
+  "lenient_accuracy": 0.7098039215686275,
+  "scoring_version": "lenient-v2",
+  "match_methods": {
+    "legacy_match": 543,
+    "no_match": 222
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "BabyVision",
+  "model": "hrm-penguin-v2",
+  "source": "data/server_snapshot_20260906/HFDatasets/BabyVision",
+  "total_source_rows": 388,
+  "completed": 388,
+  "scored": 388,
+  "correct": 51,
+  "normalized_exact_accuracy": 0.13144329896907217,
+  "lenient_accuracy": 0.13144329896907217,
+  "scoring_version": "lenient-v3-option-reference",
+  "seconds_this_run": 229.349,
+  "prediction_jsonl": "data/server_snapshot_20260906/hrm_bench_results/v2/BabyVision/predictions.jsonl"
+}

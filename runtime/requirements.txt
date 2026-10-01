@@ -1,0 +1,8 @@
+# PyTorch + torchvision must be installed as a matching CUDA-compatible pair.
+# Validated base: Python 3.12, torch 2.12.1+cu130, torchvision 0.27.1+cu130.
+transformers==5.15.1
+safetensors==0.8.0
+pillow==12.2.0
+pyyaml==6.0.3
+accelerate==1.15.0
+

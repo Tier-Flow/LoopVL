@@ -1,0 +1,14 @@
+{
+  "dataset": "MMK12",
+  "model": "hrm-penguin-v2",
+  "source": "data/server_snapshot_20260906/HFDatasets/MMK12",
+  "total_source_rows": 2000,
+  "completed": 2000,
+  "scored": 2000,
+  "correct": 993,
+  "normalized_exact_accuracy": 0.4965,
+  "lenient_accuracy": 0.4965,
+  "scoring_version": "lenient-v3-option-reference",
+  "seconds_this_run": 477.719,
+  "prediction_jsonl": "data/server_snapshot_20260906/hrm_bench_results/v2/MMK12/predictions.jsonl"
+}

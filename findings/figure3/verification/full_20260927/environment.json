@@ -1,0 +1,17 @@
+{
+  "python": "3.12.3 | packaged by Anaconda, Inc. | (main, May  6 2024, 19:46:43) [GCC 11.2.0]",
+  "packages": {
+    "torch": "2.12.1+cu130",
+    "torchvision": "0.27.1+cu130",
+    "transformers": "5.15.1",
+    "safetensors": "0.8.0",
+    "pillow": "12.2.0",
+    "numpy": "2.4.6",
+    "pandas": "3.0.6",
+    "pyarrow": "25.0.1"
+  },
+  "selected_gpu_indices": ["0", "1"],
+  "gpu_model": "NVIDIA GeForce RTX 4080 SUPER",
+  "hardware_identifiers_redacted_for_publication": true,
+  "workers_per_gpu": 4
+}

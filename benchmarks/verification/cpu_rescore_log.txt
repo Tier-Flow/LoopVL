@@ -1,0 +1,29 @@
+BabyVision               recomputed= 13.14 expected= 13.14 match=True
+LogicVista               recomputed= 45.19 expected= 45.19 match=True
+MMEval-Pro               recomputed= 24.62 expected= 24.62 match=True
+MMMU-Pro                 recomputed= 38.67 expected= 38.67 match=True
+MMStar                   recomputed= 63.47 expected= 63.47 match=True
+RealWorldQA              recomputed= 70.98 expected= 70.98 match=True
+VMCBench                 recomputed= 70.90 expected= 70.90 match=True
+VisuLogic                recomputed= 27.00 expected= 27.00 match=True
+VisualPuzzles            recomputed= 34.76 expected= 34.76 match=True
+HallusionBench           recomputed= 44.71 expected= 44.71 match=True
+POPE-A                   recomputed= 87.60 expected= 87.60 match=True
+POPE-P                   recomputed= 91.92 expected= 91.92 match=True
+POPE-R                   recomputed= 92.78 expected= 92.78 match=True
+POPE                     recomputed= 90.71 expected= 90.71 match=True
+ChartQA                  recomputed= 74.52 expected= 74.52 match=True
+MMK12-Math               recomputed= 61.60 expected= 61.60 match=True
+MathVision               recomputed= 38.49 expected= 38.49 match=True
+MathVision-WildPhoto     recomputed= 20.39 expected= 20.39 match=True
+AI2D                     recomputed= 75.49 expected= 75.49 match=True
+MMK12-Biology            recomputed= 46.20 expected= 46.20 match=True
+MMK12-Chemistry          recomputed= 48.00 expected= 48.00 match=True
+MMK12-Physics            recomputed= 42.80 expected= 42.80 match=True
+MMK12                    recomputed= 49.65 expected= 49.65 match=True
+{
+  "all_screenshot_rows_match": true,
+  "all_dataset_counts_valid_and_no_errors": true,
+  "all_stored_correct_flags_match": true,
+  "all_pope_and_mmk12_group_counts_valid": true
+}

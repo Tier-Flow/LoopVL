@@ -1,0 +1,29 @@
+# Downloaded checkpoint, datasets and generated outputs
+/model/*
+!/model/.gitkeep
+!/model/MODEL_SETUP.md
+/data/*
+!/data/.gitkeep
+/outputs/*
+!/outputs/.gitkeep
+
+# Weights are distributed through the model hub, never this source repository.
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.partial
+
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.cache/
+.venv/
+venv/
+.env
+.env.*
+*.log
+.DS_Store
+Thumbs.db
