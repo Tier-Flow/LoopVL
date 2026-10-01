@@ -5,7 +5,7 @@
 <p align="center"><strong>Recurrent visual computation for vision-language models</strong></p>
 
 <p align="center">
-  <a href="paper/LoopVL.pdf">Paper</a> &nbsp;·&nbsp;
+  <a href="https://arxiv.org/pdf/2609.38426">Paper</a> &nbsp;·&nbsp;
   <a href="https://huggingface.co/TierFlow/LoopVL">🤗 Hugging Face</a> &nbsp;·&nbsp;
   <a href="https://modelscope.cn/models/Eternity123/LoopVL">ModelScope</a> &nbsp;·&nbsp;
   <a href="#getting-started">Getting started</a> &nbsp;·&nbsp;
