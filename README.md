@@ -1,3 +1,11 @@
+<div align="center">
+  <h2>🚀 Try LoopVL for Free</h2>
+  <p>Upload an image, ask a question, and explore different H/L recurrence schedules directly in your browser.</p>
+  <p><a href="https://huggingface.co/spaces/hugging-apps/loopvl"><strong>🤗 Launch the Interactive Demo →</strong></a></p>
+</div>
+
+---
+
 <p align="center">
   <img src="assets/loopvl-wordmark.svg" width="520" alt="LoopVL">
 </p>
